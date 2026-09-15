@@ -1,0 +1,31 @@
+id: P048
+category: C05
+name_zh: 人工智能训练师
+name_en: AI Trainer
+aliases:
+  - 人工智能训练师（国内职业）
+kind: occupation
+source_ids:
+  - J10
+  - J09
+skill_ids:
+  - annotation
+  - data
+  - humanfeedback
+summary: 围绕数据处理、标注和系统训练辅助开展工作；区别于模型训练算法工程师
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 国内职业/工种口径，英文为便于检索的编辑翻译
+status: published
+slug: p048-ai-trainer
+resources:
+  - id: R109
+    reason: ""
+  - id: R062
+    reason: ""
+  - id: R063
+    reason: ""
+  - id: R003
+    reason: ""

@@ -1,0 +1,24 @@
+id: R066
+title: NVIDIA NeMo Curator
+url: https://docs.nvidia.com/nemo/curator/latest/
+publisher: NVIDIA
+type: 官方文档
+language: 英文
+level: 高级
+skill_ids:
+  - data
+  - synthetic
+  - training
+description: 清洗过滤和整理训练数据
+verification_status: page_opened
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://docs.nvidia.com/nemo/curator/home/welcome
+verification_note: 已打开资料入口；未逐课学习或运行代码
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r066

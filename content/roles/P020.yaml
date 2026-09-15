@@ -1,0 +1,32 @@
+id: P020
+category: C02
+name_zh: AI 应用战略顾问
+name_en: Applied AI Strategist
+aliases:
+  - AI 转型顾问
+  - AI 业务顾问
+kind: role
+source_ids:
+  - A99
+skill_ids:
+  - strategy
+  - product
+  - literacy
+  - risk
+summary: 识别组织可落地的 AI 机会并制定采用方案
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p020-applied-ai-strategist
+resources:
+  - id: R082
+    reason: ""
+  - id: R081
+    reason: ""
+  - id: R078
+    reason: ""
+  - id: R072
+    reason: ""

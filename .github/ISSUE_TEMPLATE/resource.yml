@@ -1,0 +1,46 @@
+name: 推荐学习资料
+description: 分享一份值得收录的教程、文档、课程或项目
+title: "[资料推荐] "
+body:
+  - type: markdown
+    attributes:
+      value: 请先搜索现有资料，避免重复。无需编写代码，维护者会协助整理。
+  - type: input
+    id: resource_title
+    attributes:
+      label: 资料名称
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 原始链接
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么值得阅读
+      description: 适合谁，解决什么问题，有哪些前置知识？
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: 关联岗位或技能
+      placeholder: 例如 P001 / FDE / RAG
+  - type: dropdown
+    id: language
+    attributes:
+      label: 资料语言
+      options:
+        - 中文
+        - 英文
+        - 中英双语
+        - 其他或不确定
+  - type: textarea
+    id: access
+    attributes:
+      label: 版本与访问条件
+      description: 如课程年份、是否需要登录、已知的收费部分。

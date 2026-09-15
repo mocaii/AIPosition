@@ -1,0 +1,23 @@
+id: R104
+title: Google AI Edge
+url: https://ai.google.dev/edge
+publisher: Google
+type: 官方文档
+language: 英文/多语言
+level: 进阶
+skill_ids:
+  - edge
+  - inference
+description: 了解端侧模型部署工具链
+verification_status: page_opened
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://developers.google.com/edge
+verification_note: 已打开资料入口；未逐课学习或运行代码
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 相关领域基础；工程资料通常需要 Python 和基本机器学习知识
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r104

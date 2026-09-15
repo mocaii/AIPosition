@@ -1,0 +1,30 @@
+id: P059
+category: C06
+name_zh: 可解释性研究员
+name_en: Interpretability Researcher
+aliases:
+  - Mechanistic Interpretability Researcher
+kind: role
+source_ids:
+  - A34
+skill_ids:
+  - interpretability
+  - llm
+  - math
+summary: 通过实验理解模型内部表示和计算机制
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p059-interpretability-researcher
+resources:
+  - id: R075
+    reason: ""
+  - id: R076
+    reason: ""
+  - id: R077
+    reason: ""
+  - id: R007
+    reason: ""

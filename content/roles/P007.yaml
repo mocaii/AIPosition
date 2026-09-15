@@ -1,0 +1,29 @@
+id: P007
+category: C01
+name_zh: 上下文工程方向
+name_en: Context Engineering
+aliases:
+  - 上下文工程师
+kind: skill_direction
+source_ids: []
+skill_ids:
+  - context
+  - agent
+  - rag
+summary: 组织检索内容、记忆和工具结果，改善智能体任务表现
+parent_id: P004
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 以资料主题建立的编辑分类；尚未收集独立职位名称证据
+status: published
+slug: p007-context-engineering
+resources:
+  - id: R016
+    reason: ""
+  - id: R015
+    reason: ""
+  - id: R019
+    reason: ""
+  - id: R020
+    reason: ""

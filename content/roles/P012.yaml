@@ -1,0 +1,34 @@
+id: P012
+category: C01
+name_zh: 计算机操作智能体工程方向
+name_en: Computer-use Agent Engineer
+aliases:
+  - GUI Agent 工程师
+  - Computer Use Engineer
+kind: specialization
+source_ids:
+  - A30
+skill_ids:
+  - agent
+  - tools
+  - vision
+  - eval
+summary: 开发通过屏幕理解和界面操作完成任务的系统
+parent_id: P004
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p012-computer-use-agent-engineer
+resources:
+  - id: R014
+    reason: ""
+  - id: R017
+    reason: ""
+  - id: R019
+    reason: ""
+  - id: R037
+    reason: ""
+  - id: R107
+    reason: ""

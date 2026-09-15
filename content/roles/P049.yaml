@@ -1,0 +1,31 @@
+id: P049
+category: C05
+name_zh: 数据标注／质量审核方向
+name_en: Data Annotation and QA
+aliases:
+  - AI 标注员
+  - 标注审核员
+kind: specialization
+source_ids:
+  - J09
+  - A12
+skill_ids:
+  - annotation
+  - data
+summary: 制定标注规则并进行标注、复核与一致性检查
+parent_id: P048
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p049-data-annotation-and-qa
+resources:
+  - id: R062
+    reason: ""
+  - id: R063
+    reason: ""
+  - id: R109
+    reason: ""
+  - id: R064
+    reason: ""

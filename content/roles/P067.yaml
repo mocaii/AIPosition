@@ -1,0 +1,28 @@
+id: P067
+category: C07
+name_zh: 生成式人工智能动画制作员
+name_en: Generative AI Animation Producer
+aliases:
+  - 生成式 AI 动画制作员（国内工种）
+kind: occupation_subtype
+source_ids:
+  - J07
+skill_ids:
+  - creative
+  - video
+  - image
+summary: 将生成式工具应用于动画制作；仍需动画专业基础
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 国内职业/工种口径，英文为便于检索的编辑翻译
+status: published
+slug: p067-generative-ai-animation-producer
+resources:
+  - id: R087
+    reason: ""
+  - id: R088
+    reason: ""
+  - id: R089
+    reason: ""

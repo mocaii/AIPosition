@@ -1,0 +1,33 @@
+id: P027
+category: C03
+name_zh: 强化学习工程师
+name_en: Reinforcement Learning Engineer
+aliases:
+  - RL Engineer
+kind: role
+source_ids:
+  - A38
+  - J18
+skill_ids:
+  - rl
+  - math
+  - simulation
+summary: 通过奖励和环境交互训练策略
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p027-reinforcement-learning-engineer
+resources:
+  - id: R097
+    reason: ""
+  - id: R098
+    reason: ""
+  - id: R044
+    reason: ""
+  - id: R047
+    reason: ""
+  - id: R112
+    reason: ""

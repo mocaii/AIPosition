@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-09-15",
+  "valid": true,
+  "role_entries": 80,
+  "unique_resources": 117,
+  "skills": 83,
+  "sources": 56,
+  "role_resource_links": 341,
+  "total_graph_edges": 929,
+  "categories": {
+    "应用开发与交付": 12,
+    "产品与用户体验": 8,
+    "模型研究与算法": 15,
+    "基础设施与部署": 10,
+    "数据与知识工程": 8,
+    "评测安全与治理": 10,
+    "创意与内容生产": 4,
+    "机器人与具身智能": 4,
+    "行业应用与科学": 6,
+    "推广教育与客户赋能": 3
+  },
+  "entry_types": {
+    "role": 37,
+    "specialization": 24,
+    "practice_title": 1,
+    "skill_direction": 11,
+    "occupation": 2,
+    "occupation_subtype": 2,
+    "industry_variant": 3
+  },
+  "resource_verification": {
+    "page_opened": 111,
+    "search_result_confirmed": 4,
+    "fetch_blocked": 2
+  },
+  "checks": [
+    "ID 唯一",
+    "资料主链接去重",
+    "岗位/资料/技能/来源引用有效",
+    "岗位父子结构无环",
+    "每个岗位至少 3 份资料",
+    "每份资料至少对应一个岗位",
+    "核验状态完整"
+  ],
+  "limits": "检查数据结构与本轮链接核验记录；不代表运行了课程代码或认证了岗位职责。"
+}

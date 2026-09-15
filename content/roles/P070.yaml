@@ -1,0 +1,31 @@
+id: P070
+category: C08
+name_zh: 机器人仿真／强化学习方向
+name_en: Robot Simulation and RL
+aliases:
+  - 仿真训练工程师
+  - Sim-to-Real 工程师
+kind: specialization
+source_ids:
+  - J18
+skill_ids:
+  - simulation
+  - rl
+  - robotics
+summary: 在仿真环境中训练并评估机器人策略
+parent_id: P068
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p070-robot-simulation-and-rl
+resources:
+  - id: R096
+    reason: ""
+  - id: R098
+    reason: ""
+  - id: R097
+    reason: ""
+  - id: R095
+    reason: ""

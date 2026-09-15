@@ -1,0 +1,25 @@
+id: R081
+title: Elements of AI
+url: https://www.elementsofai.com/
+publisher: University of Helsinki/MinnaLearn
+type: 课程
+language: 英文/多语言
+level: 入门
+skill_ids:
+  - literacy
+  - product
+  - governance
+description: 帮助非技术读者建立 AI 概念
+verification_status: fetch_blocked
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://www.elementsofai.com/
+verification_note: 官网两次返回 403；官方 Building AI 课程提及该课程，保留为待复核入口
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 无需编程基础；领域岗位仍需本行业知识
+corroborating_url: https://buildingai.elementsofai.com/Getting-started-with-AI/why-ai-matters
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r081

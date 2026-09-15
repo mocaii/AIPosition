@@ -1,0 +1,34 @@
+id: P079
+category: C10
+name_zh: AI 教育／开发者培训方向
+name_en: AI Technical Educator
+aliases:
+  - AI 讲师
+  - 开发者教育工程师
+kind: specialization
+source_ids:
+  - J25
+  - A100
+skill_ids:
+  - education
+  - writing
+  - literacy
+summary: 设计 AI 教学材料、练习和技术演示
+parent_id: P078
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p079-ai-technical-educator
+resources:
+  - id: R083
+    reason: ""
+  - id: R084
+    reason: ""
+  - id: R026
+    reason: ""
+  - id: R109
+    reason: ""
+  - id: R081
+    reason: ""

@@ -1,0 +1,32 @@
+id: P078
+category: C10
+name_zh: AI 开发者关系工程师
+name_en: AI Developer Relations
+aliases:
+  - DevRel
+  - Developer Advocate
+kind: role
+source_ids:
+  - A160
+  - A100
+skill_ids:
+  - devrel
+  - writing
+  - app
+summary: 通过示例、文档和社区活动帮助开发者使用 AI
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p078-ai-developer-relations
+resources:
+  - id: R084
+    reason: ""
+  - id: R026
+    reason: ""
+  - id: R025
+    reason: ""
+  - id: R018
+    reason: ""

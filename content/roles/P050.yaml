@@ -1,0 +1,32 @@
+id: P050
+category: C05
+name_zh: 模型人工反馈／偏好评审方向
+name_en: Human Feedback Rater
+aliases:
+  - AI 回答评审员
+  - 偏好标注员
+kind: specialization
+source_ids:
+  - A12
+  - A46
+skill_ids:
+  - humanfeedback
+  - annotation
+  - eval
+summary: 按任务标准比较模型回答并整理反馈数据
+parent_id: P048
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p050-human-feedback-rater
+resources:
+  - id: R063
+    reason: ""
+  - id: R044
+    reason: ""
+  - id: R046
+    reason: ""
+  - id: R109
+    reason: ""

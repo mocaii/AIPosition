@@ -1,0 +1,17 @@
+id: P081
+status: draft
+slug: p081-replace-with-role-name
+name_zh: 替换为岗位名称
+name_en: Replace with English role name
+aliases: []
+category: C01
+kind: skill_direction
+summary: 用一句话描述工作内容
+parent_id: P002
+skill_ids:
+  - agent
+source_ids: []
+resources:
+  - id: R013
+    reason: 根据岗位补充推荐理由
+evidence_note: 编辑整理的技能方向；发布前核对分类和来源

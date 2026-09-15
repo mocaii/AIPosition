@@ -1,0 +1,34 @@
+id: P005
+category: C01
+name_zh: RAG 工程师
+name_en: RAG Engineer
+aliases:
+  - 检索增强生成工程师
+  - 知识库工程师
+kind: specialization
+source_ids:
+  - J02
+skill_ids:
+  - rag
+  - embedding
+  - search
+  - eval
+summary: 让模型可靠检索并使用外部知识
+parent_id: P002
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p005-rag-engineer
+resources:
+  - id: R012
+    reason: ""
+  - id: R020
+    reason: ""
+  - id: R021
+    reason: ""
+  - id: R031
+    reason: ""
+  - id: R035
+    reason: ""

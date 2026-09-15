@@ -1,0 +1,334 @@
+[
+  {
+    "id": "agent",
+    "name_zh": "智能体"
+  },
+  {
+    "id": "algorithms",
+    "name_zh": "数据结构与算法"
+  },
+  {
+    "id": "alignment",
+    "name_zh": "模型对齐"
+  },
+  {
+    "id": "annotation",
+    "name_zh": "数据标注"
+  },
+  {
+    "id": "app",
+    "name_zh": "AI 应用开发"
+  },
+  {
+    "id": "architecture",
+    "name_zh": "系统架构"
+  },
+  {
+    "id": "asr",
+    "name_zh": "语音识别"
+  },
+  {
+    "id": "audio",
+    "name_zh": "音频处理"
+  },
+  {
+    "id": "automation",
+    "name_zh": "业务自动化"
+  },
+  {
+    "id": "biology",
+    "name_zh": "生物机器学习"
+  },
+  {
+    "id": "chemistry",
+    "name_zh": "化学机器学习"
+  },
+  {
+    "id": "context",
+    "name_zh": "上下文工程"
+  },
+  {
+    "id": "conversation",
+    "name_zh": "对话设计"
+  },
+  {
+    "id": "creative",
+    "name_zh": "创意制作"
+  },
+  {
+    "id": "data",
+    "name_zh": "数据工程"
+  },
+  {
+    "id": "deployment",
+    "name_zh": "部署交付"
+  },
+  {
+    "id": "devrel",
+    "name_zh": "开发者关系"
+  },
+  {
+    "id": "diffusion",
+    "name_zh": "扩散模型"
+  },
+  {
+    "id": "distributed",
+    "name_zh": "分布式计算"
+  },
+  {
+    "id": "dl",
+    "name_zh": "深度学习"
+  },
+  {
+    "id": "document",
+    "name_zh": "文档智能"
+  },
+  {
+    "id": "edge",
+    "name_zh": "端侧 AI"
+  },
+  {
+    "id": "education",
+    "name_zh": "教育培训"
+  },
+  {
+    "id": "embedding",
+    "name_zh": "向量表示"
+  },
+  {
+    "id": "eval",
+    "name_zh": "评测与实验"
+  },
+  {
+    "id": "experiments",
+    "name_zh": "实验管理"
+  },
+  {
+    "id": "explainability",
+    "name_zh": "模型可解释性工具"
+  },
+  {
+    "id": "fairness",
+    "name_zh": "公平性"
+  },
+  {
+    "id": "finetune",
+    "name_zh": "模型微调"
+  },
+  {
+    "id": "governance",
+    "name_zh": "AI 治理"
+  },
+  {
+    "id": "gpu",
+    "name_zh": "GPU 计算"
+  },
+  {
+    "id": "graph",
+    "name_zh": "知识图谱"
+  },
+  {
+    "id": "health",
+    "name_zh": "医疗 AI"
+  },
+  {
+    "id": "humanfeedback",
+    "name_zh": "人工反馈"
+  },
+  {
+    "id": "image",
+    "name_zh": "图像内容"
+  },
+  {
+    "id": "inference",
+    "name_zh": "模型推理"
+  },
+  {
+    "id": "infra",
+    "name_zh": "基础设施"
+  },
+  {
+    "id": "integration",
+    "name_zh": "系统集成"
+  },
+  {
+    "id": "interpretability",
+    "name_zh": "机制可解释性"
+  },
+  {
+    "id": "kernel",
+    "name_zh": "计算内核"
+  },
+  {
+    "id": "literacy",
+    "name_zh": "AI 素养"
+  },
+  {
+    "id": "llm",
+    "name_zh": "大语言模型"
+  },
+  {
+    "id": "llmops",
+    "name_zh": "LLMOps"
+  },
+  {
+    "id": "lora",
+    "name_zh": "LoRA"
+  },
+  {
+    "id": "lowcode",
+    "name_zh": "低代码开发"
+  },
+  {
+    "id": "math",
+    "name_zh": "数学基础"
+  },
+  {
+    "id": "mcp",
+    "name_zh": "模型上下文协议 MCP"
+  },
+  {
+    "id": "ml",
+    "name_zh": "机器学习"
+  },
+  {
+    "id": "mlops",
+    "name_zh": "MLOps"
+  },
+  {
+    "id": "multimodal",
+    "name_zh": "多模态"
+  },
+  {
+    "id": "nlp",
+    "name_zh": "自然语言处理"
+  },
+  {
+    "id": "observability",
+    "name_zh": "可观测性"
+  },
+  {
+    "id": "ocr",
+    "name_zh": "文字识别"
+  },
+  {
+    "id": "privacy",
+    "name_zh": "数据隐私"
+  },
+  {
+    "id": "product",
+    "name_zh": "产品管理"
+  },
+  {
+    "id": "prompt",
+    "name_zh": "提示工程"
+  },
+  {
+    "id": "python",
+    "name_zh": "Python 与编程"
+  },
+  {
+    "id": "rag",
+    "name_zh": "检索增强生成"
+  },
+  {
+    "id": "recommendation",
+    "name_zh": "推荐系统"
+  },
+  {
+    "id": "redteam",
+    "name_zh": "AI 红队测试"
+  },
+  {
+    "id": "research",
+    "name_zh": "用户研究"
+  },
+  {
+    "id": "risk",
+    "name_zh": "风险管理"
+  },
+  {
+    "id": "rl",
+    "name_zh": "强化学习"
+  },
+  {
+    "id": "robotics",
+    "name_zh": "机器人"
+  },
+  {
+    "id": "safety",
+    "name_zh": "AI 安全"
+  },
+  {
+    "id": "science",
+    "name_zh": "科学智能"
+  },
+  {
+    "id": "search",
+    "name_zh": "搜索与检索"
+  },
+  {
+    "id": "security",
+    "name_zh": "应用安全"
+  },
+  {
+    "id": "serving",
+    "name_zh": "模型服务"
+  },
+  {
+    "id": "simulation",
+    "name_zh": "仿真"
+  },
+  {
+    "id": "strategy",
+    "name_zh": "AI 应用战略"
+  },
+  {
+    "id": "synthetic",
+    "name_zh": "合成数据"
+  },
+  {
+    "id": "systems",
+    "name_zh": "系统工程"
+  },
+  {
+    "id": "tools",
+    "name_zh": "工具调用"
+  },
+  {
+    "id": "training",
+    "name_zh": "模型训练"
+  },
+  {
+    "id": "tts",
+    "name_zh": "语音合成"
+  },
+  {
+    "id": "ux",
+    "name_zh": "用户体验"
+  },
+  {
+    "id": "vector",
+    "name_zh": "向量数据库"
+  },
+  {
+    "id": "video",
+    "name_zh": "视频内容"
+  },
+  {
+    "id": "vision",
+    "name_zh": "计算机视觉"
+  },
+  {
+    "id": "vla",
+    "name_zh": "视觉语言动作模型"
+  },
+  {
+    "id": "workflow",
+    "name_zh": "工作流"
+  },
+  {
+    "id": "writing",
+    "name_zh": "技术写作"
+  }
+]

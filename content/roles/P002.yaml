@@ -1,0 +1,35 @@
+id: P002
+category: C01
+name_zh: AI 应用工程师
+name_en: Applied AI Engineer
+aliases:
+  - AI Engineer
+  - 大模型应用工程师
+  - 生成式 AI 工程师
+kind: role
+source_ids:
+  - A93
+skill_ids:
+  - app
+  - llm
+  - prompt
+  - eval
+summary: 把模型能力组合成可用的软件功能
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p002-applied-ai-engineer
+resources:
+  - id: R026
+    reason: ""
+  - id: R012
+    reason: ""
+  - id: R010
+    reason: ""
+  - id: R108
+    reason: ""
+  - id: R028
+    reason: ""

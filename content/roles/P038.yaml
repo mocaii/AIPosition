@@ -1,0 +1,33 @@
+id: P038
+category: C04
+name_zh: LLMOps／AgentOps 工程师
+name_en: LLMOps / AgentOps Engineer
+aliases:
+  - DevOps AgentOps
+kind: role
+source_ids:
+  - A161
+skill_ids:
+  - llmops
+  - observability
+  - eval
+  - deployment
+summary: 维护语言模型和智能体服务的追踪、质量与运行流程
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p038-llmops-agentops-engineer
+resources:
+  - id: R040
+    reason: ""
+  - id: R041
+    reason: ""
+  - id: R042
+    reason: ""
+  - id: R036
+    reason: ""
+  - id: R050
+    reason: ""

@@ -1,0 +1,29 @@
+id: P053
+category: C05
+name_zh: AI 数据隐私工程方向
+name_en: AI Privacy Engineer
+aliases:
+  - 隐私保护工程师
+kind: skill_direction
+source_ids: []
+skill_ids:
+  - privacy
+  - data
+  - security
+summary: 在 AI 数据管道中处理敏感信息和访问边界
+parent_id: P046
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 以资料主题建立的编辑分类；尚未收集独立职位名称证据
+status: published
+slug: p053-ai-privacy-engineer
+resources:
+  - id: R103
+    reason: ""
+  - id: R072
+    reason: ""
+  - id: R074
+    reason: ""
+  - id: R064
+    reason: ""

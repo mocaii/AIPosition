@@ -1,0 +1,24 @@
+id: R080
+title: Google Conversation Design
+url: https://developers.google.com/assistant/conversation-design/learn-about-conversation
+publisher: Google
+type: 历史设计指南
+language: 英文
+level: 基础
+skill_ids:
+  - conversation
+  - ux
+description: 学习对话轮次和交互设计基础
+verification_status: page_opened
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://developers.google.com/assistant/conversation-design/learn-about-conversation
+verification_note: 历史资料；页面标有 Conversational Actions sunset，只推荐学习通用对话设计原则
+original_url: https://developers.google.com/assistant/conversation-design/learn-about-conversation
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 基础电脑操作；按主题补充设计或业务知识
+edition_note: 历史设计资料；所属产品路线已停止，不作为现行开发指南
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r080

@@ -1,0 +1,25 @@
+id: R082
+title: AI for Everyone
+url: https://www.deeplearning.ai/courses/ai-for-everyone
+publisher: DeepLearning.AI
+type: 课程介绍
+language: 英文
+level: 入门
+skill_ids:
+  - literacy
+  - strategy
+  - product
+description: 理解 AI 项目选择与组织协作
+verification_status: search_result_confirmed
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://www.deeplearning.ai/courses/ai-for-everyone
+verification_note: 官方搜索结果确认；直接打开被 403 阻止；证书和部分作业涉及 PRO
+original_url: https://www.deeplearning.ai/courses/ai-for-everyone/
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 无需编程基础；领域岗位仍需本行业知识
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r082

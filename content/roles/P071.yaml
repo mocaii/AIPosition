@@ -1,0 +1,30 @@
+id: P071
+category: C08
+name_zh: 机器人数据采集工程师
+name_en: Robotics Data Collection Engineer
+aliases:
+  - 遥操作数据工程师
+kind: role
+source_ids:
+  - J19
+skill_ids:
+  - robotics
+  - data
+  - annotation
+summary: 建立机器人演示、遥操作和数据质量流程
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p071-robotics-data-collection-engineer
+resources:
+  - id: R094
+    reason: ""
+  - id: R093
+    reason: ""
+  - id: R062
+    reason: ""
+  - id: R095
+    reason: ""

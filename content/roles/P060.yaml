@@ -1,0 +1,30 @@
+id: P060
+category: C06
+name_zh: AI 应用安全架构方向
+name_en: AI Security Architect
+aliases:
+  - AI 安全架构师
+kind: specialization
+source_ids:
+  - J15
+skill_ids:
+  - security
+  - architecture
+  - redteam
+summary: 设计模型应用、工具权限和数据边界的安全架构
+parent_id: P010
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p060-ai-security-architect
+resources:
+  - id: R068
+    reason: ""
+  - id: R069
+    reason: ""
+  - id: R073
+    reason: ""
+  - id: R018
+    reason: ""

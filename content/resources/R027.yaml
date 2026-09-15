@@ -1,0 +1,24 @@
+id: R027
+title: Full Stack LLM Bootcamp
+url: https://fullstackdeeplearning.com/llm-bootcamp/
+publisher: The Full Stack
+type: 课程
+language: 英文
+level: 进阶
+skill_ids:
+  - app
+  - product
+  - llmops
+description: 串联产品、应用开发与上线流程
+verification_status: page_opened
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://fullstackdeeplearning.com/llm-bootcamp/
+verification_note: 已打开资料入口；未逐课学习或运行代码
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 相关领域基础；工程资料通常需要 Python 和基本机器学习知识
+edition_note: 2023 年 LLM Bootcamp；架构方法可参考，代码依赖需另行确认
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r027

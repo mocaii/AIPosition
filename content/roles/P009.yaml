@@ -1,0 +1,31 @@
+id: P009
+category: C01
+name_zh: AI 工作流／自动化工程方向
+name_en: AI Workflow Automation
+aliases:
+  - AI 自动化工程师
+  - Dify 开发
+  - n8n 开发
+kind: skill_direction
+source_ids: []
+skill_ids:
+  - workflow
+  - automation
+  - lowcode
+summary: 把模型、业务系统和人工审核连接为流程
+parent_id: P002
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 以资料主题建立的编辑分类；尚未收集独立职位名称证据
+status: published
+slug: p009-ai-workflow-automation
+resources:
+  - id: R023
+    reason: ""
+  - id: R024
+    reason: ""
+  - id: R015
+    reason: ""
+  - id: R036
+    reason: ""

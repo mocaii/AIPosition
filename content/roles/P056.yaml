@@ -1,0 +1,32 @@
+id: P056
+category: C06
+name_zh: AI 红队工程方向
+name_en: AI Red Team Engineer
+aliases:
+  - 大模型红队测试工程师
+kind: specialization
+source_ids:
+  - J22
+skill_ids:
+  - redteam
+  - security
+  - eval
+summary: 通过对抗测试发现 AI 系统的薄弱环节
+parent_id: P054
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p056-ai-red-team-engineer
+resources:
+  - id: R068
+    reason: ""
+  - id: R069
+    reason: ""
+  - id: R070
+    reason: ""
+  - id: R071
+    reason: ""
+  - id: R037
+    reason: ""

@@ -1,0 +1,31 @@
+id: P057
+category: C06
+name_zh: AI 安全研究工程师
+name_en: AI Safety Research Engineer
+aliases:
+  - Safeguards Engineer
+kind: role
+source_ids:
+  - A20
+  - J22
+skill_ids:
+  - safety
+  - eval
+  - security
+summary: 研究并实现降低模型不安全行为的技术
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p057-ai-safety-research-engineer
+resources:
+  - id: R076
+    reason: ""
+  - id: R037
+    reason: ""
+  - id: R068
+    reason: ""
+  - id: R074
+    reason: ""

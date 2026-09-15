@@ -1,0 +1,24 @@
+id: R079
+title: Microsoft HAX Toolkit
+url: https://www.microsoft.com/en-us/haxtoolkit/
+publisher: Microsoft Research
+type: 设计工具包
+language: 英文
+level: 基础
+skill_ids:
+  - ux
+  - product
+  - research
+description: 把人机交互原则落实到设计
+verification_status: page_opened
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://www.microsoft.com/en-us/haxtoolkit/
+verification_note: 已打开资料入口；未逐课学习或运行代码
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 基础电脑操作；按主题补充设计或业务知识
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r079

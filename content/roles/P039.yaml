@@ -1,0 +1,34 @@
+id: P039
+category: C04
+name_zh: 推理优化工程师
+name_en: Inference Performance Engineer
+aliases:
+  - 推理引擎工程师
+  - LLM Serving Engineer
+kind: role
+source_ids:
+  - A23
+  - J04
+skill_ids:
+  - inference
+  - serving
+  - gpu
+summary: 优化模型服务的吞吐、延迟和资源使用
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p039-inference-performance-engineer
+resources:
+  - id: R050
+    reason: ""
+  - id: R051
+    reason: ""
+  - id: R052
+    reason: ""
+  - id: R058
+    reason: ""
+  - id: R059
+    reason: ""

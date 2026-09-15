@@ -1,0 +1,36 @@
+id: P001
+category: C01
+name_zh: FDE／前线部署工程师
+name_en: Forward Deployed Engineer
+aliases:
+  - FDE
+  - 前沿部署工程师
+  - 驻场 AI 工程师
+kind: role
+source_ids:
+  - J01
+  - A115
+skill_ids:
+  - app
+  - architecture
+  - integration
+  - eval
+summary: 深入客户场景，完成 AI 方案开发、集成和交付
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p001-forward-deployed-engineer
+resources:
+  - id: R027
+    reason: ""
+  - id: R012
+    reason: ""
+  - id: R015
+    reason: ""
+  - id: R035
+    reason: ""
+  - id: R068
+    reason: ""

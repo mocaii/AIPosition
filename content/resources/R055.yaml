@@ -1,0 +1,25 @@
+id: R055
+title: Ray 文档
+url: https://docs.ray.io/en/latest/
+publisher: Ray
+type: 官方文档
+language: 英文
+level: 进阶
+skill_ids:
+  - distributed
+  - serving
+  - training
+description: 编排分布式训练与模型服务
+verification_status: search_result_confirmed
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://docs.ray.io/en/latest/
+verification_note: 官方搜索结果确认；直接打开遭遇 429 限流
+original_url: https://docs.ray.io/en/latest/
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 相关领域基础；工程资料通常需要 Python 和基本机器学习知识
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r055

@@ -1,0 +1,32 @@
+id: P031
+category: C03
+name_zh: 语音算法工程师
+name_en: Speech ML Engineer
+aliases:
+  - ASR 工程师
+  - TTS 工程师
+  - 音频算法工程师
+kind: role
+source_ids:
+  - J20
+skill_ids:
+  - audio
+  - asr
+  - tts
+summary: 开发语音识别、合成及音频理解模型
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p031-speech-ml-engineer
+resources:
+  - id: R090
+    reason: ""
+  - id: R091
+    reason: ""
+  - id: R092
+    reason: ""
+  - id: R007
+    reason: ""

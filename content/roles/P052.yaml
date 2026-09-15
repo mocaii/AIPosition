@@ -1,0 +1,30 @@
+id: P052
+category: C05
+name_zh: 知识图谱／GraphRAG 方向
+name_en: Knowledge Graph Engineer
+aliases:
+  - 知识工程师
+  - GraphRAG 工程师
+kind: skill_direction
+source_ids: []
+skill_ids:
+  - graph
+  - rag
+  - data
+summary: 组织实体关系并为检索问答提供知识结构
+parent_id: P046
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 以资料主题建立的编辑分类；尚未收集独立职位名称证据
+status: published
+slug: p052-knowledge-graph-engineer
+resources:
+  - id: R034
+    reason: ""
+  - id: R106
+    reason: ""
+  - id: R020
+    reason: ""
+  - id: R031
+    reason: ""

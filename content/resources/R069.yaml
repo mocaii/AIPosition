@@ -1,0 +1,24 @@
+id: R069
+title: MITRE ATLAS
+url: https://github.com/mitre-atlas/atlas-data
+publisher: MITRE
+type: 知识库
+language: 英文
+level: 进阶
+skill_ids:
+  - security
+  - redteam
+description: 理解针对 AI 系统的攻击技术
+verification_status: page_opened
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://github.com/mitre-atlas/atlas-data
+verification_note: 原站点为动态页面，改用官方技术与案例数据仓库
+original_url: https://atlas.mitre.org/
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 相关领域基础；工程资料通常需要 Python 和基本机器学习知识
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r069

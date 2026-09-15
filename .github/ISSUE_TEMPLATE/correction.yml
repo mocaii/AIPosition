@@ -1,0 +1,22 @@
+name: 内容纠错或链接反馈
+description: 报告错误、重复资料、版本过期或失效链接
+title: "[内容纠错] "
+body:
+  - type: input
+    id: target
+    attributes:
+      label: 岗位或资料 ID / 页面链接
+      placeholder: 例如 P001、R027 或网站页面链接
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 发现的问题
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 修改建议和依据
+      description: 若是链接打不开，可补充访问时间及错误提示；访问受限不一定表示资料失效。

@@ -1,0 +1,32 @@
+id: P037
+category: C04
+name_zh: MLOps 工程方向
+name_en: MLOps Engineer
+aliases:
+  - 机器学习运维工程师
+kind: specialization
+source_ids:
+  - A60
+skill_ids:
+  - mlops
+  - data
+  - deployment
+summary: 管理模型交付、版本和运行环境
+parent_id: P036
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p037-mlops-engineer
+resources:
+  - id: R028
+    reason: ""
+  - id: R042
+    reason: ""
+  - id: R065
+    reason: ""
+  - id: R057
+    reason: ""
+  - id: R056
+    reason: ""

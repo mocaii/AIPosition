@@ -1,0 +1,5329 @@
+[
+  {
+    "type": "role_uses_skill",
+    "from": "P001",
+    "to": "app"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P001",
+    "to": "architecture"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P001",
+    "to": "integration"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P001",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P001",
+    "to": "R027",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P001",
+    "to": "R012",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P001",
+    "to": "R015",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P001",
+    "to": "R035",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P001",
+    "to": "R068",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P002",
+    "to": "app"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P002",
+    "to": "llm"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P002",
+    "to": "prompt"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P002",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P002",
+    "to": "R026",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P002",
+    "to": "R012",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P002",
+    "to": "R010",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P002",
+    "to": "R108",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P002",
+    "to": "R028",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P003",
+    "to": "P002"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P003",
+    "to": "app"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P003",
+    "to": "tools"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P003",
+    "to": "deployment"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P003",
+    "to": "R026",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P003",
+    "to": "R027",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P003",
+    "to": "R018",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P003",
+    "to": "R058",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P003",
+    "to": "R118",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P004",
+    "to": "P002"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P004",
+    "to": "agent"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P004",
+    "to": "tools"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P004",
+    "to": "workflow"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P004",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P004",
+    "to": "R013",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P004",
+    "to": "R014",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P004",
+    "to": "R015",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P004",
+    "to": "R019",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P004",
+    "to": "R037",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P005",
+    "to": "P002"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P005",
+    "to": "rag"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P005",
+    "to": "embedding"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P005",
+    "to": "search"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P005",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P005",
+    "to": "R012",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P005",
+    "to": "R020",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P005",
+    "to": "R021",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P005",
+    "to": "R031",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P005",
+    "to": "R035",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P006",
+    "to": "P002"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P006",
+    "to": "prompt"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P006",
+    "to": "eval"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P006",
+    "to": "context"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P006",
+    "to": "R108",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P006",
+    "to": "R022",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P006",
+    "to": "R036",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P006",
+    "to": "R016",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P007",
+    "to": "P004"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P007",
+    "to": "context"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P007",
+    "to": "agent"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P007",
+    "to": "rag"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P007",
+    "to": "R016",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P007",
+    "to": "R015",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P007",
+    "to": "R019",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P007",
+    "to": "R020",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P008",
+    "to": "P004"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P008",
+    "to": "mcp"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P008",
+    "to": "tools"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P008",
+    "to": "integration"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P008",
+    "to": "security"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P008",
+    "to": "R018",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P008",
+    "to": "R017",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P008",
+    "to": "R025",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P008",
+    "to": "R068",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P009",
+    "to": "P002"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P009",
+    "to": "workflow"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P009",
+    "to": "automation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P009",
+    "to": "lowcode"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P009",
+    "to": "R023",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P009",
+    "to": "R024",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P009",
+    "to": "R015",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P009",
+    "to": "R036",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P010",
+    "to": "architecture"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P010",
+    "to": "integration"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P010",
+    "to": "deployment"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P010",
+    "to": "security"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P010",
+    "to": "R027",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P010",
+    "to": "R029",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P010",
+    "to": "R055",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P010",
+    "to": "R056",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P010",
+    "to": "R073",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P011",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P011",
+    "to": "architecture"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P011",
+    "to": "eval"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P011",
+    "to": "integration"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P011",
+    "to": "R027",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P011",
+    "to": "R030",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P011",
+    "to": "R078",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P011",
+    "to": "R072",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P012",
+    "to": "P004"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P012",
+    "to": "agent"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P012",
+    "to": "tools"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P012",
+    "to": "vision"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P012",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P012",
+    "to": "R014",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P012",
+    "to": "R017",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P012",
+    "to": "R019",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P012",
+    "to": "R037",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P012",
+    "to": "R107",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P013",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P013",
+    "to": "literacy"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P013",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P013",
+    "to": "R082",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P013",
+    "to": "R078",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P013",
+    "to": "R027",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P013",
+    "to": "R030",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P013",
+    "to": "R035",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P014",
+    "to": "P013"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P014",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P014",
+    "to": "llm"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P014",
+    "to": "systems"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P014",
+    "to": "R010",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P014",
+    "to": "R027",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P014",
+    "to": "R029",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P014",
+    "to": "R042",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P015",
+    "to": "P013"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P015",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P015",
+    "to": "agent"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P015",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P015",
+    "to": "R015",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P015",
+    "to": "R014",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P015",
+    "to": "R078",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P015",
+    "to": "R037",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P016",
+    "to": "ux"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P016",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P016",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P016",
+    "to": "R078",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P016",
+    "to": "R079",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P016",
+    "to": "R080",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P016",
+    "to": "R035",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P017",
+    "to": "research"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P017",
+    "to": "ux"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P017",
+    "to": "product"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P017",
+    "to": "R078",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P017",
+    "to": "R079",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P017",
+    "to": "R081",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P017",
+    "to": "R074",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P018",
+    "to": "P016"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P018",
+    "to": "conversation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P018",
+    "to": "ux"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P018",
+    "to": "prompt"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P018",
+    "to": "R080",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P018",
+    "to": "R079",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P018",
+    "to": "R108",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P018",
+    "to": "R090",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P019",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P019",
+    "to": "eval"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P019",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P019",
+    "to": "ml"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P019",
+    "to": "R003",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P019",
+    "to": "R006",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P019",
+    "to": "R030",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P019",
+    "to": "R039",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P020",
+    "to": "strategy"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P020",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P020",
+    "to": "literacy"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P020",
+    "to": "risk"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P020",
+    "to": "R082",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P020",
+    "to": "R081",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P020",
+    "to": "R078",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P020",
+    "to": "R072",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P021",
+    "to": "ml"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P021",
+    "to": "dl"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P021",
+    "to": "training"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P021",
+    "to": "R001",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P021",
+    "to": "R003",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P021",
+    "to": "R004",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P021",
+    "to": "R005",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P021",
+    "to": "R006",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P021",
+    "to": "R002",
+    "display_order": 6,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P022",
+    "to": "math"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P022",
+    "to": "dl"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P022",
+    "to": "llm"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P022",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P022",
+    "to": "R006",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P022",
+    "to": "R007",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P022",
+    "to": "R009",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P022",
+    "to": "R038",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P023",
+    "to": "training"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P023",
+    "to": "systems"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P023",
+    "to": "llm"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P023",
+    "to": "R005",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P023",
+    "to": "R009",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P023",
+    "to": "R048",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P023",
+    "to": "R049",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P024",
+    "to": "P023"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P024",
+    "to": "llm"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P024",
+    "to": "training"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P024",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P024",
+    "to": "distributed"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P024",
+    "to": "R009",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P024",
+    "to": "R011",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P024",
+    "to": "R048",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P024",
+    "to": "R049",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P024",
+    "to": "R066",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P024",
+    "to": "R113",
+    "display_order": 6,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P025",
+    "to": "P023"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P025",
+    "to": "finetune"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P025",
+    "to": "alignment"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P025",
+    "to": "rl"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P025",
+    "to": "R043",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P025",
+    "to": "R044",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P025",
+    "to": "R046",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P025",
+    "to": "R047",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P025",
+    "to": "R111",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P026",
+    "to": "P025"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P026",
+    "to": "finetune"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P026",
+    "to": "lora"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P026",
+    "to": "data"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P026",
+    "to": "R043",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P026",
+    "to": "R045",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P026",
+    "to": "R046",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P026",
+    "to": "R111",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P026",
+    "to": "R117",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P027",
+    "to": "rl"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P027",
+    "to": "math"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P027",
+    "to": "simulation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P027",
+    "to": "R097",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P027",
+    "to": "R098",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P027",
+    "to": "R044",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P027",
+    "to": "R047",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P027",
+    "to": "R112",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P028",
+    "to": "nlp"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P028",
+    "to": "llm"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P028",
+    "to": "embedding"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P028",
+    "to": "R007",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P028",
+    "to": "R010",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P028",
+    "to": "R031",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P028",
+    "to": "R116",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P029",
+    "to": "multimodal"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P029",
+    "to": "vision"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P029",
+    "to": "audio"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P029",
+    "to": "training"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P029",
+    "to": "R008",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P029",
+    "to": "R090",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P029",
+    "to": "R092",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P029",
+    "to": "R107",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P029",
+    "to": "R117",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P030",
+    "to": "vision"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P030",
+    "to": "dl"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P030",
+    "to": "image"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P030",
+    "to": "R008",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P030",
+    "to": "R107",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P030",
+    "to": "R004",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P030",
+    "to": "R005",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P031",
+    "to": "audio"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P031",
+    "to": "asr"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P031",
+    "to": "tts"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P031",
+    "to": "R090",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P031",
+    "to": "R091",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P031",
+    "to": "R092",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P031",
+    "to": "R007",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P032",
+    "to": "P029"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P032",
+    "to": "diffusion"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P032",
+    "to": "vision"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P032",
+    "to": "video"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P032",
+    "to": "R085",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P032",
+    "to": "R086",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P032",
+    "to": "R008",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P032",
+    "to": "R092",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P033",
+    "to": "search"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P033",
+    "to": "embedding"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P033",
+    "to": "vector"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P033",
+    "to": "R031",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P033",
+    "to": "R032",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P033",
+    "to": "R033",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P033",
+    "to": "R021",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P034",
+    "to": "recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P034",
+    "to": "ml"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P034",
+    "to": "data"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P034",
+    "to": "R099",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P034",
+    "to": "R003",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P034",
+    "to": "R006",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P034",
+    "to": "R030",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P035",
+    "to": "P030"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P035",
+    "to": "document"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P035",
+    "to": "ocr"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P035",
+    "to": "vision"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P035",
+    "to": "rag"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P035",
+    "to": "R105",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P035",
+    "to": "R107",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P035",
+    "to": "R020",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P035",
+    "to": "R012",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P036",
+    "to": "infra"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P036",
+    "to": "mlops"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P036",
+    "to": "distributed"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P036",
+    "to": "R028",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P036",
+    "to": "R042",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P036",
+    "to": "R055",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P036",
+    "to": "R056",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P036",
+    "to": "R057",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P037",
+    "to": "P036"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P037",
+    "to": "mlops"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P037",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P037",
+    "to": "deployment"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P037",
+    "to": "R028",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P037",
+    "to": "R042",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P037",
+    "to": "R065",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P037",
+    "to": "R057",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P037",
+    "to": "R056",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P038",
+    "to": "llmops"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P038",
+    "to": "observability"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P038",
+    "to": "eval"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P038",
+    "to": "deployment"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P038",
+    "to": "R040",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P038",
+    "to": "R041",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P038",
+    "to": "R042",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P038",
+    "to": "R036",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P038",
+    "to": "R050",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P039",
+    "to": "inference"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P039",
+    "to": "serving"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P039",
+    "to": "gpu"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P039",
+    "to": "R050",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P039",
+    "to": "R051",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P039",
+    "to": "R052",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P039",
+    "to": "R058",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P039",
+    "to": "R059",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P040",
+    "to": "P036"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P040",
+    "to": "distributed"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P040",
+    "to": "training"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P040",
+    "to": "systems"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P040",
+    "to": "R048",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P040",
+    "to": "R049",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P040",
+    "to": "R055",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P040",
+    "to": "R009",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P041",
+    "to": "gpu"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P041",
+    "to": "kernel"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P041",
+    "to": "systems"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P041",
+    "to": "R053",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P041",
+    "to": "R054",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P041",
+    "to": "R052",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P041",
+    "to": "R048",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P042",
+    "to": "infra"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P042",
+    "to": "distributed"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P042",
+    "to": "systems"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P042",
+    "to": "R049",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P042",
+    "to": "R048",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P042",
+    "to": "R056",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P042",
+    "to": "R029",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P043",
+    "to": "P039"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P043",
+    "to": "edge"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P043",
+    "to": "inference"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P043",
+    "to": "systems"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P043",
+    "to": "R059",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P043",
+    "to": "R060",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P043",
+    "to": "R061",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P043",
+    "to": "R104",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P044",
+    "to": "P036"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P044",
+    "to": "vector"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P044",
+    "to": "search"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P044",
+    "to": "infra"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P044",
+    "to": "R032",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P044",
+    "to": "R033",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P044",
+    "to": "R031",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P044",
+    "to": "R029",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P045",
+    "to": "P036"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P045",
+    "to": "training"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P045",
+    "to": "inference"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P045",
+    "to": "systems"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P045",
+    "to": "R115",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P045",
+    "to": "R111",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P045",
+    "to": "R116",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P045",
+    "to": "R117",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P046",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P046",
+    "to": "training"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P046",
+    "to": "distributed"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P046",
+    "to": "R064",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P046",
+    "to": "R065",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P046",
+    "to": "R066",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P046",
+    "to": "R055",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P047",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P047",
+    "to": "annotation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P047",
+    "to": "humanfeedback"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P047",
+    "to": "R062",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P047",
+    "to": "R063",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P047",
+    "to": "R064",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P047",
+    "to": "R109",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P048",
+    "to": "annotation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P048",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P048",
+    "to": "humanfeedback"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P048",
+    "to": "R109",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P048",
+    "to": "R062",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P048",
+    "to": "R063",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P048",
+    "to": "R003",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P049",
+    "to": "P048"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P049",
+    "to": "annotation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P049",
+    "to": "data"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P049",
+    "to": "R062",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P049",
+    "to": "R063",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P049",
+    "to": "R109",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P049",
+    "to": "R064",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P050",
+    "to": "P048"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P050",
+    "to": "humanfeedback"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P050",
+    "to": "annotation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P050",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P050",
+    "to": "R063",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P050",
+    "to": "R044",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P050",
+    "to": "R046",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P050",
+    "to": "R109",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P051",
+    "to": "P046"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P051",
+    "to": "synthetic"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P051",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P051",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P051",
+    "to": "R067",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P051",
+    "to": "R066",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P051",
+    "to": "R064",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P051",
+    "to": "R035",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P052",
+    "to": "P046"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P052",
+    "to": "graph"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P052",
+    "to": "rag"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P052",
+    "to": "data"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P052",
+    "to": "R034",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P052",
+    "to": "R106",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P052",
+    "to": "R020",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P052",
+    "to": "R031",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P053",
+    "to": "P046"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P053",
+    "to": "privacy"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P053",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P053",
+    "to": "security"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P053",
+    "to": "R103",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P053",
+    "to": "R072",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P053",
+    "to": "R074",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P053",
+    "to": "R064",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P054",
+    "to": "eval"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P054",
+    "to": "llm"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P054",
+    "to": "data"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P054",
+    "to": "R037",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P054",
+    "to": "R038",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P054",
+    "to": "R039",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P054",
+    "to": "R120",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P054",
+    "to": "R035",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P055",
+    "to": "P074"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P055",
+    "to": "eval"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P055",
+    "to": "safety"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P055",
+    "to": "app"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P055",
+    "to": "R036",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P055",
+    "to": "R035",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P055",
+    "to": "R037",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P055",
+    "to": "R068",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P056",
+    "to": "P054"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P056",
+    "to": "redteam"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P056",
+    "to": "security"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P056",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P056",
+    "to": "R068",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P056",
+    "to": "R069",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P056",
+    "to": "R070",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P056",
+    "to": "R071",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P056",
+    "to": "R037",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P057",
+    "to": "safety"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P057",
+    "to": "eval"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P057",
+    "to": "security"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P057",
+    "to": "R076",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P057",
+    "to": "R037",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P057",
+    "to": "R068",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P057",
+    "to": "R074",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P058",
+    "to": "alignment"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P058",
+    "to": "rl"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P058",
+    "to": "safety"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P058",
+    "to": "R076",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P058",
+    "to": "R044",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P058",
+    "to": "R046",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P058",
+    "to": "R047",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P059",
+    "to": "interpretability"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P059",
+    "to": "llm"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P059",
+    "to": "math"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P059",
+    "to": "R075",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P059",
+    "to": "R076",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P059",
+    "to": "R077",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P059",
+    "to": "R007",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P060",
+    "to": "P010"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P060",
+    "to": "security"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P060",
+    "to": "architecture"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P060",
+    "to": "redteam"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P060",
+    "to": "R068",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P060",
+    "to": "R069",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P060",
+    "to": "R073",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P060",
+    "to": "R018",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P061",
+    "to": "governance"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P061",
+    "to": "risk"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P061",
+    "to": "fairness"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P061",
+    "to": "R072",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P061",
+    "to": "R074",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P061",
+    "to": "R078",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P061",
+    "to": "R073",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P062",
+    "to": "governance"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P062",
+    "to": "risk"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P062",
+    "to": "privacy"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P062",
+    "to": "R072",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P062",
+    "to": "R073",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P062",
+    "to": "R103",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P063",
+    "to": "safety"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P063",
+    "to": "risk"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P063",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P063",
+    "to": "R068",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P063",
+    "to": "R037",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P063",
+    "to": "R072",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P063",
+    "to": "R074",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P064",
+    "to": "creative"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P064",
+    "to": "workflow"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P064",
+    "to": "image"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P064",
+    "to": "video"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P064",
+    "to": "R087",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P064",
+    "to": "R088",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P064",
+    "to": "R089",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P064",
+    "to": "R086",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P065",
+    "to": "P064"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P065",
+    "to": "creative"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P065",
+    "to": "image"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P065",
+    "to": "prompt"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P065",
+    "to": "R088",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P065",
+    "to": "R087",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P065",
+    "to": "R085",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P065",
+    "to": "R108",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P066",
+    "to": "P064"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P066",
+    "to": "creative"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P066",
+    "to": "video"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P066",
+    "to": "workflow"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P066",
+    "to": "R089",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P066",
+    "to": "R087",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P066",
+    "to": "R088",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P066",
+    "to": "R085",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P067",
+    "to": "creative"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P067",
+    "to": "video"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P067",
+    "to": "image"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P067",
+    "to": "R087",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P067",
+    "to": "R088",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P067",
+    "to": "R089",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P068",
+    "to": "robotics"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P068",
+    "to": "rl"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P068",
+    "to": "vision"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P068",
+    "to": "R093",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P068",
+    "to": "R094",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P068",
+    "to": "R095",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P068",
+    "to": "R097",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P069",
+    "to": "P068"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P069",
+    "to": "vla"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P069",
+    "to": "robotics"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P069",
+    "to": "multimodal"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P069",
+    "to": "R093",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P069",
+    "to": "R094",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P069",
+    "to": "R107",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P069",
+    "to": "R092",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P070",
+    "to": "P068"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P070",
+    "to": "simulation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P070",
+    "to": "rl"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P070",
+    "to": "robotics"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P070",
+    "to": "R096",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P070",
+    "to": "R098",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P070",
+    "to": "R097",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P070",
+    "to": "R095",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P071",
+    "to": "robotics"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P071",
+    "to": "data"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P071",
+    "to": "annotation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P071",
+    "to": "R094",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P071",
+    "to": "R093",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P071",
+    "to": "R062",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P071",
+    "to": "R095",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P072",
+    "to": "P022"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P072",
+    "to": "science"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P072",
+    "to": "ml"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P072",
+    "to": "training"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P072",
+    "to": "R100",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P072",
+    "to": "R101",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P072",
+    "to": "R009",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P072",
+    "to": "R005",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P073",
+    "to": "P030"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P073",
+    "to": "health"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P073",
+    "to": "vision"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P073",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P073",
+    "to": "R102",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P073",
+    "to": "R008",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P073",
+    "to": "R005",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P073",
+    "to": "R074",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P074",
+    "to": "app"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P074",
+    "to": "lowcode"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P074",
+    "to": "prompt"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P074",
+    "to": "R026",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P074",
+    "to": "R023",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P074",
+    "to": "R012",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P074",
+    "to": "R108",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P075",
+    "to": "P001"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P075",
+    "to": "app"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P075",
+    "to": "health"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P075",
+    "to": "privacy"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P075",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P075",
+    "to": "R027",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P075",
+    "to": "R103",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P075",
+    "to": "R037",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P075",
+    "to": "R072",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P076",
+    "to": "P001"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P076",
+    "to": "app"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P076",
+    "to": "rag"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P076",
+    "to": "privacy"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P076",
+    "to": "eval"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P076",
+    "to": "R012",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P076",
+    "to": "R020",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P076",
+    "to": "R103",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P076",
+    "to": "R035",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P077",
+    "to": "P013"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P077",
+    "to": "education"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P077",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P077",
+    "to": "ux"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P077",
+    "to": "R083",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P077",
+    "to": "R078",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P077",
+    "to": "R079",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P077",
+    "to": "R082",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P078",
+    "to": "devrel"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P078",
+    "to": "writing"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P078",
+    "to": "app"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P078",
+    "to": "R084",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P078",
+    "to": "R026",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P078",
+    "to": "R025",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P078",
+    "to": "R018",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "specializes",
+    "from": "P079",
+    "to": "P078"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P079",
+    "to": "education"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P079",
+    "to": "writing"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P079",
+    "to": "literacy"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P079",
+    "to": "R083",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P079",
+    "to": "R084",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P079",
+    "to": "R026",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P079",
+    "to": "R109",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P079",
+    "to": "R081",
+    "display_order": 5,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P080",
+    "to": "product"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P080",
+    "to": "literacy"
+  },
+  {
+    "type": "role_uses_skill",
+    "from": "P080",
+    "to": "strategy"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P080",
+    "to": "R082",
+    "display_order": 1,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P080",
+    "to": "R081",
+    "display_order": 2,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P080",
+    "to": "R078",
+    "display_order": 3,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "role_recommends_resource",
+    "from": "P080",
+    "to": "R027",
+    "display_order": 4,
+    "basis": "editorial_recommendation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R001",
+    "to": "ml"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R001",
+    "to": "dl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R001",
+    "to": "python"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R002",
+    "to": "ml"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R002",
+    "to": "dl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R002",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R003",
+    "to": "ml"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R003",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R003",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R004",
+    "to": "dl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R004",
+    "to": "python"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R004",
+    "to": "vision"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R005",
+    "to": "dl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R005",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R005",
+    "to": "python"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R006",
+    "to": "ml"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R006",
+    "to": "math"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R007",
+    "to": "nlp"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R007",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R008",
+    "to": "vision"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R008",
+    "to": "dl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R009",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R009",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R009",
+    "to": "systems"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R010",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R010",
+    "to": "nlp"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R010",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R011",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R011",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R012",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R012",
+    "to": "app"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R013",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R013",
+    "to": "app"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R014",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R014",
+    "to": "tools"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R015",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R015",
+    "to": "architecture"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R016",
+    "to": "context"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R016",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R017",
+    "to": "tools"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R017",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R017",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R018",
+    "to": "mcp"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R018",
+    "to": "tools"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R018",
+    "to": "integration"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R019",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R019",
+    "to": "workflow"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R020",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R020",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R021",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R021",
+    "to": "search"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R022",
+    "to": "prompt"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R022",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R022",
+    "to": "app"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R023",
+    "to": "lowcode"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R023",
+    "to": "workflow"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R023",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R024",
+    "to": "lowcode"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R024",
+    "to": "automation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R024",
+    "to": "integration"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R025",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R025",
+    "to": "app"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R026",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R026",
+    "to": "app"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R026",
+    "to": "prompt"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R027",
+    "to": "app"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R027",
+    "to": "product"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R027",
+    "to": "llmops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R028",
+    "to": "mlops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R028",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R028",
+    "to": "deployment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R029",
+    "to": "systems"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R029",
+    "to": "mlops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R029",
+    "to": "architecture"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R030",
+    "to": "mlops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R030",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R030",
+    "to": "product"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R031",
+    "to": "embedding"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R031",
+    "to": "search"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R031",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R032",
+    "to": "vector"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R032",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R032",
+    "to": "search"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R033",
+    "to": "vector"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R033",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R034",
+    "to": "graph"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R034",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R034",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R035",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R035",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R036",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R036",
+    "to": "redteam"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R036",
+    "to": "prompt"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R037",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R037",
+    "to": "safety"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R037",
+    "to": "agent"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R038",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R038",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R039",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R039",
+    "to": "safety"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R040",
+    "to": "observability"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R040",
+    "to": "llmops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R040",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R041",
+    "to": "observability"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R041",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R042",
+    "to": "mlops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R042",
+    "to": "llmops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R042",
+    "to": "experiments"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R043",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R043",
+    "to": "lora"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R044",
+    "to": "rl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R044",
+    "to": "alignment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R044",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R045",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R045",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R046",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R046",
+    "to": "alignment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R047",
+    "to": "rl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R047",
+    "to": "alignment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R047",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R048",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R048",
+    "to": "distributed"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R048",
+    "to": "systems"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R049",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R049",
+    "to": "distributed"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R050",
+    "to": "inference"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R050",
+    "to": "deployment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R051",
+    "to": "inference"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R051",
+    "to": "systems"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R052",
+    "to": "inference"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R052",
+    "to": "gpu"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R053",
+    "to": "gpu"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R053",
+    "to": "kernel"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R054",
+    "to": "gpu"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R054",
+    "to": "kernel"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R054",
+    "to": "systems"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R055",
+    "to": "distributed"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R055",
+    "to": "serving"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R055",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R056",
+    "to": "deployment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R056",
+    "to": "infra"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R057",
+    "to": "serving"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R057",
+    "to": "mlops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R058",
+    "to": "serving"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R058",
+    "to": "deployment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R059",
+    "to": "edge"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R059",
+    "to": "inference"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R060",
+    "to": "edge"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R060",
+    "to": "inference"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R061",
+    "to": "edge"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R061",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R062",
+    "to": "annotation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R062",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R063",
+    "to": "annotation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R063",
+    "to": "humanfeedback"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R063",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R064",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R064",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R065",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R065",
+    "to": "mlops"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R066",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R066",
+    "to": "synthetic"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R066",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R067",
+    "to": "synthetic"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R067",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R067",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R068",
+    "to": "security"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R068",
+    "to": "redteam"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R068",
+    "to": "safety"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R069",
+    "to": "security"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R069",
+    "to": "redteam"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R070",
+    "to": "redteam"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R070",
+    "to": "safety"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R071",
+    "to": "redteam"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R071",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R072",
+    "to": "governance"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R072",
+    "to": "risk"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R073",
+    "to": "security"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R073",
+    "to": "governance"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R074",
+    "to": "fairness"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R074",
+    "to": "explainability"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R074",
+    "to": "governance"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R075",
+    "to": "interpretability"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R075",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R076",
+    "to": "interpretability"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R076",
+    "to": "alignment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R076",
+    "to": "safety"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R077",
+    "to": "interpretability"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R077",
+    "to": "math"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R078",
+    "to": "ux"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R078",
+    "to": "product"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R078",
+    "to": "research"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R079",
+    "to": "ux"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R079",
+    "to": "product"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R079",
+    "to": "research"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R080",
+    "to": "conversation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R080",
+    "to": "ux"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R081",
+    "to": "literacy"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R081",
+    "to": "product"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R081",
+    "to": "governance"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R082",
+    "to": "literacy"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R082",
+    "to": "strategy"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R082",
+    "to": "product"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R083",
+    "to": "ml"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R083",
+    "to": "education"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R084",
+    "to": "writing"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R084",
+    "to": "devrel"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R084",
+    "to": "education"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R085",
+    "to": "diffusion"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R085",
+    "to": "vision"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R085",
+    "to": "creative"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R086",
+    "to": "diffusion"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R086",
+    "to": "vision"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R086",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R087",
+    "to": "creative"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R087",
+    "to": "workflow"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R087",
+    "to": "image"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R087",
+    "to": "video"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R088",
+    "to": "creative"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R088",
+    "to": "image"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R088",
+    "to": "video"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R089",
+    "to": "creative"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R089",
+    "to": "video"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R090",
+    "to": "audio"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R090",
+    "to": "asr"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R090",
+    "to": "tts"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R091",
+    "to": "audio"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R091",
+    "to": "asr"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R091",
+    "to": "tts"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R092",
+    "to": "audio"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R092",
+    "to": "multimodal"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R092",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R093",
+    "to": "robotics"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R093",
+    "to": "vla"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R094",
+    "to": "robotics"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R094",
+    "to": "vla"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R094",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R095",
+    "to": "robotics"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R095",
+    "to": "systems"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R096",
+    "to": "robotics"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R096",
+    "to": "simulation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R096",
+    "to": "rl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R097",
+    "to": "rl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R097",
+    "to": "robotics"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R098",
+    "to": "rl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R098",
+    "to": "simulation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R099",
+    "to": "recommendation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R099",
+    "to": "search"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R100",
+    "to": "science"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R100",
+    "to": "chemistry"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R100",
+    "to": "ml"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R101",
+    "to": "science"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R101",
+    "to": "biology"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R102",
+    "to": "health"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R102",
+    "to": "vision"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R103",
+    "to": "privacy"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R103",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R103",
+    "to": "security"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R104",
+    "to": "edge"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R104",
+    "to": "inference"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R105",
+    "to": "ocr"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R105",
+    "to": "document"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R105",
+    "to": "vision"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R106",
+    "to": "graph"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R106",
+    "to": "rag"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R107",
+    "to": "vision"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R107",
+    "to": "multimodal"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R108",
+    "to": "prompt"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R108",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R109",
+    "to": "annotation"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R109",
+    "to": "data"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R109",
+    "to": "education"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R111",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R111",
+    "to": "deployment"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R111",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R112",
+    "to": "rl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R112",
+    "to": "math"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R113",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R113",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R113",
+    "to": "dl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R115",
+    "to": "training"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R115",
+    "to": "dl"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R115",
+    "to": "systems"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R116",
+    "to": "nlp"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R116",
+    "to": "llm"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R116",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R117",
+    "to": "finetune"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R117",
+    "to": "multimodal"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R118",
+    "to": "python"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R118",
+    "to": "algorithms"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R120",
+    "to": "eval"
+  },
+  {
+    "type": "resource_covers_skill",
+    "from": "R120",
+    "to": "llm"
+  }
+]

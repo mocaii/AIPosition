@@ -1,0 +1,2700 @@
+[
+  {
+    "id": "P001",
+    "category": "应用开发与交付",
+    "name_zh": "FDE／前线部署工程师",
+    "name_en": "Forward Deployed Engineer",
+    "aliases": [
+      "FDE",
+      "前沿部署工程师",
+      "驻场 AI 工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J01",
+      "A115"
+    ],
+    "skill_ids": [
+      "app",
+      "architecture",
+      "integration",
+      "eval"
+    ],
+    "resource_ids": [
+      "R027",
+      "R012",
+      "R015",
+      "R035",
+      "R068"
+    ],
+    "summary": "深入客户场景，完成 AI 方案开发、集成和交付",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P075",
+      "P076"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P002",
+    "category": "应用开发与交付",
+    "name_zh": "AI 应用工程师",
+    "name_en": "Applied AI Engineer",
+    "aliases": [
+      "AI Engineer",
+      "大模型应用工程师",
+      "生成式 AI 工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A93"
+    ],
+    "skill_ids": [
+      "app",
+      "llm",
+      "prompt",
+      "eval"
+    ],
+    "resource_ids": [
+      "R026",
+      "R012",
+      "R010",
+      "R108",
+      "R028"
+    ],
+    "summary": "把模型能力组合成可用的软件功能",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P003",
+      "P004",
+      "P005",
+      "P006",
+      "P009"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P003",
+    "category": "应用开发与交付",
+    "name_zh": "AI 全栈工程师",
+    "name_en": "AI Full-stack Engineer",
+    "aliases": [
+      "AI 产品工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J15"
+    ],
+    "skill_ids": [
+      "app",
+      "tools",
+      "deployment"
+    ],
+    "resource_ids": [
+      "R026",
+      "R027",
+      "R018",
+      "R058",
+      "R118"
+    ],
+    "summary": "实现 AI 产品的界面、服务端和模型集成",
+    "parent_id": "P002",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P002"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P004",
+    "category": "应用开发与交付",
+    "name_zh": "Agent 工程师",
+    "name_en": "AI Agent Engineer",
+    "aliases": [
+      "智能体开发工程师",
+      "Agentic AI Engineer"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A188"
+    ],
+    "skill_ids": [
+      "agent",
+      "tools",
+      "workflow",
+      "eval"
+    ],
+    "resource_ids": [
+      "R013",
+      "R014",
+      "R015",
+      "R019",
+      "R037"
+    ],
+    "summary": "构建能够调用工具并执行多步任务的智能体",
+    "parent_id": "P002",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P002",
+      "P007",
+      "P008",
+      "P012"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P005",
+    "category": "应用开发与交付",
+    "name_zh": "RAG 工程师",
+    "name_en": "RAG Engineer",
+    "aliases": [
+      "检索增强生成工程师",
+      "知识库工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J02"
+    ],
+    "skill_ids": [
+      "rag",
+      "embedding",
+      "search",
+      "eval"
+    ],
+    "resource_ids": [
+      "R012",
+      "R020",
+      "R021",
+      "R031",
+      "R035"
+    ],
+    "summary": "让模型可靠检索并使用外部知识",
+    "parent_id": "P002",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P002"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P006",
+    "category": "应用开发与交付",
+    "name_zh": "提示工程师",
+    "name_en": "Prompt Engineer",
+    "aliases": [
+      "提示词工程师"
+    ],
+    "kind": "practice_title",
+    "source_ids": [
+      "J14"
+    ],
+    "skill_ids": [
+      "prompt",
+      "eval",
+      "context"
+    ],
+    "resource_ids": [
+      "R108",
+      "R022",
+      "R036",
+      "R016"
+    ],
+    "summary": "设计和评估提示、示例与输出约束；常作为其他岗位的一项职责",
+    "parent_id": "P002",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P002"
+    ],
+    "evidence_note": "企业实践文章出现的称谓；非本次核实的在招职位"
+  },
+  {
+    "id": "P007",
+    "category": "应用开发与交付",
+    "name_zh": "上下文工程方向",
+    "name_en": "Context Engineering",
+    "aliases": [
+      "上下文工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "context",
+      "agent",
+      "rag"
+    ],
+    "resource_ids": [
+      "R016",
+      "R015",
+      "R019",
+      "R020"
+    ],
+    "summary": "组织检索内容、记忆和工具结果，改善智能体任务表现",
+    "parent_id": "P004",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P004"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P008",
+    "category": "应用开发与交付",
+    "name_zh": "MCP／工具集成开发方向",
+    "name_en": "MCP and Tool Integration",
+    "aliases": [
+      "MCP 开发工程师",
+      "工具连接器工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "mcp",
+      "tools",
+      "integration",
+      "security"
+    ],
+    "resource_ids": [
+      "R018",
+      "R017",
+      "R025",
+      "R068"
+    ],
+    "summary": "构建模型可调用的工具和数据连接器",
+    "parent_id": "P004",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P004"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P009",
+    "category": "应用开发与交付",
+    "name_zh": "AI 工作流／自动化工程方向",
+    "name_en": "AI Workflow Automation",
+    "aliases": [
+      "AI 自动化工程师",
+      "Dify 开发",
+      "n8n 开发"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "workflow",
+      "automation",
+      "lowcode"
+    ],
+    "resource_ids": [
+      "R023",
+      "R024",
+      "R015",
+      "R036"
+    ],
+    "summary": "把模型、业务系统和人工审核连接为流程",
+    "parent_id": "P002",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P002"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P010",
+    "category": "应用开发与交付",
+    "name_zh": "AI 解决方案架构师",
+    "name_en": "AI Solutions Architect",
+    "aliases": [
+      "Applied AI Architect",
+      "生成式 AI 架构师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J03",
+      "J04"
+    ],
+    "skill_ids": [
+      "architecture",
+      "integration",
+      "deployment",
+      "security"
+    ],
+    "resource_ids": [
+      "R027",
+      "R029",
+      "R055",
+      "R056",
+      "R073"
+    ],
+    "summary": "为业务需求选择模型、数据和部署架构",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P060"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P011",
+    "category": "应用开发与交付",
+    "name_zh": "AI 技术交付负责人",
+    "name_en": "Technical Deployment Lead",
+    "aliases": [
+      "AI 交付经理"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A115"
+    ],
+    "skill_ids": [
+      "product",
+      "architecture",
+      "eval",
+      "integration"
+    ],
+    "resource_ids": [
+      "R027",
+      "R030",
+      "R078",
+      "R072"
+    ],
+    "summary": "组织需求、验收、技术协同与客户落地",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P012",
+    "category": "应用开发与交付",
+    "name_zh": "计算机操作智能体工程方向",
+    "name_en": "Computer-use Agent Engineer",
+    "aliases": [
+      "GUI Agent 工程师",
+      "Computer Use Engineer"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A30"
+    ],
+    "skill_ids": [
+      "agent",
+      "tools",
+      "vision",
+      "eval"
+    ],
+    "resource_ids": [
+      "R014",
+      "R017",
+      "R019",
+      "R037",
+      "R107"
+    ],
+    "summary": "开发通过屏幕理解和界面操作完成任务的系统",
+    "parent_id": "P004",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P004"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P013",
+    "category": "产品与用户体验",
+    "name_zh": "AI 产品经理",
+    "name_en": "AI Product Manager",
+    "aliases": [
+      "大模型产品经理",
+      "生成式 AI 产品经理"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J11",
+      "J12"
+    ],
+    "skill_ids": [
+      "product",
+      "literacy",
+      "eval"
+    ],
+    "resource_ids": [
+      "R082",
+      "R078",
+      "R027",
+      "R030",
+      "R035"
+    ],
+    "summary": "定义适合 AI 的用户问题、产品目标和验收方式",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P014",
+      "P015",
+      "P077"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P014",
+    "category": "产品与用户体验",
+    "name_zh": "模型／AI 平台产品经理",
+    "name_en": "AI Platform Product Manager",
+    "aliases": [
+      "模型产品经理",
+      "API 产品经理"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J12",
+      "J13"
+    ],
+    "skill_ids": [
+      "product",
+      "llm",
+      "systems"
+    ],
+    "resource_ids": [
+      "R010",
+      "R027",
+      "R029",
+      "R042"
+    ],
+    "summary": "规划模型能力、开发者体验和平台服务",
+    "parent_id": "P013",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P013"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P015",
+    "category": "产品与用户体验",
+    "name_zh": "Agent 产品经理",
+    "name_en": "Agent Product Manager",
+    "aliases": [
+      "智能体产品经理"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J13"
+    ],
+    "skill_ids": [
+      "product",
+      "agent",
+      "eval"
+    ],
+    "resource_ids": [
+      "R015",
+      "R014",
+      "R078",
+      "R037"
+    ],
+    "summary": "设计智能体任务边界、交互和失败处理",
+    "parent_id": "P013",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P013"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P016",
+    "category": "产品与用户体验",
+    "name_zh": "AI 产品设计师",
+    "name_en": "AI Product Designer",
+    "aliases": [
+      "AI UX Designer",
+      "AI 交互设计师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A169"
+    ],
+    "skill_ids": [
+      "ux",
+      "product",
+      "eval"
+    ],
+    "resource_ids": [
+      "R078",
+      "R079",
+      "R080",
+      "R035"
+    ],
+    "summary": "设计模型交互、结果呈现和可控的用户体验",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P018"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P017",
+    "category": "产品与用户体验",
+    "name_zh": "AI 用户研究员",
+    "name_en": "AI UX Researcher",
+    "aliases": [
+      "Human-AI Interaction Researcher"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A203"
+    ],
+    "skill_ids": [
+      "research",
+      "ux",
+      "product"
+    ],
+    "resource_ids": [
+      "R078",
+      "R079",
+      "R081",
+      "R074"
+    ],
+    "summary": "研究用户对 AI 的理解、信任、使用行为与需求",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P018",
+    "category": "产品与用户体验",
+    "name_zh": "对话设计方向",
+    "name_en": "Conversation Design",
+    "aliases": [
+      "对话设计师",
+      "Conversational UX Designer"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "conversation",
+      "ux",
+      "prompt"
+    ],
+    "resource_ids": [
+      "R080",
+      "R079",
+      "R108",
+      "R090"
+    ],
+    "summary": "设计对话结构、澄清方式和错误恢复",
+    "parent_id": "P016",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P016"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P019",
+    "category": "产品与用户体验",
+    "name_zh": "AI 产品数据科学家",
+    "name_en": "AI Product Data Scientist",
+    "aliases": [
+      "AI 产品分析师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A156"
+    ],
+    "skill_ids": [
+      "data",
+      "eval",
+      "product",
+      "ml"
+    ],
+    "resource_ids": [
+      "R003",
+      "R006",
+      "R030",
+      "R039"
+    ],
+    "summary": "用实验和数据评估 AI 产品的效果",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P020",
+    "category": "产品与用户体验",
+    "name_zh": "AI 应用战略顾问",
+    "name_en": "Applied AI Strategist",
+    "aliases": [
+      "AI 转型顾问",
+      "AI 业务顾问"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A99"
+    ],
+    "skill_ids": [
+      "strategy",
+      "product",
+      "literacy",
+      "risk"
+    ],
+    "resource_ids": [
+      "R082",
+      "R081",
+      "R078",
+      "R072"
+    ],
+    "summary": "识别组织可落地的 AI 机会并制定采用方案",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P021",
+    "category": "模型研究与算法",
+    "name_zh": "机器学习工程师",
+    "name_en": "Machine Learning Engineer",
+    "aliases": [
+      "MLE",
+      "机器学习算法工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J20",
+      "J17"
+    ],
+    "skill_ids": [
+      "ml",
+      "dl",
+      "training"
+    ],
+    "resource_ids": [
+      "R001",
+      "R003",
+      "R004",
+      "R005",
+      "R006",
+      "R002"
+    ],
+    "summary": "训练、评估和部署解决实际问题的学习模型",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P022",
+    "category": "模型研究与算法",
+    "name_zh": "AI 研究科学家",
+    "name_en": "AI Research Scientist",
+    "aliases": [
+      "Research Scientist",
+      "人工智能研究员"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J15"
+    ],
+    "skill_ids": [
+      "math",
+      "dl",
+      "llm",
+      "eval"
+    ],
+    "resource_ids": [
+      "R006",
+      "R007",
+      "R009",
+      "R038"
+    ],
+    "summary": "提出模型方法并通过实验验证研究假设",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P072"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P023",
+    "category": "模型研究与算法",
+    "name_zh": "AI 研究工程师",
+    "name_en": "AI Research Engineer",
+    "aliases": [
+      "Research Engineer"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A43",
+      "A38"
+    ],
+    "skill_ids": [
+      "training",
+      "systems",
+      "llm"
+    ],
+    "resource_ids": [
+      "R005",
+      "R009",
+      "R048",
+      "R049"
+    ],
+    "summary": "把研究想法实现为可扩展、可复现的实验系统",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P024",
+      "P025"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P024",
+    "category": "模型研究与算法",
+    "name_zh": "大模型预训练工程师",
+    "name_en": "LLM Pretraining Engineer",
+    "aliases": [
+      "大模型训练工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A43"
+    ],
+    "skill_ids": [
+      "llm",
+      "training",
+      "data",
+      "distributed"
+    ],
+    "resource_ids": [
+      "R009",
+      "R011",
+      "R048",
+      "R049",
+      "R066",
+      "R113"
+    ],
+    "summary": "构建预训练数据、训练流程和模型实验",
+    "parent_id": "P023",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P023"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P025",
+    "category": "模型研究与算法",
+    "name_zh": "大模型后训练工程师",
+    "name_en": "LLM Post-training Engineer",
+    "aliases": [
+      "后训练研究工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A46"
+    ],
+    "skill_ids": [
+      "finetune",
+      "alignment",
+      "rl"
+    ],
+    "resource_ids": [
+      "R043",
+      "R044",
+      "R046",
+      "R047",
+      "R111"
+    ],
+    "summary": "通过指令、偏好和强化学习改善模型表现",
+    "parent_id": "P023",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P023",
+      "P026"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P026",
+    "category": "模型研究与算法",
+    "name_zh": "大模型微调工程方向",
+    "name_en": "LLM Fine-tuning",
+    "aliases": [
+      "SFT 工程师",
+      "LoRA 微调工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A46",
+      "J05"
+    ],
+    "skill_ids": [
+      "finetune",
+      "lora",
+      "data"
+    ],
+    "resource_ids": [
+      "R043",
+      "R045",
+      "R046",
+      "R111",
+      "R117"
+    ],
+    "summary": "为特定任务调整模型参数并验证收益",
+    "parent_id": "P025",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P025"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P027",
+    "category": "模型研究与算法",
+    "name_zh": "强化学习工程师",
+    "name_en": "Reinforcement Learning Engineer",
+    "aliases": [
+      "RL Engineer"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A38",
+      "J18"
+    ],
+    "skill_ids": [
+      "rl",
+      "math",
+      "simulation"
+    ],
+    "resource_ids": [
+      "R097",
+      "R098",
+      "R044",
+      "R047",
+      "R112"
+    ],
+    "summary": "通过奖励和环境交互训练策略",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P028",
+    "category": "模型研究与算法",
+    "name_zh": "自然语言处理工程师",
+    "name_en": "NLP Engineer",
+    "aliases": [
+      "NLP 算法工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J21",
+      "J05"
+    ],
+    "skill_ids": [
+      "nlp",
+      "llm",
+      "embedding"
+    ],
+    "resource_ids": [
+      "R007",
+      "R010",
+      "R031",
+      "R116"
+    ],
+    "summary": "处理语言理解、生成和文本结构化任务",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P029",
+    "category": "模型研究与算法",
+    "name_zh": "多模态模型工程师",
+    "name_en": "Multimodal ML Engineer",
+    "aliases": [
+      "多模态算法工程师",
+      "VLM 工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J05",
+      "J20"
+    ],
+    "skill_ids": [
+      "multimodal",
+      "vision",
+      "audio",
+      "training"
+    ],
+    "resource_ids": [
+      "R008",
+      "R090",
+      "R092",
+      "R107",
+      "R117"
+    ],
+    "summary": "联合处理文本、图像、音频等输入输出",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P032"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P030",
+    "category": "模型研究与算法",
+    "name_zh": "计算机视觉工程师",
+    "name_en": "Computer Vision Engineer",
+    "aliases": [
+      "CV 算法工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J05",
+      "J16"
+    ],
+    "skill_ids": [
+      "vision",
+      "dl",
+      "image"
+    ],
+    "resource_ids": [
+      "R008",
+      "R107",
+      "R004",
+      "R005"
+    ],
+    "summary": "开发图像和视频理解模型",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P035",
+      "P073"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P031",
+    "category": "模型研究与算法",
+    "name_zh": "语音算法工程师",
+    "name_en": "Speech ML Engineer",
+    "aliases": [
+      "ASR 工程师",
+      "TTS 工程师",
+      "音频算法工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J20"
+    ],
+    "skill_ids": [
+      "audio",
+      "asr",
+      "tts"
+    ],
+    "resource_ids": [
+      "R090",
+      "R091",
+      "R092",
+      "R007"
+    ],
+    "summary": "开发语音识别、合成及音频理解模型",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P032",
+    "category": "模型研究与算法",
+    "name_zh": "图像／视频生成算法方向",
+    "name_en": "Generative Vision Engineer",
+    "aliases": [
+      "扩散模型工程师",
+      "视频生成工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J05",
+      "J16"
+    ],
+    "skill_ids": [
+      "diffusion",
+      "vision",
+      "video"
+    ],
+    "resource_ids": [
+      "R085",
+      "R086",
+      "R008",
+      "R092"
+    ],
+    "summary": "训练和优化视觉内容生成模型",
+    "parent_id": "P029",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P029"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P033",
+    "category": "模型研究与算法",
+    "name_zh": "检索／搜索算法工程师",
+    "name_en": "Retrieval and Search Engineer",
+    "aliases": [
+      "搜索算法工程师",
+      "Embedding 工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J02"
+    ],
+    "skill_ids": [
+      "search",
+      "embedding",
+      "vector"
+    ],
+    "resource_ids": [
+      "R031",
+      "R032",
+      "R033",
+      "R021"
+    ],
+    "summary": "开发召回、排序和语义匹配能力",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P034",
+    "category": "模型研究与算法",
+    "name_zh": "推荐算法工程师",
+    "name_en": "Recommendation Engineer",
+    "aliases": [
+      "推荐系统工程师",
+      "搜广推算法工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J04",
+      "J16"
+    ],
+    "skill_ids": [
+      "recommendation",
+      "ml",
+      "data"
+    ],
+    "resource_ids": [
+      "R099",
+      "R003",
+      "R006",
+      "R030"
+    ],
+    "summary": "建立个性化召回、排序与效果评估",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P035",
+    "category": "模型研究与算法",
+    "name_zh": "文档智能／OCR 方向",
+    "name_en": "Document AI Engineer",
+    "aliases": [
+      "OCR 算法工程师",
+      "文档解析工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "document",
+      "ocr",
+      "vision",
+      "rag"
+    ],
+    "resource_ids": [
+      "R105",
+      "R107",
+      "R020",
+      "R012"
+    ],
+    "summary": "从图像和复杂文档中提取可检索信息",
+    "parent_id": "P030",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P030"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P036",
+    "category": "基础设施与部署",
+    "name_zh": "机器学习平台工程师",
+    "name_en": "ML Platform Engineer",
+    "aliases": [
+      "ML Infrastructure Engineer"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A60"
+    ],
+    "skill_ids": [
+      "infra",
+      "mlops",
+      "distributed"
+    ],
+    "resource_ids": [
+      "R028",
+      "R042",
+      "R055",
+      "R056",
+      "R057"
+    ],
+    "summary": "提供实验、训练与模型运行的平台能力",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P037",
+      "P040",
+      "P044",
+      "P045"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P037",
+    "category": "基础设施与部署",
+    "name_zh": "MLOps 工程方向",
+    "name_en": "MLOps Engineer",
+    "aliases": [
+      "机器学习运维工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A60"
+    ],
+    "skill_ids": [
+      "mlops",
+      "data",
+      "deployment"
+    ],
+    "resource_ids": [
+      "R028",
+      "R042",
+      "R065",
+      "R057",
+      "R056"
+    ],
+    "summary": "管理模型交付、版本和运行环境",
+    "parent_id": "P036",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P036"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P038",
+    "category": "基础设施与部署",
+    "name_zh": "LLMOps／AgentOps 工程师",
+    "name_en": "LLMOps / AgentOps Engineer",
+    "aliases": [
+      "DevOps AgentOps"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A161"
+    ],
+    "skill_ids": [
+      "llmops",
+      "observability",
+      "eval",
+      "deployment"
+    ],
+    "resource_ids": [
+      "R040",
+      "R041",
+      "R042",
+      "R036",
+      "R050"
+    ],
+    "summary": "维护语言模型和智能体服务的追踪、质量与运行流程",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P039",
+    "category": "基础设施与部署",
+    "name_zh": "推理优化工程师",
+    "name_en": "Inference Performance Engineer",
+    "aliases": [
+      "推理引擎工程师",
+      "LLM Serving Engineer"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A23",
+      "J04"
+    ],
+    "skill_ids": [
+      "inference",
+      "serving",
+      "gpu"
+    ],
+    "resource_ids": [
+      "R050",
+      "R051",
+      "R052",
+      "R058",
+      "R059"
+    ],
+    "summary": "优化模型服务的吞吐、延迟和资源使用",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P043"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P040",
+    "category": "基础设施与部署",
+    "name_zh": "分布式训练工程方向",
+    "name_en": "Distributed Training Engineer",
+    "aliases": [
+      "训练系统工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A43",
+      "A60"
+    ],
+    "skill_ids": [
+      "distributed",
+      "training",
+      "systems"
+    ],
+    "resource_ids": [
+      "R048",
+      "R049",
+      "R055",
+      "R009"
+    ],
+    "summary": "解决多设备训练的并行、通信和稳定性问题",
+    "parent_id": "P036",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P036"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P041",
+    "category": "基础设施与部署",
+    "name_zh": "GPU 性能／算子工程师",
+    "name_en": "GPU Performance / Kernel Engineer",
+    "aliases": [
+      "CUDA 工程师",
+      "Triton 工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A22"
+    ],
+    "skill_ids": [
+      "gpu",
+      "kernel",
+      "systems"
+    ],
+    "resource_ids": [
+      "R053",
+      "R054",
+      "R052",
+      "R048"
+    ],
+    "summary": "编写和优化模型计算内核",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P042",
+    "category": "基础设施与部署",
+    "name_zh": "AI 集群网络工程师",
+    "name_en": "ML Networking Engineer",
+    "aliases": [
+      "AI Networking Engineer"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A58"
+    ],
+    "skill_ids": [
+      "infra",
+      "distributed",
+      "systems"
+    ],
+    "resource_ids": [
+      "R049",
+      "R048",
+      "R056",
+      "R029"
+    ],
+    "summary": "支撑训练和推理集群间的数据通信",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P043",
+    "category": "基础设施与部署",
+    "name_zh": "端侧 AI 工程方向",
+    "name_en": "Edge AI Engineer",
+    "aliases": [
+      "端侧大模型工程师",
+      "移动端 AI 工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J20"
+    ],
+    "skill_ids": [
+      "edge",
+      "inference",
+      "systems"
+    ],
+    "resource_ids": [
+      "R059",
+      "R060",
+      "R061",
+      "R104"
+    ],
+    "summary": "在移动、桌面或嵌入式设备上运行模型",
+    "parent_id": "P039",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P039"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P044",
+    "category": "基础设施与部署",
+    "name_zh": "向量数据库工程方向",
+    "name_en": "Vector Search Infrastructure",
+    "aliases": [
+      "向量检索工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "vector",
+      "search",
+      "infra"
+    ],
+    "resource_ids": [
+      "R032",
+      "R033",
+      "R031",
+      "R029"
+    ],
+    "summary": "建设向量索引、检索服务和数据更新流程",
+    "parent_id": "P036",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P036"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P045",
+    "category": "基础设施与部署",
+    "name_zh": "国产 AI 框架与部署方向",
+    "name_en": "AI Framework / Accelerator Integration",
+    "aliases": [
+      "昇腾训练推理工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J04"
+    ],
+    "skill_ids": [
+      "training",
+      "inference",
+      "systems"
+    ],
+    "resource_ids": [
+      "R115",
+      "R111",
+      "R116",
+      "R117"
+    ],
+    "summary": "适配模型训练与推理到指定软硬件平台",
+    "parent_id": "P036",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P036"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P046",
+    "category": "数据与知识工程",
+    "name_zh": "AI 数据工程师",
+    "name_en": "AI Data Engineer",
+    "aliases": [
+      "训练数据工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A11"
+    ],
+    "skill_ids": [
+      "data",
+      "training",
+      "distributed"
+    ],
+    "resource_ids": [
+      "R064",
+      "R065",
+      "R066",
+      "R055"
+    ],
+    "summary": "建设模型数据采集、转换与训练数据管道",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P051",
+      "P052",
+      "P053"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P047",
+    "category": "数据与知识工程",
+    "name_zh": "AI 数据运营经理",
+    "name_en": "Human Data Operations Manager",
+    "aliases": [
+      "Human Data 项目经理"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A12"
+    ],
+    "skill_ids": [
+      "data",
+      "annotation",
+      "humanfeedback"
+    ],
+    "resource_ids": [
+      "R062",
+      "R063",
+      "R064",
+      "R109"
+    ],
+    "summary": "组织标注、反馈任务和数据交付质量",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P048",
+    "category": "数据与知识工程",
+    "name_zh": "人工智能训练师",
+    "name_en": "AI Trainer",
+    "aliases": [
+      "人工智能训练师（国内职业）"
+    ],
+    "kind": "occupation",
+    "source_ids": [
+      "J10",
+      "J09"
+    ],
+    "skill_ids": [
+      "annotation",
+      "data",
+      "humanfeedback"
+    ],
+    "resource_ids": [
+      "R109",
+      "R062",
+      "R063",
+      "R003"
+    ],
+    "summary": "围绕数据处理、标注和系统训练辅助开展工作；区别于模型训练算法工程师",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P049",
+      "P050"
+    ],
+    "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+  },
+  {
+    "id": "P049",
+    "category": "数据与知识工程",
+    "name_zh": "数据标注／质量审核方向",
+    "name_en": "Data Annotation and QA",
+    "aliases": [
+      "AI 标注员",
+      "标注审核员"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J09",
+      "A12"
+    ],
+    "skill_ids": [
+      "annotation",
+      "data"
+    ],
+    "resource_ids": [
+      "R062",
+      "R063",
+      "R109",
+      "R064"
+    ],
+    "summary": "制定标注规则并进行标注、复核与一致性检查",
+    "parent_id": "P048",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P048"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P050",
+    "category": "数据与知识工程",
+    "name_zh": "模型人工反馈／偏好评审方向",
+    "name_en": "Human Feedback Rater",
+    "aliases": [
+      "AI 回答评审员",
+      "偏好标注员"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "A12",
+      "A46"
+    ],
+    "skill_ids": [
+      "humanfeedback",
+      "annotation",
+      "eval"
+    ],
+    "resource_ids": [
+      "R063",
+      "R044",
+      "R046",
+      "R109"
+    ],
+    "summary": "按任务标准比较模型回答并整理反馈数据",
+    "parent_id": "P048",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P048"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P051",
+    "category": "数据与知识工程",
+    "name_zh": "合成数据工程方向",
+    "name_en": "Synthetic Data Engineer",
+    "aliases": [
+      "合成数据研发工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "synthetic",
+      "data",
+      "eval"
+    ],
+    "resource_ids": [
+      "R067",
+      "R066",
+      "R064",
+      "R035"
+    ],
+    "summary": "生成、筛选和评估用于训练或测试的数据",
+    "parent_id": "P046",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P046"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P052",
+    "category": "数据与知识工程",
+    "name_zh": "知识图谱／GraphRAG 方向",
+    "name_en": "Knowledge Graph Engineer",
+    "aliases": [
+      "知识工程师",
+      "GraphRAG 工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "graph",
+      "rag",
+      "data"
+    ],
+    "resource_ids": [
+      "R034",
+      "R106",
+      "R020",
+      "R031"
+    ],
+    "summary": "组织实体关系并为检索问答提供知识结构",
+    "parent_id": "P046",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P046"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P053",
+    "category": "数据与知识工程",
+    "name_zh": "AI 数据隐私工程方向",
+    "name_en": "AI Privacy Engineer",
+    "aliases": [
+      "隐私保护工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "privacy",
+      "data",
+      "security"
+    ],
+    "resource_ids": [
+      "R103",
+      "R072",
+      "R074",
+      "R064"
+    ],
+    "summary": "在 AI 数据管道中处理敏感信息和访问边界",
+    "parent_id": "P046",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P046"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P054",
+    "category": "评测安全与治理",
+    "name_zh": "模型评测工程师",
+    "name_en": "Model Evaluation Engineer",
+    "aliases": [
+      "Evals Engineer",
+      "大模型评测工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A41"
+    ],
+    "skill_ids": [
+      "eval",
+      "llm",
+      "data"
+    ],
+    "resource_ids": [
+      "R037",
+      "R038",
+      "R039",
+      "R120",
+      "R035"
+    ],
+    "summary": "建立测试集、指标和可复现实验来判断模型能力",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P056"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P055",
+    "category": "评测安全与治理",
+    "name_zh": "生成式人工智能系统测试员",
+    "name_en": "Generative AI System Tester",
+    "aliases": [
+      "生成式 AI 系统测试员（国内工种）"
+    ],
+    "kind": "occupation_subtype",
+    "source_ids": [
+      "J07"
+    ],
+    "skill_ids": [
+      "eval",
+      "safety",
+      "app"
+    ],
+    "resource_ids": [
+      "R036",
+      "R035",
+      "R037",
+      "R068"
+    ],
+    "summary": "测试生成式系统的功能、输出与安全表现",
+    "parent_id": "P074",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P074"
+    ],
+    "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+  },
+  {
+    "id": "P056",
+    "category": "评测安全与治理",
+    "name_zh": "AI 红队工程方向",
+    "name_en": "AI Red Team Engineer",
+    "aliases": [
+      "大模型红队测试工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J22"
+    ],
+    "skill_ids": [
+      "redteam",
+      "security",
+      "eval"
+    ],
+    "resource_ids": [
+      "R068",
+      "R069",
+      "R070",
+      "R071",
+      "R037"
+    ],
+    "summary": "通过对抗测试发现 AI 系统的薄弱环节",
+    "parent_id": "P054",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P054"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P057",
+    "category": "评测安全与治理",
+    "name_zh": "AI 安全研究工程师",
+    "name_en": "AI Safety Research Engineer",
+    "aliases": [
+      "Safeguards Engineer"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A20",
+      "J22"
+    ],
+    "skill_ids": [
+      "safety",
+      "eval",
+      "security"
+    ],
+    "resource_ids": [
+      "R076",
+      "R037",
+      "R068",
+      "R074"
+    ],
+    "summary": "研究并实现降低模型不安全行为的技术",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P058",
+    "category": "评测安全与治理",
+    "name_zh": "AI 对齐研究员",
+    "name_en": "AI Alignment Researcher",
+    "aliases": [
+      "Alignment Scientist"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A27"
+    ],
+    "skill_ids": [
+      "alignment",
+      "rl",
+      "safety"
+    ],
+    "resource_ids": [
+      "R076",
+      "R044",
+      "R046",
+      "R047"
+    ],
+    "summary": "研究模型行为与目标、偏好及约束的一致性",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P059",
+    "category": "评测安全与治理",
+    "name_zh": "可解释性研究员",
+    "name_en": "Interpretability Researcher",
+    "aliases": [
+      "Mechanistic Interpretability Researcher"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A34"
+    ],
+    "skill_ids": [
+      "interpretability",
+      "llm",
+      "math"
+    ],
+    "resource_ids": [
+      "R075",
+      "R076",
+      "R077",
+      "R007"
+    ],
+    "summary": "通过实验理解模型内部表示和计算机制",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P060",
+    "category": "评测安全与治理",
+    "name_zh": "AI 应用安全架构方向",
+    "name_en": "AI Security Architect",
+    "aliases": [
+      "AI 安全架构师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J15"
+    ],
+    "skill_ids": [
+      "security",
+      "architecture",
+      "redteam"
+    ],
+    "resource_ids": [
+      "R068",
+      "R069",
+      "R073",
+      "R018"
+    ],
+    "summary": "设计模型应用、工具权限和数据边界的安全架构",
+    "parent_id": "P010",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P010"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P061",
+    "category": "评测安全与治理",
+    "name_zh": "负责任 AI／治理方向",
+    "name_en": "Responsible AI / AI Governance",
+    "aliases": [
+      "AI 治理专员",
+      "Responsible AI Specialist"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "governance",
+      "risk",
+      "fairness"
+    ],
+    "resource_ids": [
+      "R072",
+      "R074",
+      "R078",
+      "R073"
+    ],
+    "summary": "组织模型风险识别、评审和治理记录",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P062",
+    "category": "评测安全与治理",
+    "name_zh": "AI 法规法律顾问",
+    "name_en": "AI Regulatory Counsel",
+    "aliases": [
+      "AI 合规律师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A267"
+    ],
+    "skill_ids": [
+      "governance",
+      "risk",
+      "privacy"
+    ],
+    "resource_ids": [
+      "R072",
+      "R073",
+      "R103"
+    ],
+    "summary": "提供 AI 相关监管和产品法律支持；所列材料仅补充 AI 技术背景",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P063",
+    "category": "评测安全与治理",
+    "name_zh": "AI 信任与安全运营",
+    "name_en": "AI Trust and Safety Operations",
+    "aliases": [
+      "AI 风险运营",
+      "模型滥用治理"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J23"
+    ],
+    "skill_ids": [
+      "safety",
+      "risk",
+      "eval"
+    ],
+    "resource_ids": [
+      "R068",
+      "R037",
+      "R072",
+      "R074"
+    ],
+    "summary": "调查产品滥用、协调审核并维护安全运营流程",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P064",
+    "category": "创意与内容生产",
+    "name_zh": "AI 创意技术专家",
+    "name_en": "Creative Technologist",
+    "aliases": [
+      "创意技术工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J06"
+    ],
+    "skill_ids": [
+      "creative",
+      "workflow",
+      "image",
+      "video"
+    ],
+    "resource_ids": [
+      "R087",
+      "R088",
+      "R089",
+      "R086"
+    ],
+    "summary": "连接创作需求、生成工具与媒体制作流程",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P065",
+      "P066"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P065",
+    "category": "创意与内容生产",
+    "name_zh": "AIGC 视觉设计方向",
+    "name_en": "AI-assisted Visual Designer",
+    "aliases": [
+      "AI 设计师",
+      "AIGC 设计师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J30"
+    ],
+    "skill_ids": [
+      "creative",
+      "image",
+      "prompt"
+    ],
+    "resource_ids": [
+      "R088",
+      "R087",
+      "R085",
+      "R108"
+    ],
+    "summary": "用生成工具辅助视觉探索、制作和迭代",
+    "parent_id": "P064",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P064"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P066",
+    "category": "创意与内容生产",
+    "name_zh": "AI 视频创作方向",
+    "name_en": "AI Video Creator",
+    "aliases": [
+      "AI 视频制作师",
+      "AI 导演"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J06",
+      "J30"
+    ],
+    "skill_ids": [
+      "creative",
+      "video",
+      "workflow"
+    ],
+    "resource_ids": [
+      "R089",
+      "R087",
+      "R088",
+      "R085"
+    ],
+    "summary": "把分镜、生成素材和后期编辑组织为视频作品",
+    "parent_id": "P064",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P064"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P067",
+    "category": "创意与内容生产",
+    "name_zh": "生成式人工智能动画制作员",
+    "name_en": "Generative AI Animation Producer",
+    "aliases": [
+      "生成式 AI 动画制作员（国内工种）"
+    ],
+    "kind": "occupation_subtype",
+    "source_ids": [
+      "J07"
+    ],
+    "skill_ids": [
+      "creative",
+      "video",
+      "image"
+    ],
+    "resource_ids": [
+      "R087",
+      "R088",
+      "R089"
+    ],
+    "summary": "将生成式工具应用于动画制作；仍需动画专业基础",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+  },
+  {
+    "id": "P068",
+    "category": "机器人与具身智能",
+    "name_zh": "机器人学习工程师",
+    "name_en": "Robot Learning Engineer",
+    "aliases": [
+      "具身智能算法工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J17",
+      "J18"
+    ],
+    "skill_ids": [
+      "robotics",
+      "rl",
+      "vision"
+    ],
+    "resource_ids": [
+      "R093",
+      "R094",
+      "R095",
+      "R097"
+    ],
+    "summary": "训练可在真实机器人上执行任务的策略",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P069",
+      "P070"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P069",
+    "category": "机器人与具身智能",
+    "name_zh": "VLA 模型研发方向",
+    "name_en": "Vision-Language-Action Engineer",
+    "aliases": [
+      "视觉语言动作模型工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J17"
+    ],
+    "skill_ids": [
+      "vla",
+      "robotics",
+      "multimodal"
+    ],
+    "resource_ids": [
+      "R093",
+      "R094",
+      "R107",
+      "R092"
+    ],
+    "summary": "学习从视觉与语言到动作的策略模型",
+    "parent_id": "P068",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P068"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P070",
+    "category": "机器人与具身智能",
+    "name_zh": "机器人仿真／强化学习方向",
+    "name_en": "Robot Simulation and RL",
+    "aliases": [
+      "仿真训练工程师",
+      "Sim-to-Real 工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J18"
+    ],
+    "skill_ids": [
+      "simulation",
+      "rl",
+      "robotics"
+    ],
+    "resource_ids": [
+      "R096",
+      "R098",
+      "R097",
+      "R095"
+    ],
+    "summary": "在仿真环境中训练并评估机器人策略",
+    "parent_id": "P068",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P068"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P071",
+    "category": "机器人与具身智能",
+    "name_zh": "机器人数据采集工程师",
+    "name_en": "Robotics Data Collection Engineer",
+    "aliases": [
+      "遥操作数据工程师"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J19"
+    ],
+    "skill_ids": [
+      "robotics",
+      "data",
+      "annotation"
+    ],
+    "resource_ids": [
+      "R094",
+      "R093",
+      "R062",
+      "R095"
+    ],
+    "summary": "建立机器人演示、遥操作和数据质量流程",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P072",
+    "category": "行业应用与科学",
+    "name_zh": "AI for Science 研究方向",
+    "name_en": "AI for Science Researcher",
+    "aliases": [
+      "科学智能研究员"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J15",
+      "J16"
+    ],
+    "skill_ids": [
+      "science",
+      "ml",
+      "training"
+    ],
+    "resource_ids": [
+      "R100",
+      "R101",
+      "R009",
+      "R005"
+    ],
+    "summary": "将学习模型用于科学问题的预测和发现",
+    "parent_id": "P022",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P022"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P073",
+    "category": "行业应用与科学",
+    "name_zh": "AI 医疗影像研发方向",
+    "name_en": "Medical Imaging AI Engineer",
+    "aliases": [
+      "医学影像算法工程师"
+    ],
+    "kind": "skill_direction",
+    "source_ids": [],
+    "skill_ids": [
+      "health",
+      "vision",
+      "eval"
+    ],
+    "resource_ids": [
+      "R102",
+      "R008",
+      "R005",
+      "R074"
+    ],
+    "summary": "研发医学影像处理模型；需要领域数据和专业评估",
+    "parent_id": "P030",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P030"
+    ],
+    "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+  },
+  {
+    "id": "P074",
+    "category": "行业应用与科学",
+    "name_zh": "生成式人工智能系统应用员",
+    "name_en": "Generative AI System Application Specialist",
+    "aliases": [
+      "生成式 AI 系统应用员（国内职业）"
+    ],
+    "kind": "occupation",
+    "source_ids": [
+      "J08"
+    ],
+    "skill_ids": [
+      "app",
+      "lowcode",
+      "prompt"
+    ],
+    "resource_ids": [
+      "R026",
+      "R023",
+      "R012",
+      "R108"
+    ],
+    "summary": "面向业务场景应用和维护生成式人工智能系统",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P055"
+    ],
+    "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+  },
+  {
+    "id": "P075",
+    "category": "行业应用与科学",
+    "name_zh": "医疗行业 FDE",
+    "name_en": "Healthcare FDE",
+    "aliases": [
+      "医疗 AI 交付工程师"
+    ],
+    "kind": "industry_variant",
+    "source_ids": [
+      "J28"
+    ],
+    "skill_ids": [
+      "app",
+      "health",
+      "privacy",
+      "eval"
+    ],
+    "resource_ids": [
+      "R027",
+      "R103",
+      "R037",
+      "R072"
+    ],
+    "summary": "将 AI 系统集成到医疗组织业务流程；资料只覆盖通用技术基础",
+    "parent_id": "P001",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P001"
+    ],
+    "evidence_note": "主岗位的行业变体；不作为全新的职业"
+  },
+  {
+    "id": "P076",
+    "category": "行业应用与科学",
+    "name_zh": "法律行业 FDE",
+    "name_en": "Legal FDE",
+    "aliases": [
+      "法律 AI 应用工程师"
+    ],
+    "kind": "industry_variant",
+    "source_ids": [
+      "J29"
+    ],
+    "skill_ids": [
+      "app",
+      "rag",
+      "privacy",
+      "eval"
+    ],
+    "resource_ids": [
+      "R012",
+      "R020",
+      "R103",
+      "R035"
+    ],
+    "summary": "构建法律工作相关的检索和自动化系统；需另补法律专业知识",
+    "parent_id": "P001",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P001"
+    ],
+    "evidence_note": "主岗位的行业变体；不作为全新的职业"
+  },
+  {
+    "id": "P077",
+    "category": "行业应用与科学",
+    "name_zh": "教育 AI 产品／方案方向",
+    "name_en": "Education AI Product / Solutions",
+    "aliases": [
+      "教育 AI 产品经理",
+      "教育 AI 架构师"
+    ],
+    "kind": "industry_variant",
+    "source_ids": [
+      "J26",
+      "J27"
+    ],
+    "skill_ids": [
+      "education",
+      "product",
+      "ux"
+    ],
+    "resource_ids": [
+      "R083",
+      "R078",
+      "R079",
+      "R082"
+    ],
+    "summary": "围绕教学和学习场景设计 AI 产品与采用方案",
+    "parent_id": "P013",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P013"
+    ],
+    "evidence_note": "主岗位的行业变体；不作为全新的职业"
+  },
+  {
+    "id": "P078",
+    "category": "推广教育与客户赋能",
+    "name_zh": "AI 开发者关系工程师",
+    "name_en": "AI Developer Relations",
+    "aliases": [
+      "DevRel",
+      "Developer Advocate"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "A160",
+      "A100"
+    ],
+    "skill_ids": [
+      "devrel",
+      "writing",
+      "app"
+    ],
+    "resource_ids": [
+      "R084",
+      "R026",
+      "R025",
+      "R018"
+    ],
+    "summary": "通过示例、文档和社区活动帮助开发者使用 AI",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P079"
+    ],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  },
+  {
+    "id": "P079",
+    "category": "推广教育与客户赋能",
+    "name_zh": "AI 教育／开发者培训方向",
+    "name_en": "AI Technical Educator",
+    "aliases": [
+      "AI 讲师",
+      "开发者教育工程师"
+    ],
+    "kind": "specialization",
+    "source_ids": [
+      "J25",
+      "A100"
+    ],
+    "skill_ids": [
+      "education",
+      "writing",
+      "literacy"
+    ],
+    "resource_ids": [
+      "R083",
+      "R084",
+      "R026",
+      "R109",
+      "R081"
+    ],
+    "summary": "设计 AI 教学材料、练习和技术演示",
+    "parent_id": "P078",
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [
+      "P078"
+    ],
+    "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+  },
+  {
+    "id": "P080",
+    "category": "推广教育与客户赋能",
+    "name_zh": "AI 客户成功经理",
+    "name_en": "AI Customer Success Manager",
+    "aliases": [
+      "AI CSM",
+      "AI 客户赋能经理"
+    ],
+    "kind": "role",
+    "source_ids": [
+      "J24"
+    ],
+    "skill_ids": [
+      "product",
+      "literacy",
+      "strategy"
+    ],
+    "resource_ids": [
+      "R082",
+      "R081",
+      "R078",
+      "R027"
+    ],
+    "summary": "帮助客户采用 AI 产品并评估业务价值",
+    "parent_id": null,
+    "summary_basis": "编辑归纳，非企业职责原文",
+    "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+    "collected_at": "2026-09-15",
+    "related_role_ids": [],
+    "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+  }
+]

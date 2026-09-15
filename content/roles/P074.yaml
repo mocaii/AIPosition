@@ -1,0 +1,30 @@
+id: P074
+category: C09
+name_zh: 生成式人工智能系统应用员
+name_en: Generative AI System Application Specialist
+aliases:
+  - 生成式 AI 系统应用员（国内职业）
+kind: occupation
+source_ids:
+  - J08
+skill_ids:
+  - app
+  - lowcode
+  - prompt
+summary: 面向业务场景应用和维护生成式人工智能系统
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 国内职业/工种口径，英文为便于检索的编辑翻译
+status: published
+slug: p074-generative-ai-system-application-specialist
+resources:
+  - id: R026
+    reason: ""
+  - id: R023
+    reason: ""
+  - id: R012
+    reason: ""
+  - id: R108
+    reason: ""

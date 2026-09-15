@@ -1,0 +1,23 @@
+id: R118
+title: Hello Algo
+url: https://www.hello-algo.com/
+publisher: Hello Algo 作者团队
+type: 在线教材
+language: 中文
+level: 基础
+skill_ids:
+  - python
+  - algorithms
+description: 补齐 AI 工程所需数据结构基础
+verification_status: page_opened
+collected_at: 2026-09-15
+resolved_url: https://www.hello-algo.com/
+verification_note: 已打开资料入口；未逐课学习或运行代码
+access_note: 资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 基础编程；模型课程另需数学基础
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r118

@@ -1,0 +1,31 @@
+id: P076
+category: C09
+name_zh: 法律行业 FDE
+name_en: Legal FDE
+aliases:
+  - 法律 AI 应用工程师
+kind: industry_variant
+source_ids:
+  - J29
+skill_ids:
+  - app
+  - rag
+  - privacy
+  - eval
+summary: 构建法律工作相关的检索和自动化系统；需另补法律专业知识
+parent_id: P001
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 主岗位的行业变体；不作为全新的职业
+status: published
+slug: p076-legal-fde
+resources:
+  - id: R012
+    reason: ""
+  - id: R020
+    reason: ""
+  - id: R103
+    reason: ""
+  - id: R035
+    reason: ""

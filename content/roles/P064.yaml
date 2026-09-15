@@ -1,0 +1,31 @@
+id: P064
+category: C07
+name_zh: AI 创意技术专家
+name_en: Creative Technologist
+aliases:
+  - 创意技术工程师
+kind: role
+source_ids:
+  - J06
+skill_ids:
+  - creative
+  - workflow
+  - image
+  - video
+summary: 连接创作需求、生成工具与媒体制作流程
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p064-creative-technologist
+resources:
+  - id: R087
+    reason: ""
+  - id: R088
+    reason: ""
+  - id: R089
+    reason: ""
+  - id: R086
+    reason: ""

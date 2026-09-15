@@ -1,0 +1,16 @@
+id: R121
+status: draft
+slug: r121
+title: 替换为资料名称
+url: https://example.com/replace-with-original-resource
+publisher: 替换为作者或机构
+type: 开源教程
+language: 中文
+level: 基础
+description: 用自己的话说明内容和推荐理由
+skill_ids:
+  - agent
+verification_status: search_result_confirmed
+verification_note: 填写实际核验方式与限制，不能把模板状态当成真实核验
+collected_at: '2026-09-16'
+publication_date: null

@@ -1,0 +1,31 @@
+id: P043
+category: C04
+name_zh: 端侧 AI 工程方向
+name_en: Edge AI Engineer
+aliases:
+  - 端侧大模型工程师
+  - 移动端 AI 工程师
+kind: specialization
+source_ids:
+  - J20
+skill_ids:
+  - edge
+  - inference
+  - systems
+summary: 在移动、桌面或嵌入式设备上运行模型
+parent_id: P039
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p043-edge-ai-engineer
+resources:
+  - id: R059
+    reason: ""
+  - id: R060
+    reason: ""
+  - id: R061
+    reason: ""
+  - id: R104
+    reason: ""

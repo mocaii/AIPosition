@@ -1,0 +1,30 @@
+id: P046
+category: C05
+name_zh: AI 数据工程师
+name_en: AI Data Engineer
+aliases:
+  - 训练数据工程师
+kind: role
+source_ids:
+  - A11
+skill_ids:
+  - data
+  - training
+  - distributed
+summary: 建设模型数据采集、转换与训练数据管道
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p046-ai-data-engineer
+resources:
+  - id: R064
+    reason: ""
+  - id: R065
+    reason: ""
+  - id: R066
+    reason: ""
+  - id: R055
+    reason: ""

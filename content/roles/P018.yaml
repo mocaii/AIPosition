@@ -1,0 +1,30 @@
+id: P018
+category: C02
+name_zh: 对话设计方向
+name_en: Conversation Design
+aliases:
+  - 对话设计师
+  - Conversational UX Designer
+kind: skill_direction
+source_ids: []
+skill_ids:
+  - conversation
+  - ux
+  - prompt
+summary: 设计对话结构、澄清方式和错误恢复
+parent_id: P016
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 以资料主题建立的编辑分类；尚未收集独立职位名称证据
+status: published
+slug: p018-conversation-design
+resources:
+  - id: R080
+    reason: ""
+  - id: R079
+    reason: ""
+  - id: R108
+    reason: ""
+  - id: R090
+    reason: ""

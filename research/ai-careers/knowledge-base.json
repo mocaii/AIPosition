@@ -1,0 +1,6600 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "collected_at": "2026-09-15",
+    "title": "AI 职位与学习资料知识库 · 首轮采集",
+    "scope": "中英文 AI 岗位、相关职业与细分方向；公开学习资料",
+    "methodology": "人工检索官方招聘/职业信息，打开学习资料入口，按技能编辑归类并去重。非全网穷尽；非招聘市场抽样统计。",
+    "caveats": [
+      "岗位职责与推荐关系为编辑归纳",
+      "80 条目含细分方向和行业变体，不能解释为 80 个互斥新职业",
+      "未逐课学习或运行代码；未验证所有章节、证书价格与许可",
+      "公开可访问不代表可复制发布，本站种子仅保留链接和简述",
+      "来源检索以采集日为准，招聘岗位可能关闭或变更"
+    ],
+    "excluded_candidates": [
+      {
+        "id": "R110",
+        "url": "https://github.com/datawhalechina/hello-llm",
+        "reason": "抓取失败，未取得可靠内容证据，不收入资料库"
+      },
+      {
+        "id": "R114",
+        "url": "https://github.com/datawhalechina/happy-ml",
+        "reason": "抓取失败，未取得可靠内容证据，不收入资料库"
+      },
+      {
+        "id": "R119",
+        "url": "https://datawhalechina.github.io/llm-universe/",
+        "reason": "与 R012 同一教程，合并为备用入口"
+      }
+    ]
+  },
+  "roles": [
+    {
+      "id": "P001",
+      "category": "应用开发与交付",
+      "name_zh": "FDE／前线部署工程师",
+      "name_en": "Forward Deployed Engineer",
+      "aliases": [
+        "FDE",
+        "前沿部署工程师",
+        "驻场 AI 工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J01",
+        "A115"
+      ],
+      "skill_ids": [
+        "app",
+        "architecture",
+        "integration",
+        "eval"
+      ],
+      "resource_ids": [
+        "R027",
+        "R012",
+        "R015",
+        "R035",
+        "R068"
+      ],
+      "summary": "深入客户场景，完成 AI 方案开发、集成和交付",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P075",
+        "P076"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P002",
+      "category": "应用开发与交付",
+      "name_zh": "AI 应用工程师",
+      "name_en": "Applied AI Engineer",
+      "aliases": [
+        "AI Engineer",
+        "大模型应用工程师",
+        "生成式 AI 工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A93"
+      ],
+      "skill_ids": [
+        "app",
+        "llm",
+        "prompt",
+        "eval"
+      ],
+      "resource_ids": [
+        "R026",
+        "R012",
+        "R010",
+        "R108",
+        "R028"
+      ],
+      "summary": "把模型能力组合成可用的软件功能",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P009"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P003",
+      "category": "应用开发与交付",
+      "name_zh": "AI 全栈工程师",
+      "name_en": "AI Full-stack Engineer",
+      "aliases": [
+        "AI 产品工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J15"
+      ],
+      "skill_ids": [
+        "app",
+        "tools",
+        "deployment"
+      ],
+      "resource_ids": [
+        "R026",
+        "R027",
+        "R018",
+        "R058",
+        "R118"
+      ],
+      "summary": "实现 AI 产品的界面、服务端和模型集成",
+      "parent_id": "P002",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P002"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P004",
+      "category": "应用开发与交付",
+      "name_zh": "Agent 工程师",
+      "name_en": "AI Agent Engineer",
+      "aliases": [
+        "智能体开发工程师",
+        "Agentic AI Engineer"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A188"
+      ],
+      "skill_ids": [
+        "agent",
+        "tools",
+        "workflow",
+        "eval"
+      ],
+      "resource_ids": [
+        "R013",
+        "R014",
+        "R015",
+        "R019",
+        "R037"
+      ],
+      "summary": "构建能够调用工具并执行多步任务的智能体",
+      "parent_id": "P002",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P002",
+        "P007",
+        "P008",
+        "P012"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P005",
+      "category": "应用开发与交付",
+      "name_zh": "RAG 工程师",
+      "name_en": "RAG Engineer",
+      "aliases": [
+        "检索增强生成工程师",
+        "知识库工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J02"
+      ],
+      "skill_ids": [
+        "rag",
+        "embedding",
+        "search",
+        "eval"
+      ],
+      "resource_ids": [
+        "R012",
+        "R020",
+        "R021",
+        "R031",
+        "R035"
+      ],
+      "summary": "让模型可靠检索并使用外部知识",
+      "parent_id": "P002",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P002"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P006",
+      "category": "应用开发与交付",
+      "name_zh": "提示工程师",
+      "name_en": "Prompt Engineer",
+      "aliases": [
+        "提示词工程师"
+      ],
+      "kind": "practice_title",
+      "source_ids": [
+        "J14"
+      ],
+      "skill_ids": [
+        "prompt",
+        "eval",
+        "context"
+      ],
+      "resource_ids": [
+        "R108",
+        "R022",
+        "R036",
+        "R016"
+      ],
+      "summary": "设计和评估提示、示例与输出约束；常作为其他岗位的一项职责",
+      "parent_id": "P002",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P002"
+      ],
+      "evidence_note": "企业实践文章出现的称谓；非本次核实的在招职位"
+    },
+    {
+      "id": "P007",
+      "category": "应用开发与交付",
+      "name_zh": "上下文工程方向",
+      "name_en": "Context Engineering",
+      "aliases": [
+        "上下文工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "context",
+        "agent",
+        "rag"
+      ],
+      "resource_ids": [
+        "R016",
+        "R015",
+        "R019",
+        "R020"
+      ],
+      "summary": "组织检索内容、记忆和工具结果，改善智能体任务表现",
+      "parent_id": "P004",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P004"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P008",
+      "category": "应用开发与交付",
+      "name_zh": "MCP／工具集成开发方向",
+      "name_en": "MCP and Tool Integration",
+      "aliases": [
+        "MCP 开发工程师",
+        "工具连接器工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "mcp",
+        "tools",
+        "integration",
+        "security"
+      ],
+      "resource_ids": [
+        "R018",
+        "R017",
+        "R025",
+        "R068"
+      ],
+      "summary": "构建模型可调用的工具和数据连接器",
+      "parent_id": "P004",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P004"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P009",
+      "category": "应用开发与交付",
+      "name_zh": "AI 工作流／自动化工程方向",
+      "name_en": "AI Workflow Automation",
+      "aliases": [
+        "AI 自动化工程师",
+        "Dify 开发",
+        "n8n 开发"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "workflow",
+        "automation",
+        "lowcode"
+      ],
+      "resource_ids": [
+        "R023",
+        "R024",
+        "R015",
+        "R036"
+      ],
+      "summary": "把模型、业务系统和人工审核连接为流程",
+      "parent_id": "P002",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P002"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P010",
+      "category": "应用开发与交付",
+      "name_zh": "AI 解决方案架构师",
+      "name_en": "AI Solutions Architect",
+      "aliases": [
+        "Applied AI Architect",
+        "生成式 AI 架构师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J03",
+        "J04"
+      ],
+      "skill_ids": [
+        "architecture",
+        "integration",
+        "deployment",
+        "security"
+      ],
+      "resource_ids": [
+        "R027",
+        "R029",
+        "R055",
+        "R056",
+        "R073"
+      ],
+      "summary": "为业务需求选择模型、数据和部署架构",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P060"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P011",
+      "category": "应用开发与交付",
+      "name_zh": "AI 技术交付负责人",
+      "name_en": "Technical Deployment Lead",
+      "aliases": [
+        "AI 交付经理"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A115"
+      ],
+      "skill_ids": [
+        "product",
+        "architecture",
+        "eval",
+        "integration"
+      ],
+      "resource_ids": [
+        "R027",
+        "R030",
+        "R078",
+        "R072"
+      ],
+      "summary": "组织需求、验收、技术协同与客户落地",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P012",
+      "category": "应用开发与交付",
+      "name_zh": "计算机操作智能体工程方向",
+      "name_en": "Computer-use Agent Engineer",
+      "aliases": [
+        "GUI Agent 工程师",
+        "Computer Use Engineer"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A30"
+      ],
+      "skill_ids": [
+        "agent",
+        "tools",
+        "vision",
+        "eval"
+      ],
+      "resource_ids": [
+        "R014",
+        "R017",
+        "R019",
+        "R037",
+        "R107"
+      ],
+      "summary": "开发通过屏幕理解和界面操作完成任务的系统",
+      "parent_id": "P004",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P004"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P013",
+      "category": "产品与用户体验",
+      "name_zh": "AI 产品经理",
+      "name_en": "AI Product Manager",
+      "aliases": [
+        "大模型产品经理",
+        "生成式 AI 产品经理"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J11",
+        "J12"
+      ],
+      "skill_ids": [
+        "product",
+        "literacy",
+        "eval"
+      ],
+      "resource_ids": [
+        "R082",
+        "R078",
+        "R027",
+        "R030",
+        "R035"
+      ],
+      "summary": "定义适合 AI 的用户问题、产品目标和验收方式",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P014",
+        "P015",
+        "P077"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P014",
+      "category": "产品与用户体验",
+      "name_zh": "模型／AI 平台产品经理",
+      "name_en": "AI Platform Product Manager",
+      "aliases": [
+        "模型产品经理",
+        "API 产品经理"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J12",
+        "J13"
+      ],
+      "skill_ids": [
+        "product",
+        "llm",
+        "systems"
+      ],
+      "resource_ids": [
+        "R010",
+        "R027",
+        "R029",
+        "R042"
+      ],
+      "summary": "规划模型能力、开发者体验和平台服务",
+      "parent_id": "P013",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P013"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P015",
+      "category": "产品与用户体验",
+      "name_zh": "Agent 产品经理",
+      "name_en": "Agent Product Manager",
+      "aliases": [
+        "智能体产品经理"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J13"
+      ],
+      "skill_ids": [
+        "product",
+        "agent",
+        "eval"
+      ],
+      "resource_ids": [
+        "R015",
+        "R014",
+        "R078",
+        "R037"
+      ],
+      "summary": "设计智能体任务边界、交互和失败处理",
+      "parent_id": "P013",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P013"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P016",
+      "category": "产品与用户体验",
+      "name_zh": "AI 产品设计师",
+      "name_en": "AI Product Designer",
+      "aliases": [
+        "AI UX Designer",
+        "AI 交互设计师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A169"
+      ],
+      "skill_ids": [
+        "ux",
+        "product",
+        "eval"
+      ],
+      "resource_ids": [
+        "R078",
+        "R079",
+        "R080",
+        "R035"
+      ],
+      "summary": "设计模型交互、结果呈现和可控的用户体验",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P018"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P017",
+      "category": "产品与用户体验",
+      "name_zh": "AI 用户研究员",
+      "name_en": "AI UX Researcher",
+      "aliases": [
+        "Human-AI Interaction Researcher"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A203"
+      ],
+      "skill_ids": [
+        "research",
+        "ux",
+        "product"
+      ],
+      "resource_ids": [
+        "R078",
+        "R079",
+        "R081",
+        "R074"
+      ],
+      "summary": "研究用户对 AI 的理解、信任、使用行为与需求",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P018",
+      "category": "产品与用户体验",
+      "name_zh": "对话设计方向",
+      "name_en": "Conversation Design",
+      "aliases": [
+        "对话设计师",
+        "Conversational UX Designer"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "conversation",
+        "ux",
+        "prompt"
+      ],
+      "resource_ids": [
+        "R080",
+        "R079",
+        "R108",
+        "R090"
+      ],
+      "summary": "设计对话结构、澄清方式和错误恢复",
+      "parent_id": "P016",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P016"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P019",
+      "category": "产品与用户体验",
+      "name_zh": "AI 产品数据科学家",
+      "name_en": "AI Product Data Scientist",
+      "aliases": [
+        "AI 产品分析师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A156"
+      ],
+      "skill_ids": [
+        "data",
+        "eval",
+        "product",
+        "ml"
+      ],
+      "resource_ids": [
+        "R003",
+        "R006",
+        "R030",
+        "R039"
+      ],
+      "summary": "用实验和数据评估 AI 产品的效果",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P020",
+      "category": "产品与用户体验",
+      "name_zh": "AI 应用战略顾问",
+      "name_en": "Applied AI Strategist",
+      "aliases": [
+        "AI 转型顾问",
+        "AI 业务顾问"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A99"
+      ],
+      "skill_ids": [
+        "strategy",
+        "product",
+        "literacy",
+        "risk"
+      ],
+      "resource_ids": [
+        "R082",
+        "R081",
+        "R078",
+        "R072"
+      ],
+      "summary": "识别组织可落地的 AI 机会并制定采用方案",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P021",
+      "category": "模型研究与算法",
+      "name_zh": "机器学习工程师",
+      "name_en": "Machine Learning Engineer",
+      "aliases": [
+        "MLE",
+        "机器学习算法工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J20",
+        "J17"
+      ],
+      "skill_ids": [
+        "ml",
+        "dl",
+        "training"
+      ],
+      "resource_ids": [
+        "R001",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R002"
+      ],
+      "summary": "训练、评估和部署解决实际问题的学习模型",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P022",
+      "category": "模型研究与算法",
+      "name_zh": "AI 研究科学家",
+      "name_en": "AI Research Scientist",
+      "aliases": [
+        "Research Scientist",
+        "人工智能研究员"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J15"
+      ],
+      "skill_ids": [
+        "math",
+        "dl",
+        "llm",
+        "eval"
+      ],
+      "resource_ids": [
+        "R006",
+        "R007",
+        "R009",
+        "R038"
+      ],
+      "summary": "提出模型方法并通过实验验证研究假设",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P072"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P023",
+      "category": "模型研究与算法",
+      "name_zh": "AI 研究工程师",
+      "name_en": "AI Research Engineer",
+      "aliases": [
+        "Research Engineer"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A43",
+        "A38"
+      ],
+      "skill_ids": [
+        "training",
+        "systems",
+        "llm"
+      ],
+      "resource_ids": [
+        "R005",
+        "R009",
+        "R048",
+        "R049"
+      ],
+      "summary": "把研究想法实现为可扩展、可复现的实验系统",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P024",
+        "P025"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P024",
+      "category": "模型研究与算法",
+      "name_zh": "大模型预训练工程师",
+      "name_en": "LLM Pretraining Engineer",
+      "aliases": [
+        "大模型训练工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A43"
+      ],
+      "skill_ids": [
+        "llm",
+        "training",
+        "data",
+        "distributed"
+      ],
+      "resource_ids": [
+        "R009",
+        "R011",
+        "R048",
+        "R049",
+        "R066",
+        "R113"
+      ],
+      "summary": "构建预训练数据、训练流程和模型实验",
+      "parent_id": "P023",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P023"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P025",
+      "category": "模型研究与算法",
+      "name_zh": "大模型后训练工程师",
+      "name_en": "LLM Post-training Engineer",
+      "aliases": [
+        "后训练研究工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A46"
+      ],
+      "skill_ids": [
+        "finetune",
+        "alignment",
+        "rl"
+      ],
+      "resource_ids": [
+        "R043",
+        "R044",
+        "R046",
+        "R047",
+        "R111"
+      ],
+      "summary": "通过指令、偏好和强化学习改善模型表现",
+      "parent_id": "P023",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P023",
+        "P026"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P026",
+      "category": "模型研究与算法",
+      "name_zh": "大模型微调工程方向",
+      "name_en": "LLM Fine-tuning",
+      "aliases": [
+        "SFT 工程师",
+        "LoRA 微调工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A46",
+        "J05"
+      ],
+      "skill_ids": [
+        "finetune",
+        "lora",
+        "data"
+      ],
+      "resource_ids": [
+        "R043",
+        "R045",
+        "R046",
+        "R111",
+        "R117"
+      ],
+      "summary": "为特定任务调整模型参数并验证收益",
+      "parent_id": "P025",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P025"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P027",
+      "category": "模型研究与算法",
+      "name_zh": "强化学习工程师",
+      "name_en": "Reinforcement Learning Engineer",
+      "aliases": [
+        "RL Engineer"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A38",
+        "J18"
+      ],
+      "skill_ids": [
+        "rl",
+        "math",
+        "simulation"
+      ],
+      "resource_ids": [
+        "R097",
+        "R098",
+        "R044",
+        "R047",
+        "R112"
+      ],
+      "summary": "通过奖励和环境交互训练策略",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P028",
+      "category": "模型研究与算法",
+      "name_zh": "自然语言处理工程师",
+      "name_en": "NLP Engineer",
+      "aliases": [
+        "NLP 算法工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J21",
+        "J05"
+      ],
+      "skill_ids": [
+        "nlp",
+        "llm",
+        "embedding"
+      ],
+      "resource_ids": [
+        "R007",
+        "R010",
+        "R031",
+        "R116"
+      ],
+      "summary": "处理语言理解、生成和文本结构化任务",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P029",
+      "category": "模型研究与算法",
+      "name_zh": "多模态模型工程师",
+      "name_en": "Multimodal ML Engineer",
+      "aliases": [
+        "多模态算法工程师",
+        "VLM 工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J05",
+        "J20"
+      ],
+      "skill_ids": [
+        "multimodal",
+        "vision",
+        "audio",
+        "training"
+      ],
+      "resource_ids": [
+        "R008",
+        "R090",
+        "R092",
+        "R107",
+        "R117"
+      ],
+      "summary": "联合处理文本、图像、音频等输入输出",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P032"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P030",
+      "category": "模型研究与算法",
+      "name_zh": "计算机视觉工程师",
+      "name_en": "Computer Vision Engineer",
+      "aliases": [
+        "CV 算法工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J05",
+        "J16"
+      ],
+      "skill_ids": [
+        "vision",
+        "dl",
+        "image"
+      ],
+      "resource_ids": [
+        "R008",
+        "R107",
+        "R004",
+        "R005"
+      ],
+      "summary": "开发图像和视频理解模型",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P035",
+        "P073"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P031",
+      "category": "模型研究与算法",
+      "name_zh": "语音算法工程师",
+      "name_en": "Speech ML Engineer",
+      "aliases": [
+        "ASR 工程师",
+        "TTS 工程师",
+        "音频算法工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J20"
+      ],
+      "skill_ids": [
+        "audio",
+        "asr",
+        "tts"
+      ],
+      "resource_ids": [
+        "R090",
+        "R091",
+        "R092",
+        "R007"
+      ],
+      "summary": "开发语音识别、合成及音频理解模型",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P032",
+      "category": "模型研究与算法",
+      "name_zh": "图像／视频生成算法方向",
+      "name_en": "Generative Vision Engineer",
+      "aliases": [
+        "扩散模型工程师",
+        "视频生成工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J05",
+        "J16"
+      ],
+      "skill_ids": [
+        "diffusion",
+        "vision",
+        "video"
+      ],
+      "resource_ids": [
+        "R085",
+        "R086",
+        "R008",
+        "R092"
+      ],
+      "summary": "训练和优化视觉内容生成模型",
+      "parent_id": "P029",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P029"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P033",
+      "category": "模型研究与算法",
+      "name_zh": "检索／搜索算法工程师",
+      "name_en": "Retrieval and Search Engineer",
+      "aliases": [
+        "搜索算法工程师",
+        "Embedding 工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J02"
+      ],
+      "skill_ids": [
+        "search",
+        "embedding",
+        "vector"
+      ],
+      "resource_ids": [
+        "R031",
+        "R032",
+        "R033",
+        "R021"
+      ],
+      "summary": "开发召回、排序和语义匹配能力",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P034",
+      "category": "模型研究与算法",
+      "name_zh": "推荐算法工程师",
+      "name_en": "Recommendation Engineer",
+      "aliases": [
+        "推荐系统工程师",
+        "搜广推算法工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J04",
+        "J16"
+      ],
+      "skill_ids": [
+        "recommendation",
+        "ml",
+        "data"
+      ],
+      "resource_ids": [
+        "R099",
+        "R003",
+        "R006",
+        "R030"
+      ],
+      "summary": "建立个性化召回、排序与效果评估",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P035",
+      "category": "模型研究与算法",
+      "name_zh": "文档智能／OCR 方向",
+      "name_en": "Document AI Engineer",
+      "aliases": [
+        "OCR 算法工程师",
+        "文档解析工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "document",
+        "ocr",
+        "vision",
+        "rag"
+      ],
+      "resource_ids": [
+        "R105",
+        "R107",
+        "R020",
+        "R012"
+      ],
+      "summary": "从图像和复杂文档中提取可检索信息",
+      "parent_id": "P030",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P030"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P036",
+      "category": "基础设施与部署",
+      "name_zh": "机器学习平台工程师",
+      "name_en": "ML Platform Engineer",
+      "aliases": [
+        "ML Infrastructure Engineer"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A60"
+      ],
+      "skill_ids": [
+        "infra",
+        "mlops",
+        "distributed"
+      ],
+      "resource_ids": [
+        "R028",
+        "R042",
+        "R055",
+        "R056",
+        "R057"
+      ],
+      "summary": "提供实验、训练与模型运行的平台能力",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P037",
+        "P040",
+        "P044",
+        "P045"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P037",
+      "category": "基础设施与部署",
+      "name_zh": "MLOps 工程方向",
+      "name_en": "MLOps Engineer",
+      "aliases": [
+        "机器学习运维工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A60"
+      ],
+      "skill_ids": [
+        "mlops",
+        "data",
+        "deployment"
+      ],
+      "resource_ids": [
+        "R028",
+        "R042",
+        "R065",
+        "R057",
+        "R056"
+      ],
+      "summary": "管理模型交付、版本和运行环境",
+      "parent_id": "P036",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P036"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P038",
+      "category": "基础设施与部署",
+      "name_zh": "LLMOps／AgentOps 工程师",
+      "name_en": "LLMOps / AgentOps Engineer",
+      "aliases": [
+        "DevOps AgentOps"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A161"
+      ],
+      "skill_ids": [
+        "llmops",
+        "observability",
+        "eval",
+        "deployment"
+      ],
+      "resource_ids": [
+        "R040",
+        "R041",
+        "R042",
+        "R036",
+        "R050"
+      ],
+      "summary": "维护语言模型和智能体服务的追踪、质量与运行流程",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P039",
+      "category": "基础设施与部署",
+      "name_zh": "推理优化工程师",
+      "name_en": "Inference Performance Engineer",
+      "aliases": [
+        "推理引擎工程师",
+        "LLM Serving Engineer"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A23",
+        "J04"
+      ],
+      "skill_ids": [
+        "inference",
+        "serving",
+        "gpu"
+      ],
+      "resource_ids": [
+        "R050",
+        "R051",
+        "R052",
+        "R058",
+        "R059"
+      ],
+      "summary": "优化模型服务的吞吐、延迟和资源使用",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P043"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P040",
+      "category": "基础设施与部署",
+      "name_zh": "分布式训练工程方向",
+      "name_en": "Distributed Training Engineer",
+      "aliases": [
+        "训练系统工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A43",
+        "A60"
+      ],
+      "skill_ids": [
+        "distributed",
+        "training",
+        "systems"
+      ],
+      "resource_ids": [
+        "R048",
+        "R049",
+        "R055",
+        "R009"
+      ],
+      "summary": "解决多设备训练的并行、通信和稳定性问题",
+      "parent_id": "P036",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P036"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P041",
+      "category": "基础设施与部署",
+      "name_zh": "GPU 性能／算子工程师",
+      "name_en": "GPU Performance / Kernel Engineer",
+      "aliases": [
+        "CUDA 工程师",
+        "Triton 工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A22"
+      ],
+      "skill_ids": [
+        "gpu",
+        "kernel",
+        "systems"
+      ],
+      "resource_ids": [
+        "R053",
+        "R054",
+        "R052",
+        "R048"
+      ],
+      "summary": "编写和优化模型计算内核",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P042",
+      "category": "基础设施与部署",
+      "name_zh": "AI 集群网络工程师",
+      "name_en": "ML Networking Engineer",
+      "aliases": [
+        "AI Networking Engineer"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A58"
+      ],
+      "skill_ids": [
+        "infra",
+        "distributed",
+        "systems"
+      ],
+      "resource_ids": [
+        "R049",
+        "R048",
+        "R056",
+        "R029"
+      ],
+      "summary": "支撑训练和推理集群间的数据通信",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P043",
+      "category": "基础设施与部署",
+      "name_zh": "端侧 AI 工程方向",
+      "name_en": "Edge AI Engineer",
+      "aliases": [
+        "端侧大模型工程师",
+        "移动端 AI 工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J20"
+      ],
+      "skill_ids": [
+        "edge",
+        "inference",
+        "systems"
+      ],
+      "resource_ids": [
+        "R059",
+        "R060",
+        "R061",
+        "R104"
+      ],
+      "summary": "在移动、桌面或嵌入式设备上运行模型",
+      "parent_id": "P039",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P039"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P044",
+      "category": "基础设施与部署",
+      "name_zh": "向量数据库工程方向",
+      "name_en": "Vector Search Infrastructure",
+      "aliases": [
+        "向量检索工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "vector",
+        "search",
+        "infra"
+      ],
+      "resource_ids": [
+        "R032",
+        "R033",
+        "R031",
+        "R029"
+      ],
+      "summary": "建设向量索引、检索服务和数据更新流程",
+      "parent_id": "P036",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P036"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P045",
+      "category": "基础设施与部署",
+      "name_zh": "国产 AI 框架与部署方向",
+      "name_en": "AI Framework / Accelerator Integration",
+      "aliases": [
+        "昇腾训练推理工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J04"
+      ],
+      "skill_ids": [
+        "training",
+        "inference",
+        "systems"
+      ],
+      "resource_ids": [
+        "R115",
+        "R111",
+        "R116",
+        "R117"
+      ],
+      "summary": "适配模型训练与推理到指定软硬件平台",
+      "parent_id": "P036",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P036"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P046",
+      "category": "数据与知识工程",
+      "name_zh": "AI 数据工程师",
+      "name_en": "AI Data Engineer",
+      "aliases": [
+        "训练数据工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A11"
+      ],
+      "skill_ids": [
+        "data",
+        "training",
+        "distributed"
+      ],
+      "resource_ids": [
+        "R064",
+        "R065",
+        "R066",
+        "R055"
+      ],
+      "summary": "建设模型数据采集、转换与训练数据管道",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P051",
+        "P052",
+        "P053"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P047",
+      "category": "数据与知识工程",
+      "name_zh": "AI 数据运营经理",
+      "name_en": "Human Data Operations Manager",
+      "aliases": [
+        "Human Data 项目经理"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A12"
+      ],
+      "skill_ids": [
+        "data",
+        "annotation",
+        "humanfeedback"
+      ],
+      "resource_ids": [
+        "R062",
+        "R063",
+        "R064",
+        "R109"
+      ],
+      "summary": "组织标注、反馈任务和数据交付质量",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P048",
+      "category": "数据与知识工程",
+      "name_zh": "人工智能训练师",
+      "name_en": "AI Trainer",
+      "aliases": [
+        "人工智能训练师（国内职业）"
+      ],
+      "kind": "occupation",
+      "source_ids": [
+        "J10",
+        "J09"
+      ],
+      "skill_ids": [
+        "annotation",
+        "data",
+        "humanfeedback"
+      ],
+      "resource_ids": [
+        "R109",
+        "R062",
+        "R063",
+        "R003"
+      ],
+      "summary": "围绕数据处理、标注和系统训练辅助开展工作；区别于模型训练算法工程师",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P049",
+        "P050"
+      ],
+      "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+    },
+    {
+      "id": "P049",
+      "category": "数据与知识工程",
+      "name_zh": "数据标注／质量审核方向",
+      "name_en": "Data Annotation and QA",
+      "aliases": [
+        "AI 标注员",
+        "标注审核员"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J09",
+        "A12"
+      ],
+      "skill_ids": [
+        "annotation",
+        "data"
+      ],
+      "resource_ids": [
+        "R062",
+        "R063",
+        "R109",
+        "R064"
+      ],
+      "summary": "制定标注规则并进行标注、复核与一致性检查",
+      "parent_id": "P048",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P048"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P050",
+      "category": "数据与知识工程",
+      "name_zh": "模型人工反馈／偏好评审方向",
+      "name_en": "Human Feedback Rater",
+      "aliases": [
+        "AI 回答评审员",
+        "偏好标注员"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "A12",
+        "A46"
+      ],
+      "skill_ids": [
+        "humanfeedback",
+        "annotation",
+        "eval"
+      ],
+      "resource_ids": [
+        "R063",
+        "R044",
+        "R046",
+        "R109"
+      ],
+      "summary": "按任务标准比较模型回答并整理反馈数据",
+      "parent_id": "P048",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P048"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P051",
+      "category": "数据与知识工程",
+      "name_zh": "合成数据工程方向",
+      "name_en": "Synthetic Data Engineer",
+      "aliases": [
+        "合成数据研发工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "synthetic",
+        "data",
+        "eval"
+      ],
+      "resource_ids": [
+        "R067",
+        "R066",
+        "R064",
+        "R035"
+      ],
+      "summary": "生成、筛选和评估用于训练或测试的数据",
+      "parent_id": "P046",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P046"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P052",
+      "category": "数据与知识工程",
+      "name_zh": "知识图谱／GraphRAG 方向",
+      "name_en": "Knowledge Graph Engineer",
+      "aliases": [
+        "知识工程师",
+        "GraphRAG 工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "graph",
+        "rag",
+        "data"
+      ],
+      "resource_ids": [
+        "R034",
+        "R106",
+        "R020",
+        "R031"
+      ],
+      "summary": "组织实体关系并为检索问答提供知识结构",
+      "parent_id": "P046",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P046"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P053",
+      "category": "数据与知识工程",
+      "name_zh": "AI 数据隐私工程方向",
+      "name_en": "AI Privacy Engineer",
+      "aliases": [
+        "隐私保护工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "privacy",
+        "data",
+        "security"
+      ],
+      "resource_ids": [
+        "R103",
+        "R072",
+        "R074",
+        "R064"
+      ],
+      "summary": "在 AI 数据管道中处理敏感信息和访问边界",
+      "parent_id": "P046",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P046"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P054",
+      "category": "评测安全与治理",
+      "name_zh": "模型评测工程师",
+      "name_en": "Model Evaluation Engineer",
+      "aliases": [
+        "Evals Engineer",
+        "大模型评测工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A41"
+      ],
+      "skill_ids": [
+        "eval",
+        "llm",
+        "data"
+      ],
+      "resource_ids": [
+        "R037",
+        "R038",
+        "R039",
+        "R120",
+        "R035"
+      ],
+      "summary": "建立测试集、指标和可复现实验来判断模型能力",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P056"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P055",
+      "category": "评测安全与治理",
+      "name_zh": "生成式人工智能系统测试员",
+      "name_en": "Generative AI System Tester",
+      "aliases": [
+        "生成式 AI 系统测试员（国内工种）"
+      ],
+      "kind": "occupation_subtype",
+      "source_ids": [
+        "J07"
+      ],
+      "skill_ids": [
+        "eval",
+        "safety",
+        "app"
+      ],
+      "resource_ids": [
+        "R036",
+        "R035",
+        "R037",
+        "R068"
+      ],
+      "summary": "测试生成式系统的功能、输出与安全表现",
+      "parent_id": "P074",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P074"
+      ],
+      "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+    },
+    {
+      "id": "P056",
+      "category": "评测安全与治理",
+      "name_zh": "AI 红队工程方向",
+      "name_en": "AI Red Team Engineer",
+      "aliases": [
+        "大模型红队测试工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J22"
+      ],
+      "skill_ids": [
+        "redteam",
+        "security",
+        "eval"
+      ],
+      "resource_ids": [
+        "R068",
+        "R069",
+        "R070",
+        "R071",
+        "R037"
+      ],
+      "summary": "通过对抗测试发现 AI 系统的薄弱环节",
+      "parent_id": "P054",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P054"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P057",
+      "category": "评测安全与治理",
+      "name_zh": "AI 安全研究工程师",
+      "name_en": "AI Safety Research Engineer",
+      "aliases": [
+        "Safeguards Engineer"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A20",
+        "J22"
+      ],
+      "skill_ids": [
+        "safety",
+        "eval",
+        "security"
+      ],
+      "resource_ids": [
+        "R076",
+        "R037",
+        "R068",
+        "R074"
+      ],
+      "summary": "研究并实现降低模型不安全行为的技术",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P058",
+      "category": "评测安全与治理",
+      "name_zh": "AI 对齐研究员",
+      "name_en": "AI Alignment Researcher",
+      "aliases": [
+        "Alignment Scientist"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A27"
+      ],
+      "skill_ids": [
+        "alignment",
+        "rl",
+        "safety"
+      ],
+      "resource_ids": [
+        "R076",
+        "R044",
+        "R046",
+        "R047"
+      ],
+      "summary": "研究模型行为与目标、偏好及约束的一致性",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P059",
+      "category": "评测安全与治理",
+      "name_zh": "可解释性研究员",
+      "name_en": "Interpretability Researcher",
+      "aliases": [
+        "Mechanistic Interpretability Researcher"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A34"
+      ],
+      "skill_ids": [
+        "interpretability",
+        "llm",
+        "math"
+      ],
+      "resource_ids": [
+        "R075",
+        "R076",
+        "R077",
+        "R007"
+      ],
+      "summary": "通过实验理解模型内部表示和计算机制",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P060",
+      "category": "评测安全与治理",
+      "name_zh": "AI 应用安全架构方向",
+      "name_en": "AI Security Architect",
+      "aliases": [
+        "AI 安全架构师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J15"
+      ],
+      "skill_ids": [
+        "security",
+        "architecture",
+        "redteam"
+      ],
+      "resource_ids": [
+        "R068",
+        "R069",
+        "R073",
+        "R018"
+      ],
+      "summary": "设计模型应用、工具权限和数据边界的安全架构",
+      "parent_id": "P010",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P010"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P061",
+      "category": "评测安全与治理",
+      "name_zh": "负责任 AI／治理方向",
+      "name_en": "Responsible AI / AI Governance",
+      "aliases": [
+        "AI 治理专员",
+        "Responsible AI Specialist"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "governance",
+        "risk",
+        "fairness"
+      ],
+      "resource_ids": [
+        "R072",
+        "R074",
+        "R078",
+        "R073"
+      ],
+      "summary": "组织模型风险识别、评审和治理记录",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P062",
+      "category": "评测安全与治理",
+      "name_zh": "AI 法规法律顾问",
+      "name_en": "AI Regulatory Counsel",
+      "aliases": [
+        "AI 合规律师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A267"
+      ],
+      "skill_ids": [
+        "governance",
+        "risk",
+        "privacy"
+      ],
+      "resource_ids": [
+        "R072",
+        "R073",
+        "R103"
+      ],
+      "summary": "提供 AI 相关监管和产品法律支持；所列材料仅补充 AI 技术背景",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P063",
+      "category": "评测安全与治理",
+      "name_zh": "AI 信任与安全运营",
+      "name_en": "AI Trust and Safety Operations",
+      "aliases": [
+        "AI 风险运营",
+        "模型滥用治理"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J23"
+      ],
+      "skill_ids": [
+        "safety",
+        "risk",
+        "eval"
+      ],
+      "resource_ids": [
+        "R068",
+        "R037",
+        "R072",
+        "R074"
+      ],
+      "summary": "调查产品滥用、协调审核并维护安全运营流程",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P064",
+      "category": "创意与内容生产",
+      "name_zh": "AI 创意技术专家",
+      "name_en": "Creative Technologist",
+      "aliases": [
+        "创意技术工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J06"
+      ],
+      "skill_ids": [
+        "creative",
+        "workflow",
+        "image",
+        "video"
+      ],
+      "resource_ids": [
+        "R087",
+        "R088",
+        "R089",
+        "R086"
+      ],
+      "summary": "连接创作需求、生成工具与媒体制作流程",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P065",
+        "P066"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P065",
+      "category": "创意与内容生产",
+      "name_zh": "AIGC 视觉设计方向",
+      "name_en": "AI-assisted Visual Designer",
+      "aliases": [
+        "AI 设计师",
+        "AIGC 设计师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J30"
+      ],
+      "skill_ids": [
+        "creative",
+        "image",
+        "prompt"
+      ],
+      "resource_ids": [
+        "R088",
+        "R087",
+        "R085",
+        "R108"
+      ],
+      "summary": "用生成工具辅助视觉探索、制作和迭代",
+      "parent_id": "P064",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P064"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P066",
+      "category": "创意与内容生产",
+      "name_zh": "AI 视频创作方向",
+      "name_en": "AI Video Creator",
+      "aliases": [
+        "AI 视频制作师",
+        "AI 导演"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J06",
+        "J30"
+      ],
+      "skill_ids": [
+        "creative",
+        "video",
+        "workflow"
+      ],
+      "resource_ids": [
+        "R089",
+        "R087",
+        "R088",
+        "R085"
+      ],
+      "summary": "把分镜、生成素材和后期编辑组织为视频作品",
+      "parent_id": "P064",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P064"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P067",
+      "category": "创意与内容生产",
+      "name_zh": "生成式人工智能动画制作员",
+      "name_en": "Generative AI Animation Producer",
+      "aliases": [
+        "生成式 AI 动画制作员（国内工种）"
+      ],
+      "kind": "occupation_subtype",
+      "source_ids": [
+        "J07"
+      ],
+      "skill_ids": [
+        "creative",
+        "video",
+        "image"
+      ],
+      "resource_ids": [
+        "R087",
+        "R088",
+        "R089"
+      ],
+      "summary": "将生成式工具应用于动画制作；仍需动画专业基础",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+    },
+    {
+      "id": "P068",
+      "category": "机器人与具身智能",
+      "name_zh": "机器人学习工程师",
+      "name_en": "Robot Learning Engineer",
+      "aliases": [
+        "具身智能算法工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J17",
+        "J18"
+      ],
+      "skill_ids": [
+        "robotics",
+        "rl",
+        "vision"
+      ],
+      "resource_ids": [
+        "R093",
+        "R094",
+        "R095",
+        "R097"
+      ],
+      "summary": "训练可在真实机器人上执行任务的策略",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P069",
+        "P070"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P069",
+      "category": "机器人与具身智能",
+      "name_zh": "VLA 模型研发方向",
+      "name_en": "Vision-Language-Action Engineer",
+      "aliases": [
+        "视觉语言动作模型工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J17"
+      ],
+      "skill_ids": [
+        "vla",
+        "robotics",
+        "multimodal"
+      ],
+      "resource_ids": [
+        "R093",
+        "R094",
+        "R107",
+        "R092"
+      ],
+      "summary": "学习从视觉与语言到动作的策略模型",
+      "parent_id": "P068",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P068"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P070",
+      "category": "机器人与具身智能",
+      "name_zh": "机器人仿真／强化学习方向",
+      "name_en": "Robot Simulation and RL",
+      "aliases": [
+        "仿真训练工程师",
+        "Sim-to-Real 工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J18"
+      ],
+      "skill_ids": [
+        "simulation",
+        "rl",
+        "robotics"
+      ],
+      "resource_ids": [
+        "R096",
+        "R098",
+        "R097",
+        "R095"
+      ],
+      "summary": "在仿真环境中训练并评估机器人策略",
+      "parent_id": "P068",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P068"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P071",
+      "category": "机器人与具身智能",
+      "name_zh": "机器人数据采集工程师",
+      "name_en": "Robotics Data Collection Engineer",
+      "aliases": [
+        "遥操作数据工程师"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J19"
+      ],
+      "skill_ids": [
+        "robotics",
+        "data",
+        "annotation"
+      ],
+      "resource_ids": [
+        "R094",
+        "R093",
+        "R062",
+        "R095"
+      ],
+      "summary": "建立机器人演示、遥操作和数据质量流程",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P072",
+      "category": "行业应用与科学",
+      "name_zh": "AI for Science 研究方向",
+      "name_en": "AI for Science Researcher",
+      "aliases": [
+        "科学智能研究员"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J15",
+        "J16"
+      ],
+      "skill_ids": [
+        "science",
+        "ml",
+        "training"
+      ],
+      "resource_ids": [
+        "R100",
+        "R101",
+        "R009",
+        "R005"
+      ],
+      "summary": "将学习模型用于科学问题的预测和发现",
+      "parent_id": "P022",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P022"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P073",
+      "category": "行业应用与科学",
+      "name_zh": "AI 医疗影像研发方向",
+      "name_en": "Medical Imaging AI Engineer",
+      "aliases": [
+        "医学影像算法工程师"
+      ],
+      "kind": "skill_direction",
+      "source_ids": [],
+      "skill_ids": [
+        "health",
+        "vision",
+        "eval"
+      ],
+      "resource_ids": [
+        "R102",
+        "R008",
+        "R005",
+        "R074"
+      ],
+      "summary": "研发医学影像处理模型；需要领域数据和专业评估",
+      "parent_id": "P030",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P030"
+      ],
+      "evidence_note": "以资料主题建立的编辑分类；尚未收集独立职位名称证据"
+    },
+    {
+      "id": "P074",
+      "category": "行业应用与科学",
+      "name_zh": "生成式人工智能系统应用员",
+      "name_en": "Generative AI System Application Specialist",
+      "aliases": [
+        "生成式 AI 系统应用员（国内职业）"
+      ],
+      "kind": "occupation",
+      "source_ids": [
+        "J08"
+      ],
+      "skill_ids": [
+        "app",
+        "lowcode",
+        "prompt"
+      ],
+      "resource_ids": [
+        "R026",
+        "R023",
+        "R012",
+        "R108"
+      ],
+      "summary": "面向业务场景应用和维护生成式人工智能系统",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P055"
+      ],
+      "evidence_note": "国内职业/工种口径，英文为便于检索的编辑翻译"
+    },
+    {
+      "id": "P075",
+      "category": "行业应用与科学",
+      "name_zh": "医疗行业 FDE",
+      "name_en": "Healthcare FDE",
+      "aliases": [
+        "医疗 AI 交付工程师"
+      ],
+      "kind": "industry_variant",
+      "source_ids": [
+        "J28"
+      ],
+      "skill_ids": [
+        "app",
+        "health",
+        "privacy",
+        "eval"
+      ],
+      "resource_ids": [
+        "R027",
+        "R103",
+        "R037",
+        "R072"
+      ],
+      "summary": "将 AI 系统集成到医疗组织业务流程；资料只覆盖通用技术基础",
+      "parent_id": "P001",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P001"
+      ],
+      "evidence_note": "主岗位的行业变体；不作为全新的职业"
+    },
+    {
+      "id": "P076",
+      "category": "行业应用与科学",
+      "name_zh": "法律行业 FDE",
+      "name_en": "Legal FDE",
+      "aliases": [
+        "法律 AI 应用工程师"
+      ],
+      "kind": "industry_variant",
+      "source_ids": [
+        "J29"
+      ],
+      "skill_ids": [
+        "app",
+        "rag",
+        "privacy",
+        "eval"
+      ],
+      "resource_ids": [
+        "R012",
+        "R020",
+        "R103",
+        "R035"
+      ],
+      "summary": "构建法律工作相关的检索和自动化系统；需另补法律专业知识",
+      "parent_id": "P001",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P001"
+      ],
+      "evidence_note": "主岗位的行业变体；不作为全新的职业"
+    },
+    {
+      "id": "P077",
+      "category": "行业应用与科学",
+      "name_zh": "教育 AI 产品／方案方向",
+      "name_en": "Education AI Product / Solutions",
+      "aliases": [
+        "教育 AI 产品经理",
+        "教育 AI 架构师"
+      ],
+      "kind": "industry_variant",
+      "source_ids": [
+        "J26",
+        "J27"
+      ],
+      "skill_ids": [
+        "education",
+        "product",
+        "ux"
+      ],
+      "resource_ids": [
+        "R083",
+        "R078",
+        "R079",
+        "R082"
+      ],
+      "summary": "围绕教学和学习场景设计 AI 产品与采用方案",
+      "parent_id": "P013",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P013"
+      ],
+      "evidence_note": "主岗位的行业变体；不作为全新的职业"
+    },
+    {
+      "id": "P078",
+      "category": "推广教育与客户赋能",
+      "name_zh": "AI 开发者关系工程师",
+      "name_en": "AI Developer Relations",
+      "aliases": [
+        "DevRel",
+        "Developer Advocate"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "A160",
+        "A100"
+      ],
+      "skill_ids": [
+        "devrel",
+        "writing",
+        "app"
+      ],
+      "resource_ids": [
+        "R084",
+        "R026",
+        "R025",
+        "R018"
+      ],
+      "summary": "通过示例、文档和社区活动帮助开发者使用 AI",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P079"
+      ],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    },
+    {
+      "id": "P079",
+      "category": "推广教育与客户赋能",
+      "name_zh": "AI 教育／开发者培训方向",
+      "name_en": "AI Technical Educator",
+      "aliases": [
+        "AI 讲师",
+        "开发者教育工程师"
+      ],
+      "kind": "specialization",
+      "source_ids": [
+        "J25",
+        "A100"
+      ],
+      "skill_ids": [
+        "education",
+        "writing",
+        "literacy"
+      ],
+      "resource_ids": [
+        "R083",
+        "R084",
+        "R026",
+        "R109",
+        "R081"
+      ],
+      "summary": "设计 AI 教学材料、练习和技术演示",
+      "parent_id": "P078",
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [
+        "P078"
+      ],
+      "evidence_note": "从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘"
+    },
+    {
+      "id": "P080",
+      "category": "推广教育与客户赋能",
+      "name_zh": "AI 客户成功经理",
+      "name_en": "AI Customer Success Manager",
+      "aliases": [
+        "AI CSM",
+        "AI 客户赋能经理"
+      ],
+      "kind": "role",
+      "source_ids": [
+        "J24"
+      ],
+      "skill_ids": [
+        "product",
+        "literacy",
+        "strategy"
+      ],
+      "resource_ids": [
+        "R082",
+        "R081",
+        "R078",
+        "R027"
+      ],
+      "summary": "帮助客户采用 AI 产品并评估业务价值",
+      "parent_id": null,
+      "summary_basis": "编辑归纳，非企业职责原文",
+      "resource_mapping_basis": "按技能关联的编辑推荐，非雇主指定课程",
+      "collected_at": "2026-09-15",
+      "related_role_ids": [],
+      "evidence_note": "官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致"
+    }
+  ],
+  "resources": [
+    {
+      "id": "R001",
+      "title": "动手学深度学习（中文版）",
+      "url": "https://zh.d2l.ai/",
+      "publisher": "D2L 作者团队",
+      "type": "在线教材",
+      "language": "中文",
+      "level": "基础",
+      "skill_ids": [
+        "ml",
+        "dl",
+        "python"
+      ],
+      "description": "用代码建立深度学习基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://zh.d2l.ai/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R002",
+      "title": "李宏毅机器学习课程",
+      "url": "https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php",
+      "publisher": "台湾大学李宏毅",
+      "type": "课程",
+      "language": "中文为主",
+      "level": "基础",
+      "skill_ids": [
+        "ml",
+        "dl",
+        "llm"
+      ],
+      "description": "中文讲解机器学习与生成式模型",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "2025 年课程版本；保留具体届次，非最新课程声明",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R003",
+      "title": "Machine Learning Crash Course",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "publisher": "Google",
+      "type": "课程",
+      "language": "英文/多语言",
+      "level": "基础",
+      "skill_ids": [
+        "ml",
+        "data",
+        "eval"
+      ],
+      "description": "补齐回归、分类和模型泛化基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://developers.google.com/machine-learning/crash-course",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R004",
+      "title": "Practical Deep Learning for Coders",
+      "url": "https://course.fast.ai/",
+      "publisher": "fast.ai",
+      "type": "课程",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "dl",
+        "python",
+        "vision"
+      ],
+      "description": "从可运行项目进入深度学习",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://course.fast.ai/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R005",
+      "title": "PyTorch Tutorials",
+      "url": "https://docs.pytorch.org/tutorials/",
+      "publisher": "PyTorch",
+      "type": "官方教程",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "dl",
+        "training",
+        "python"
+      ],
+      "description": "学习张量、训练循环与模型部署",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.pytorch.org/tutorials/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R006",
+      "title": "Stanford CS229",
+      "url": "https://cs229.stanford.edu/",
+      "publisher": "Stanford",
+      "type": "大学课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "ml",
+        "math"
+      ],
+      "description": "系统补齐机器学习数学基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://cs229.stanford.edu/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R007",
+      "title": "Stanford CS224N",
+      "url": "https://web.stanford.edu/class/cs224n/",
+      "publisher": "Stanford",
+      "type": "大学课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "nlp",
+        "llm"
+      ],
+      "description": "学习语言表示与自然语言模型",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://web.stanford.edu/class/cs224n/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R008",
+      "title": "Stanford CS231N",
+      "url": "https://cs231n.stanford.edu/",
+      "publisher": "Stanford",
+      "type": "大学课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "vision",
+        "dl"
+      ],
+      "description": "建立计算机视觉模型基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://cs231n.stanford.edu/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R009",
+      "title": "Stanford CS336 Language Modeling from Scratch",
+      "url": "https://stanford-cs336.github.io/spring2025/",
+      "publisher": "Stanford",
+      "type": "大学课程",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "llm",
+        "training",
+        "systems"
+      ],
+      "description": "从零理解语言模型训练全流程",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://cs336.stanford.edu/spring2025/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "2025 年课程版本；保留具体届次，非最新课程声明",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R010",
+      "title": "Hugging Face LLM Course",
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "publisher": "Hugging Face",
+      "type": "课程",
+      "language": "英文/多语言",
+      "level": "基础",
+      "skill_ids": [
+        "llm",
+        "nlp",
+        "finetune"
+      ],
+      "description": "串联模型、数据集和微调工具",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R011",
+      "title": "Happy-LLM",
+      "url": "https://github.com/datawhalechina/happy-llm",
+      "publisher": "Datawhale",
+      "type": "开源教程",
+      "language": "中文",
+      "level": "基础",
+      "skill_ids": [
+        "llm",
+        "training"
+      ],
+      "description": "中文理解并实践语言模型",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/datawhalechina/happy-llm",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R012",
+      "title": "LLM Universe",
+      "url": "https://github.com/datawhalechina/llm-universe",
+      "publisher": "Datawhale",
+      "type": "开源教程",
+      "language": "中文",
+      "level": "基础",
+      "skill_ids": [
+        "rag",
+        "app"
+      ],
+      "description": "构建大模型应用的中文实践入口",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/datawhalechina/llm-universe",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "original_url": "https://github.com/datawhalechina/llm-universe",
+      "alternate_urls": [
+        "https://datawhalechina.github.io/llm-universe/"
+      ],
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R013",
+      "title": "Hello Agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "publisher": "Datawhale",
+      "type": "开源教程",
+      "language": "中文",
+      "level": "基础",
+      "skill_ids": [
+        "agent",
+        "app"
+      ],
+      "description": "系统学习智能体原理与实现",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/datawhalechina/hello-agents",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R014",
+      "title": "Hugging Face Agents Course",
+      "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "publisher": "Hugging Face",
+      "type": "课程",
+      "language": "英文/多语言",
+      "level": "基础",
+      "skill_ids": [
+        "agent",
+        "tools"
+      ],
+      "description": "学习智能体工具调用与实践",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R015",
+      "title": "Building Effective Agents",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "publisher": "Anthropic",
+      "type": "工程文章",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "agent",
+        "architecture"
+      ],
+      "description": "比较工作流与自主智能体架构",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R016",
+      "title": "Effective Context Engineering for AI Agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "publisher": "Anthropic",
+      "type": "工程文章",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "context",
+        "agent"
+      ],
+      "description": "学习上下文组织与管理",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R017",
+      "title": "Writing Tools for Agents",
+      "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "publisher": "Anthropic",
+      "type": "工程文章",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "tools",
+        "agent",
+        "eval"
+      ],
+      "description": "设计更易被智能体正确调用的工具",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R018",
+      "title": "Model Context Protocol 文档",
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "publisher": "MCP 项目",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "mcp",
+        "tools",
+        "integration"
+      ],
+      "description": "理解模型应用连接工具和数据的协议",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R019",
+      "title": "LangGraph 文档",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "publisher": "LangChain",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "agent",
+        "workflow"
+      ],
+      "description": "学习有状态工作流与持久化执行",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R020",
+      "title": "LlamaIndex 文档",
+      "url": "https://developers.llamaindex.ai/python/framework/",
+      "publisher": "LlamaIndex",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "rag",
+        "agent"
+      ],
+      "description": "学习文档索引与检索增强应用",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://developers.llamaindex.ai/python/framework/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R021",
+      "title": "Haystack 文档",
+      "url": "https://docs.haystack.deepset.ai/docs/intro",
+      "publisher": "deepset",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "rag",
+        "search"
+      ],
+      "description": "以管道组织检索和生成流程",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.haystack.deepset.ai/docs/intro",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R022",
+      "title": "DSPy 文档",
+      "url": "https://dspy.ai/",
+      "publisher": "DSPy 项目",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "prompt",
+        "eval",
+        "app"
+      ],
+      "description": "学习通过指标优化语言模型程序",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://dspy.ai/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R023",
+      "title": "Dify 文档",
+      "url": "https://docs.dify.ai/",
+      "publisher": "Dify",
+      "type": "官方文档",
+      "language": "英文/中文入口",
+      "level": "基础",
+      "skill_ids": [
+        "lowcode",
+        "workflow",
+        "rag"
+      ],
+      "description": "搭建知识库和可视化 AI 工作流",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.dify.ai/en/home",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R024",
+      "title": "n8n Advanced AI 文档",
+      "url": "https://docs.n8n.io/advanced-ai/",
+      "publisher": "n8n",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "lowcode",
+        "automation",
+        "integration"
+      ],
+      "description": "把 AI 节点连接到业务自动化",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.n8n.io/advanced-ai",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R025",
+      "title": "Microsoft AI Agents for Beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "publisher": "Microsoft",
+      "type": "开源课程",
+      "language": "英文/多语言",
+      "level": "基础",
+      "skill_ids": [
+        "agent",
+        "app"
+      ],
+      "description": "通过示例学习智能体开发",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R026",
+      "title": "Microsoft Generative AI for Beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "publisher": "Microsoft",
+      "type": "开源课程",
+      "language": "英文/多语言",
+      "level": "基础",
+      "skill_ids": [
+        "llm",
+        "app",
+        "prompt"
+      ],
+      "description": "覆盖生成式应用开发基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R027",
+      "title": "Full Stack LLM Bootcamp",
+      "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+      "publisher": "The Full Stack",
+      "type": "课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "app",
+        "product",
+        "llmops"
+      ],
+      "description": "串联产品、应用开发与上线流程",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "2023 年 LLM Bootcamp；架构方法可参考，代码依赖需另行确认",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R028",
+      "title": "Made With ML",
+      "url": "https://madewithml.com/",
+      "publisher": "Goku Mohandas",
+      "type": "开源课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "mlops",
+        "eval",
+        "deployment"
+      ],
+      "description": "实践可测试可维护的机器学习系统",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://madewithml.com/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R029",
+      "title": "Machine Learning Systems Design 在线资料",
+      "url": "https://huyenchip.com/machine-learning-systems-design/toc.html",
+      "publisher": "Chip Huyen",
+      "type": "在线资料",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "systems",
+        "mlops",
+        "architecture"
+      ],
+      "description": "阅读作者提供的机器学习系统设计在线资料；不是付费书籍全文",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huyenchip.com/machine-learning-systems-design/toc.html",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "original_url": "https://huyenchip.com/machine-learning-systems-design/toc.html",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R030",
+      "title": "Google Rules of Machine Learning",
+      "url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+      "publisher": "Google",
+      "type": "工程指南",
+      "language": "英文/多语言",
+      "level": "进阶",
+      "skill_ids": [
+        "mlops",
+        "data",
+        "product"
+      ],
+      "description": "理解机器学习项目的工程取舍",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R031",
+      "title": "Sentence Transformers 文档",
+      "url": "https://www.sbert.net/",
+      "publisher": "Sentence Transformers",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "embedding",
+        "search",
+        "rag"
+      ],
+      "description": "训练与使用文本向量和重排模型",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.sbert.net/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R032",
+      "title": "Milvus 文档",
+      "url": "https://milvus.io/docs",
+      "publisher": "Milvus",
+      "type": "官方文档",
+      "language": "英文/多语言",
+      "level": "进阶",
+      "skill_ids": [
+        "vector",
+        "rag",
+        "search"
+      ],
+      "description": "学习向量索引和检索基础设施",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://milvus.io/docs",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R033",
+      "title": "Qdrant Documentation",
+      "url": "https://qdrant.tech/documentation/",
+      "publisher": "Qdrant",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "vector",
+        "rag"
+      ],
+      "description": "学习过滤、混合检索与向量服务",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://qdrant.tech/documentation/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R034",
+      "title": "Neo4j GraphAcademy",
+      "url": "https://graphacademy.neo4j.com/",
+      "publisher": "Neo4j",
+      "type": "课程入口",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "graph",
+        "rag",
+        "data"
+      ],
+      "description": "学习图数据建模与图增强检索",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://graphacademy.neo4j.com/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R035",
+      "title": "Ragas 文档",
+      "url": "https://docs.ragas.io/en/stable/",
+      "publisher": "Ragas",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "eval",
+        "rag"
+      ],
+      "description": "构建 RAG 与语言模型应用评估",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.ragas.io/en/stable/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R036",
+      "title": "Promptfoo 文档",
+      "url": "https://www.promptfoo.dev/docs/intro/",
+      "publisher": "Promptfoo",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "eval",
+        "redteam",
+        "prompt"
+      ],
+      "description": "对提示和模型做回归评测",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.promptfoo.dev/docs/intro/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R037",
+      "title": "Inspect AI 文档",
+      "url": "https://inspect.aisi.org.uk/",
+      "publisher": "UK AI Security Institute",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "eval",
+        "safety",
+        "agent"
+      ],
+      "description": "编写可复现模型与智能体评估",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://inspect.aisi.org.uk/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R038",
+      "title": "lm-evaluation-harness",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "publisher": "EleutherAI",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "eval",
+        "llm"
+      ],
+      "description": "运行语言模型基准评测",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R039",
+      "title": "HELM",
+      "url": "https://github.com/stanford-crfm/helm",
+      "publisher": "Stanford CRFM",
+      "type": "评测平台",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "eval",
+        "safety"
+      ],
+      "description": "理解多维语言模型评估",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/stanford-crfm/helm",
+      "verification_note": "原平台首页无法提取正文，改用官方开源仓库",
+      "original_url": "https://crfm.stanford.edu/helm/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R040",
+      "title": "Langfuse 文档",
+      "url": "https://langfuse.com/docs",
+      "publisher": "Langfuse",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "observability",
+        "llmops",
+        "eval"
+      ],
+      "description": "记录调用链、评估和提示版本",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://langfuse.com/docs",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R041",
+      "title": "Arize Phoenix 文档",
+      "url": "https://arize.com/docs/phoenix",
+      "publisher": "Arize",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "observability",
+        "eval"
+      ],
+      "description": "分析 AI 应用追踪与质量问题",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://arize.com/docs/phoenix",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R042",
+      "title": "MLflow 文档",
+      "url": "https://mlflow.org/docs/latest/",
+      "publisher": "MLflow",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "mlops",
+        "llmops",
+        "experiments"
+      ],
+      "description": "管理实验、模型与生成式应用追踪",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://mlflow.org/docs/latest/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R043",
+      "title": "Hugging Face PEFT",
+      "url": "https://huggingface.co/docs/peft/index",
+      "publisher": "Hugging Face",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "finetune",
+        "lora"
+      ],
+      "description": "学习参数高效微调",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/docs/peft/index",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R044",
+      "title": "Hugging Face TRL",
+      "url": "https://huggingface.co/docs/trl/index",
+      "publisher": "Hugging Face",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "rl",
+        "alignment",
+        "finetune"
+      ],
+      "description": "学习监督微调与偏好优化",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/docs/trl/index",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R045",
+      "title": "LLaMA-Factory",
+      "url": "https://github.com/hiyouga/LLaMA-Factory",
+      "publisher": "LLaMA-Factory 项目",
+      "type": "开源项目",
+      "language": "中英双语",
+      "level": "进阶",
+      "skill_ids": [
+        "finetune",
+        "training"
+      ],
+      "description": "实践多种模型微调流程",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/hiyouga/LlamaFactory",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R046",
+      "title": "Hugging Face smol-course",
+      "url": "https://github.com/huggingface/smol-course",
+      "publisher": "Hugging Face",
+      "type": "开源课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "finetune",
+        "alignment"
+      ],
+      "description": "以较小模型学习后训练",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/huggingface/smol-course",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R047",
+      "title": "OpenRLHF",
+      "url": "https://github.com/OpenRLHF/OpenRLHF",
+      "publisher": "OpenRLHF 项目",
+      "type": "开源项目",
+      "language": "中英双语",
+      "level": "高级",
+      "skill_ids": [
+        "rl",
+        "alignment",
+        "training"
+      ],
+      "description": "学习分布式偏好学习系统",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/OpenRLHF/OpenRLHF",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R048",
+      "title": "DeepSpeed",
+      "url": "https://www.deepspeed.ai/",
+      "publisher": "Microsoft/DeepSpeed",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "training",
+        "distributed",
+        "systems"
+      ],
+      "description": "理解大模型训练的显存与并行优化",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.deepspeed.ai/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R049",
+      "title": "Megatron-LM",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "publisher": "NVIDIA",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "training",
+        "distributed"
+      ],
+      "description": "学习大规模 Transformer 并行训练",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/NVIDIA/Megatron-LM",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R050",
+      "title": "vLLM 文档",
+      "url": "https://docs.vllm.ai/en/latest/",
+      "publisher": "vLLM",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "inference",
+        "deployment"
+      ],
+      "description": "学习高吞吐语言模型推理服务",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.vllm.ai/en/latest/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R051",
+      "title": "SGLang 文档",
+      "url": "https://docs.sglang.ai/",
+      "publisher": "SGLang",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "inference",
+        "systems"
+      ],
+      "description": "学习推理调度和服务优化",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.sglang.io/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R052",
+      "title": "TensorRT-LLM",
+      "url": "https://nvidia.github.io/TensorRT-LLM/",
+      "publisher": "NVIDIA",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "inference",
+        "gpu"
+      ],
+      "description": "优化 GPU 上的大模型推理",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://nvidia.github.io/TensorRT-LLM/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R053",
+      "title": "Triton Tutorials",
+      "url": "https://triton-lang.org/main/getting-started/tutorials/index.html",
+      "publisher": "Triton",
+      "type": "官方教程",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "gpu",
+        "kernel"
+      ],
+      "description": "从算子示例学习 GPU 内核编程",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://triton-lang.org/main/getting-started/tutorials/index.html",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R054",
+      "title": "CUDA Programming Guide",
+      "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/",
+      "publisher": "NVIDIA",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "gpu",
+        "kernel",
+        "systems"
+      ],
+      "description": "建立 GPU 编程和内存模型基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.nvidia.com/cuda/cuda-programming-guide/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R055",
+      "title": "Ray 文档",
+      "url": "https://docs.ray.io/en/latest/",
+      "publisher": "Ray",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "distributed",
+        "serving",
+        "training"
+      ],
+      "description": "编排分布式训练与模型服务",
+      "verification_status": "search_result_confirmed",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.ray.io/en/latest/",
+      "verification_note": "官方搜索结果确认；直接打开遭遇 429 限流",
+      "original_url": "https://docs.ray.io/en/latest/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R056",
+      "title": "Kubernetes 文档",
+      "url": "https://kubernetes.io/zh-cn/docs/home/",
+      "publisher": "Kubernetes",
+      "type": "官方文档",
+      "language": "中文",
+      "level": "进阶",
+      "skill_ids": [
+        "deployment",
+        "infra"
+      ],
+      "description": "理解容器编排与服务运维",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://kubernetes.io/zh-cn/docs/home/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R057",
+      "title": "KServe 文档",
+      "url": "https://kserve.github.io/website/",
+      "publisher": "KServe",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "serving",
+        "mlops"
+      ],
+      "description": "在 Kubernetes 上提供模型服务",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://kserve.github.io/website/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R058",
+      "title": "BentoML 文档",
+      "url": "https://docs.bentoml.com/en/latest/",
+      "publisher": "BentoML",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "serving",
+        "deployment"
+      ],
+      "description": "封装与部署模型推理 API",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.bentoml.com/en/latest/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R059",
+      "title": "ONNX Runtime 文档",
+      "url": "https://onnxruntime.ai/docs/",
+      "publisher": "ONNX Runtime",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "edge",
+        "inference"
+      ],
+      "description": "学习跨平台推理和性能优化",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://onnxruntime.ai/docs/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R060",
+      "title": "ExecuTorch 文档",
+      "url": "https://docs.pytorch.org/executorch/stable/",
+      "publisher": "PyTorch",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "edge",
+        "inference"
+      ],
+      "description": "部署模型到移动与嵌入式设备",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.pytorch.org/executorch/stable/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R061",
+      "title": "MLX",
+      "url": "https://ml-explore.github.io/mlx/build/html/index.html",
+      "publisher": "Apple",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "edge",
+        "training"
+      ],
+      "description": "在 Apple silicon 上运行机器学习",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://ml-explore.github.io/mlx/build/html/index.html",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R062",
+      "title": "Label Studio 文档",
+      "url": "https://labelstud.io/guide/",
+      "publisher": "HumanSignal",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "annotation",
+        "data"
+      ],
+      "description": "建立多模态标注与审核流程",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://labelstud.io/guide/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R063",
+      "title": "Argilla 文档",
+      "url": "https://docs.argilla.io/latest/",
+      "publisher": "Argilla",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "annotation",
+        "humanfeedback",
+        "data"
+      ],
+      "description": "组织人工反馈和数据整理",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.argilla.io/latest/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R064",
+      "title": "Hugging Face Datasets",
+      "url": "https://huggingface.co/docs/datasets/index",
+      "publisher": "Hugging Face",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "data",
+        "training"
+      ],
+      "description": "处理和发布机器学习数据集",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/docs/datasets/index",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R065",
+      "title": "DVC 文档",
+      "url": "https://dvc.org/doc",
+      "publisher": "DVC",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "data",
+        "mlops"
+      ],
+      "description": "对数据和训练管道做版本管理",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://doc.dvc.org/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R066",
+      "title": "NVIDIA NeMo Curator",
+      "url": "https://docs.nvidia.com/nemo/curator/latest/",
+      "publisher": "NVIDIA",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "data",
+        "synthetic",
+        "training"
+      ],
+      "description": "清洗过滤和整理训练数据",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.nvidia.com/nemo/curator/home/welcome",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R067",
+      "title": "Distilabel 文档",
+      "url": "https://distilabel.argilla.io/latest/",
+      "publisher": "Argilla",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "synthetic",
+        "data",
+        "eval"
+      ],
+      "description": "构建合成数据与反馈流水线",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://distilabel.argilla.io/latest/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R068",
+      "title": "OWASP GenAI Security Project",
+      "url": "https://genai.owasp.org/",
+      "publisher": "OWASP",
+      "type": "安全指南",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "security",
+        "redteam",
+        "safety"
+      ],
+      "description": "认识生成式系统常见风险类别",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://genai.owasp.org/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R069",
+      "title": "MITRE ATLAS",
+      "url": "https://github.com/mitre-atlas/atlas-data",
+      "publisher": "MITRE",
+      "type": "知识库",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "security",
+        "redteam"
+      ],
+      "description": "理解针对 AI 系统的攻击技术",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/mitre-atlas/atlas-data",
+      "verification_note": "原站点为动态页面，改用官方技术与案例数据仓库",
+      "original_url": "https://atlas.mitre.org/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R070",
+      "title": "Microsoft PyRIT",
+      "url": "https://github.com/Azure/PyRIT",
+      "publisher": "Microsoft",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "redteam",
+        "safety"
+      ],
+      "description": "组织生成式系统风险测试",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/Azure/PyRIT",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R071",
+      "title": "NVIDIA garak",
+      "url": "https://github.com/NVIDIA/garak",
+      "publisher": "NVIDIA",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "redteam",
+        "eval"
+      ],
+      "description": "测试语言模型的薄弱环节",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/NVIDIA/garak",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R072",
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "publisher": "NIST",
+      "type": "框架入口",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "governance",
+        "risk"
+      ],
+      "description": "建立 AI 风险治理的共同语言",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R073",
+      "title": "Google Secure AI Framework",
+      "url": "https://saif.google/",
+      "publisher": "Google",
+      "type": "安全框架",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "security",
+        "governance"
+      ],
+      "description": "从系统层面组织 AI 安全措施",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://saif.google/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R074",
+      "title": "Microsoft Responsible AI Toolbox",
+      "url": "https://github.com/microsoft/responsible-ai-toolbox",
+      "publisher": "Microsoft",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "fairness",
+        "explainability",
+        "governance"
+      ],
+      "description": "分析模型错误和负责任 AI 指标",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/microsoft/responsible-ai-toolbox",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R075",
+      "title": "TransformerLens",
+      "url": "https://github.com/TransformerLensOrg/TransformerLens",
+      "publisher": "TransformerLens 项目",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "interpretability",
+        "llm"
+      ],
+      "description": "通过激活与干预分析 Transformer",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/TransformerLensOrg/TransformerLens",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R076",
+      "title": "ARENA",
+      "url": "https://www.arena.education/",
+      "publisher": "ARENA",
+      "type": "课程",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "interpretability",
+        "alignment",
+        "safety"
+      ],
+      "description": "集中学习 AI 安全技术基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.arena.education/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R077",
+      "title": "A Mathematical Framework for Transformer Circuits",
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "publisher": "Transformer Circuits 作者团队",
+      "type": "研究文章",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "interpretability",
+        "math"
+      ],
+      "description": "理解 Transformer 机制分析框架",
+      "verification_status": "search_result_confirmed",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "verification_note": "原始论文和 Anthropic 官方介绍在搜索结果中确认；直接抓取原文失败",
+      "original_url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "publication_year": 2021,
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R078",
+      "title": "People + AI Guidebook：User Needs + Defining Success",
+      "url": "https://pair.withgoogle.com/chapter/user-needs/",
+      "publisher": "Google PAIR",
+      "type": "设计指南",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "ux",
+        "product",
+        "research"
+      ],
+      "description": "设计用户理解并能控制的 AI 体验",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://pair.withgoogle.com/chapter/user-needs/",
+      "verification_note": "改为可读的具体章节，页面可继续导航到其他章节",
+      "original_url": "https://pair.withgoogle.com/guidebook/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R079",
+      "title": "Microsoft HAX Toolkit",
+      "url": "https://www.microsoft.com/en-us/haxtoolkit/",
+      "publisher": "Microsoft Research",
+      "type": "设计工具包",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "ux",
+        "product",
+        "research"
+      ],
+      "description": "把人机交互原则落实到设计",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.microsoft.com/en-us/haxtoolkit/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R080",
+      "title": "Google Conversation Design",
+      "url": "https://developers.google.com/assistant/conversation-design/learn-about-conversation",
+      "publisher": "Google",
+      "type": "历史设计指南",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "conversation",
+        "ux"
+      ],
+      "description": "学习对话轮次和交互设计基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://developers.google.com/assistant/conversation-design/learn-about-conversation",
+      "verification_note": "历史资料；页面标有 Conversational Actions sunset，只推荐学习通用对话设计原则",
+      "original_url": "https://developers.google.com/assistant/conversation-design/learn-about-conversation",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "历史设计资料；所属产品路线已停止，不作为现行开发指南",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R081",
+      "title": "Elements of AI",
+      "url": "https://www.elementsofai.com/",
+      "publisher": "University of Helsinki/MinnaLearn",
+      "type": "课程",
+      "language": "英文/多语言",
+      "level": "入门",
+      "skill_ids": [
+        "literacy",
+        "product",
+        "governance"
+      ],
+      "description": "帮助非技术读者建立 AI 概念",
+      "verification_status": "fetch_blocked",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.elementsofai.com/",
+      "verification_note": "官网两次返回 403；官方 Building AI 课程提及该课程，保留为待复核入口",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "无需编程基础；领域岗位仍需本行业知识",
+      "corroborating_url": "https://buildingai.elementsofai.com/Getting-started-with-AI/why-ai-matters",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R082",
+      "title": "AI for Everyone",
+      "url": "https://www.deeplearning.ai/courses/ai-for-everyone",
+      "publisher": "DeepLearning.AI",
+      "type": "课程介绍",
+      "language": "英文",
+      "level": "入门",
+      "skill_ids": [
+        "literacy",
+        "strategy",
+        "product"
+      ],
+      "description": "理解 AI 项目选择与组织协作",
+      "verification_status": "search_result_confirmed",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.deeplearning.ai/courses/ai-for-everyone",
+      "verification_note": "官方搜索结果确认；直接打开被 403 阻止；证书和部分作业涉及 PRO",
+      "original_url": "https://www.deeplearning.ai/courses/ai-for-everyone/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "无需编程基础；领域岗位仍需本行业知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R083",
+      "title": "Microsoft AI for Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "publisher": "Microsoft",
+      "type": "开源课程",
+      "language": "英文/多语言",
+      "level": "基础",
+      "skill_ids": [
+        "ml",
+        "education"
+      ],
+      "description": "以课程结构组织 AI 基础知识",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/microsoft/AI-For-Beginners",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R084",
+      "title": "Google Technical Writing",
+      "url": "https://developers.google.com/tech-writing",
+      "publisher": "Google",
+      "type": "课程",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "writing",
+        "devrel",
+        "education"
+      ],
+      "description": "提高技术教程和文档表达质量",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://developers.google.com/tech-writing",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R085",
+      "title": "Hugging Face Diffusion Course",
+      "url": "https://huggingface.co/learn/diffusion-course/unit0/1",
+      "publisher": "Hugging Face",
+      "type": "课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "diffusion",
+        "vision",
+        "creative"
+      ],
+      "description": "学习扩散模型的生成原理",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/learn/diffusion-course/unit0/1",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R086",
+      "title": "Diffusers 文档",
+      "url": "https://huggingface.co/docs/diffusers/index",
+      "publisher": "Hugging Face",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "diffusion",
+        "vision",
+        "finetune"
+      ],
+      "description": "实践图像生成与生成模型微调",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/docs/diffusers/index",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R087",
+      "title": "ComfyUI 文档",
+      "url": "https://docs.comfy.org/",
+      "publisher": "ComfyUI",
+      "type": "官方文档",
+      "language": "英文/中文入口",
+      "level": "基础",
+      "skill_ids": [
+        "creative",
+        "workflow",
+        "image",
+        "video"
+      ],
+      "description": "搭建节点式视觉生成工作流",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.comfy.org/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础电脑操作；按主题补充设计或业务知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R088",
+      "title": "Adobe Firefly Learn & Support",
+      "url": "https://helpx.adobe.com/support/firefly.html",
+      "publisher": "Adobe",
+      "type": "官方教程",
+      "language": "英文/多语言",
+      "level": "入门",
+      "skill_ids": [
+        "creative",
+        "image",
+        "video"
+      ],
+      "description": "学习生成式创意工具的使用",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://helpx.adobe.com/firefly/web.html",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "无需编程基础；领域岗位仍需本行业知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R089",
+      "title": "Runway Academy",
+      "url": "https://academy.runwayml.com/",
+      "publisher": "Runway",
+      "type": "课程入口",
+      "language": "英文",
+      "level": "入门",
+      "skill_ids": [
+        "creative",
+        "video"
+      ],
+      "description": "学习生成视频的创作流程",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://academy.runwayml.com/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "无需编程基础；领域岗位仍需本行业知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R090",
+      "title": "Hugging Face Audio Course",
+      "url": "https://huggingface.co/learn/audio-course/chapter0/introduction",
+      "publisher": "Hugging Face",
+      "type": "课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "audio",
+        "asr",
+        "tts"
+      ],
+      "description": "理解音频任务和 Transformer 应用",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/learn/audio-course/chapter0/introduction",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R091",
+      "title": "SpeechBrain",
+      "url": "https://speechbrain.github.io/",
+      "publisher": "SpeechBrain",
+      "type": "开源工具与教程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "audio",
+        "asr",
+        "tts"
+      ],
+      "description": "实践语音识别与语音处理",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://speechbrain.github.io/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R092",
+      "title": "NVIDIA NeMo Framework",
+      "url": "https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html",
+      "publisher": "NVIDIA",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "audio",
+        "multimodal",
+        "training"
+      ],
+      "description": "学习大规模生成模型训练工具",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R093",
+      "title": "Hugging Face Robotics Course",
+      "url": "https://huggingface.co/learn/robotics-course/unit0/1",
+      "publisher": "Hugging Face",
+      "type": "课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "robotics",
+        "vla"
+      ],
+      "description": "学习机器人与视觉语言动作模型",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/learn/robotics-course/unit0/1",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R094",
+      "title": "LeRobot",
+      "url": "https://github.com/huggingface/lerobot",
+      "publisher": "Hugging Face",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "robotics",
+        "vla",
+        "data"
+      ],
+      "description": "实践机器人数据采集与策略学习",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/huggingface/lerobot",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R095",
+      "title": "ROS 2 Tutorials",
+      "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+      "publisher": "ROS",
+      "type": "官方教程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "robotics",
+        "systems"
+      ],
+      "description": "建立机器人通信与软件组件基础",
+      "verification_status": "fetch_blocked",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+      "verification_note": "官方文档入口触发反爬；官方 How-To 页面可检索并指向 Tutorials，未确认该入口正文",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "corroborating_url": "https://docs.ros.org/en/jazzy/How-To-Guides.html",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R096",
+      "title": "NVIDIA Isaac Lab",
+      "url": "https://isaac-sim.github.io/IsaacLab/main/index.html",
+      "publisher": "NVIDIA",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "robotics",
+        "simulation",
+        "rl"
+      ],
+      "description": "在仿真环境中训练机器人策略",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://isaac-sim.github.io/IsaacLab/main/index.html",
+      "verification_note": "已跟进到官方实际文档页面",
+      "original_url": "https://isaac-sim.github.io/IsaacLab/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R097",
+      "title": "Hugging Face Deep RL Course",
+      "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+      "publisher": "Hugging Face",
+      "type": "课程",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "rl",
+        "robotics"
+      ],
+      "description": "建立强化学习和策略训练基础",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R098",
+      "title": "Gymnasium 文档",
+      "url": "https://gymnasium.farama.org/",
+      "publisher": "Farama Foundation",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "rl",
+        "simulation"
+      ],
+      "description": "构建和使用强化学习环境",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://gymnasium.farama.org/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R099",
+      "title": "TensorFlow Recommenders",
+      "url": "https://www.tensorflow.org/recommenders",
+      "publisher": "TensorFlow",
+      "type": "官方教程",
+      "language": "英文/多语言",
+      "level": "进阶",
+      "skill_ids": [
+        "recommendation",
+        "search"
+      ],
+      "description": "学习推荐系统召回与排序",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.tensorflow.org/recommenders",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R100",
+      "title": "DeepChem Tutorials",
+      "url": "https://github.com/deepchem/deepchem/tree/master/examples/tutorials",
+      "publisher": "DeepChem",
+      "type": "开源教程",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "science",
+        "chemistry",
+        "ml"
+      ],
+      "description": "学习科学数据上的机器学习",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/deepchem/deepchem/tree/master/examples/tutorials",
+      "verification_note": "原站点正文主要是导航，替换为官方教程目录",
+      "original_url": "https://deepchem.io/tutorials/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R101",
+      "title": "AlphaFold 2 开源项目",
+      "url": "https://github.com/google-deepmind/alphafold",
+      "publisher": "Google DeepMind",
+      "type": "开源项目",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "science",
+        "biology"
+      ],
+      "description": "了解 AlphaFold 2 蛋白质结构预测的工程实践",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/google-deepmind/alphafold",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "original_url": "https://github.com/google-deepmind/alphafold",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "AlphaFold 2 实现，不代表 AlphaFold 最新版本",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R102",
+      "title": "MONAI Tutorials",
+      "url": "https://github.com/Project-MONAI/tutorials",
+      "publisher": "Project MONAI",
+      "type": "开源教程",
+      "language": "英文",
+      "level": "高级",
+      "skill_ids": [
+        "health",
+        "vision"
+      ],
+      "description": "学习医学影像模型开发",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/Project-MONAI/tutorials",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "扎实编程、线性代数与机器学习基础；系统/机器人方向另需相应基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R103",
+      "title": "Microsoft Presidio",
+      "url": "https://github.com/data-privacy-stack/presidio",
+      "publisher": "Presidio 项目（原 Microsoft 仓库）",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "privacy",
+        "data",
+        "security"
+      ],
+      "description": "检测与处理数据中的个人信息",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/data-privacy-stack/presidio",
+      "verification_note": "原文档迁移，采用旧官方仓库重定向后的维护仓库",
+      "original_url": "https://microsoft.github.io/presidio/",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R104",
+      "title": "Google AI Edge",
+      "url": "https://ai.google.dev/edge",
+      "publisher": "Google",
+      "type": "官方文档",
+      "language": "英文/多语言",
+      "level": "进阶",
+      "skill_ids": [
+        "edge",
+        "inference"
+      ],
+      "description": "了解端侧模型部署工具链",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://developers.google.com/edge",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R105",
+      "title": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "publisher": "PaddlePaddle",
+      "type": "开源项目",
+      "language": "中英双语",
+      "level": "进阶",
+      "skill_ids": [
+        "ocr",
+        "document",
+        "vision"
+      ],
+      "description": "实践文档识别和结构化提取",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R106",
+      "title": "Microsoft GraphRAG",
+      "url": "https://microsoft.github.io/graphrag/",
+      "publisher": "Microsoft",
+      "type": "官方文档",
+      "language": "英文",
+      "level": "进阶",
+      "skill_ids": [
+        "graph",
+        "rag"
+      ],
+      "description": "学习基于图的知识组织与检索",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://microsoft.github.io/graphrag/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R107",
+      "title": "Hugging Face Computer Vision Course",
+      "url": "https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome",
+      "publisher": "Hugging Face 社区",
+      "type": "课程",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "vision",
+        "multimodal"
+      ],
+      "description": "学习视觉模型与常见任务",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R108",
+      "title": "Anthropic Prompt Engineering Interactive Tutorial",
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "publisher": "Anthropic",
+      "type": "开源教程",
+      "language": "英文",
+      "level": "基础",
+      "skill_ids": [
+        "prompt",
+        "eval"
+      ],
+      "description": "通过练习改进提示结构与输出约束",
+      "verification_status": "page_opened",
+      "access_note": "资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R109",
+      "title": "人工智能训练师课程",
+      "url": "https://xzy.mohrss.gov.cn/lesson/167",
+      "publisher": "人社部新职业在线学习平台",
+      "type": "课程介绍",
+      "language": "中文",
+      "level": "入门",
+      "skill_ids": [
+        "annotation",
+        "data",
+        "education"
+      ],
+      "description": "了解标注、数据处理与智能系统基础",
+      "verification_status": "search_result_confirmed",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://xzy.mohrss.gov.cn/lesson/167",
+      "verification_note": "官方课程搜索结果有课程简介；直接打开为空壳，登录与课程播放未核验",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "无需编程基础；领域岗位仍需本行业知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R111",
+      "title": "Self-LLM",
+      "url": "https://github.com/datawhalechina/self-llm",
+      "publisher": "Datawhale",
+      "type": "开源教程",
+      "language": "中文",
+      "level": "进阶",
+      "skill_ids": [
+        "finetune",
+        "deployment",
+        "llm"
+      ],
+      "description": "学习开源大模型部署和微调",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/datawhalechina/self-llm",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R112",
+      "title": "Easy-RL",
+      "url": "https://github.com/datawhalechina/easy-rl",
+      "publisher": "Datawhale",
+      "type": "开源教材",
+      "language": "中文",
+      "level": "进阶",
+      "skill_ids": [
+        "rl",
+        "math"
+      ],
+      "description": "用中文建立强化学习基础",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/datawhalechina/easy-rl",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R113",
+      "title": "Tiny Universe",
+      "url": "https://github.com/datawhalechina/tiny-universe",
+      "publisher": "Datawhale",
+      "type": "开源教程",
+      "language": "中文",
+      "level": "进阶",
+      "skill_ids": [
+        "llm",
+        "training",
+        "dl"
+      ],
+      "description": "通过小规模实现理解模型结构",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/datawhalechina/tiny-universe",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R115",
+      "title": "MindSpore Tutorials",
+      "url": "https://www.mindspore.cn/tutorials/zh-CN/master/index.html",
+      "publisher": "MindSpore",
+      "type": "官方教程",
+      "language": "中文",
+      "level": "进阶",
+      "skill_ids": [
+        "training",
+        "dl",
+        "systems"
+      ],
+      "description": "学习国产深度学习框架",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.mindspore.cn/tutorials/zh-CN/master/index.html",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R116",
+      "title": "PaddleNLP",
+      "url": "https://github.com/PaddlePaddle/PaddleNLP",
+      "publisher": "PaddlePaddle",
+      "type": "开源项目",
+      "language": "中英双语",
+      "level": "进阶",
+      "skill_ids": [
+        "nlp",
+        "llm",
+        "finetune"
+      ],
+      "description": "实践中文语言模型开发",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/PaddlePaddle/PaddleNLP",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R117",
+      "title": "ModelScope Swift",
+      "url": "https://github.com/modelscope/ms-swift",
+      "publisher": "ModelScope",
+      "type": "开源项目",
+      "language": "中英双语",
+      "level": "进阶",
+      "skill_ids": [
+        "finetune",
+        "multimodal"
+      ],
+      "description": "微调与部署多模态及语言模型",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/modelscope/ms-swift",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R118",
+      "title": "Hello Algo",
+      "url": "https://www.hello-algo.com/",
+      "publisher": "Hello Algo 作者团队",
+      "type": "在线教材",
+      "language": "中文",
+      "level": "基础",
+      "skill_ids": [
+        "python",
+        "algorithms"
+      ],
+      "description": "补齐 AI 工程所需数据结构基础",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.hello-algo.com/",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "基础编程；模型课程另需数学基础",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "R120",
+      "title": "OpenCompass",
+      "url": "https://github.com/open-compass/opencompass",
+      "publisher": "OpenCompass",
+      "type": "开源项目",
+      "language": "中英双语",
+      "level": "进阶",
+      "skill_ids": [
+        "eval",
+        "llm"
+      ],
+      "description": "实践大模型基准评测",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://github.com/open-compass/opencompass",
+      "verification_note": "已打开资料入口；未逐课学习或运行代码",
+      "access_note": "资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实",
+      "recommendation_basis": "编辑按主题与技能归纳；难度为建议，非官方认证级别",
+      "prerequisites": "相关领域基础；工程资料通常需要 Python 和基本机器学习知识",
+      "edition_note": "以所链接页面版本为准；本次未运行代码兼容性检查",
+      "publication_date": null,
+      "checked_at": "2026-09-15"
+    }
+  ],
+  "skills": [
+    {
+      "id": "agent",
+      "name_zh": "智能体"
+    },
+    {
+      "id": "algorithms",
+      "name_zh": "数据结构与算法"
+    },
+    {
+      "id": "alignment",
+      "name_zh": "模型对齐"
+    },
+    {
+      "id": "annotation",
+      "name_zh": "数据标注"
+    },
+    {
+      "id": "app",
+      "name_zh": "AI 应用开发"
+    },
+    {
+      "id": "architecture",
+      "name_zh": "系统架构"
+    },
+    {
+      "id": "asr",
+      "name_zh": "语音识别"
+    },
+    {
+      "id": "audio",
+      "name_zh": "音频处理"
+    },
+    {
+      "id": "automation",
+      "name_zh": "业务自动化"
+    },
+    {
+      "id": "biology",
+      "name_zh": "生物机器学习"
+    },
+    {
+      "id": "chemistry",
+      "name_zh": "化学机器学习"
+    },
+    {
+      "id": "context",
+      "name_zh": "上下文工程"
+    },
+    {
+      "id": "conversation",
+      "name_zh": "对话设计"
+    },
+    {
+      "id": "creative",
+      "name_zh": "创意制作"
+    },
+    {
+      "id": "data",
+      "name_zh": "数据工程"
+    },
+    {
+      "id": "deployment",
+      "name_zh": "部署交付"
+    },
+    {
+      "id": "devrel",
+      "name_zh": "开发者关系"
+    },
+    {
+      "id": "diffusion",
+      "name_zh": "扩散模型"
+    },
+    {
+      "id": "distributed",
+      "name_zh": "分布式计算"
+    },
+    {
+      "id": "dl",
+      "name_zh": "深度学习"
+    },
+    {
+      "id": "document",
+      "name_zh": "文档智能"
+    },
+    {
+      "id": "edge",
+      "name_zh": "端侧 AI"
+    },
+    {
+      "id": "education",
+      "name_zh": "教育培训"
+    },
+    {
+      "id": "embedding",
+      "name_zh": "向量表示"
+    },
+    {
+      "id": "eval",
+      "name_zh": "评测与实验"
+    },
+    {
+      "id": "experiments",
+      "name_zh": "实验管理"
+    },
+    {
+      "id": "explainability",
+      "name_zh": "模型可解释性工具"
+    },
+    {
+      "id": "fairness",
+      "name_zh": "公平性"
+    },
+    {
+      "id": "finetune",
+      "name_zh": "模型微调"
+    },
+    {
+      "id": "governance",
+      "name_zh": "AI 治理"
+    },
+    {
+      "id": "gpu",
+      "name_zh": "GPU 计算"
+    },
+    {
+      "id": "graph",
+      "name_zh": "知识图谱"
+    },
+    {
+      "id": "health",
+      "name_zh": "医疗 AI"
+    },
+    {
+      "id": "humanfeedback",
+      "name_zh": "人工反馈"
+    },
+    {
+      "id": "image",
+      "name_zh": "图像内容"
+    },
+    {
+      "id": "inference",
+      "name_zh": "模型推理"
+    },
+    {
+      "id": "infra",
+      "name_zh": "基础设施"
+    },
+    {
+      "id": "integration",
+      "name_zh": "系统集成"
+    },
+    {
+      "id": "interpretability",
+      "name_zh": "机制可解释性"
+    },
+    {
+      "id": "kernel",
+      "name_zh": "计算内核"
+    },
+    {
+      "id": "literacy",
+      "name_zh": "AI 素养"
+    },
+    {
+      "id": "llm",
+      "name_zh": "大语言模型"
+    },
+    {
+      "id": "llmops",
+      "name_zh": "LLMOps"
+    },
+    {
+      "id": "lora",
+      "name_zh": "LoRA"
+    },
+    {
+      "id": "lowcode",
+      "name_zh": "低代码开发"
+    },
+    {
+      "id": "math",
+      "name_zh": "数学基础"
+    },
+    {
+      "id": "mcp",
+      "name_zh": "模型上下文协议 MCP"
+    },
+    {
+      "id": "ml",
+      "name_zh": "机器学习"
+    },
+    {
+      "id": "mlops",
+      "name_zh": "MLOps"
+    },
+    {
+      "id": "multimodal",
+      "name_zh": "多模态"
+    },
+    {
+      "id": "nlp",
+      "name_zh": "自然语言处理"
+    },
+    {
+      "id": "observability",
+      "name_zh": "可观测性"
+    },
+    {
+      "id": "ocr",
+      "name_zh": "文字识别"
+    },
+    {
+      "id": "privacy",
+      "name_zh": "数据隐私"
+    },
+    {
+      "id": "product",
+      "name_zh": "产品管理"
+    },
+    {
+      "id": "prompt",
+      "name_zh": "提示工程"
+    },
+    {
+      "id": "python",
+      "name_zh": "Python 与编程"
+    },
+    {
+      "id": "rag",
+      "name_zh": "检索增强生成"
+    },
+    {
+      "id": "recommendation",
+      "name_zh": "推荐系统"
+    },
+    {
+      "id": "redteam",
+      "name_zh": "AI 红队测试"
+    },
+    {
+      "id": "research",
+      "name_zh": "用户研究"
+    },
+    {
+      "id": "risk",
+      "name_zh": "风险管理"
+    },
+    {
+      "id": "rl",
+      "name_zh": "强化学习"
+    },
+    {
+      "id": "robotics",
+      "name_zh": "机器人"
+    },
+    {
+      "id": "safety",
+      "name_zh": "AI 安全"
+    },
+    {
+      "id": "science",
+      "name_zh": "科学智能"
+    },
+    {
+      "id": "search",
+      "name_zh": "搜索与检索"
+    },
+    {
+      "id": "security",
+      "name_zh": "应用安全"
+    },
+    {
+      "id": "serving",
+      "name_zh": "模型服务"
+    },
+    {
+      "id": "simulation",
+      "name_zh": "仿真"
+    },
+    {
+      "id": "strategy",
+      "name_zh": "AI 应用战略"
+    },
+    {
+      "id": "synthetic",
+      "name_zh": "合成数据"
+    },
+    {
+      "id": "systems",
+      "name_zh": "系统工程"
+    },
+    {
+      "id": "tools",
+      "name_zh": "工具调用"
+    },
+    {
+      "id": "training",
+      "name_zh": "模型训练"
+    },
+    {
+      "id": "tts",
+      "name_zh": "语音合成"
+    },
+    {
+      "id": "ux",
+      "name_zh": "用户体验"
+    },
+    {
+      "id": "vector",
+      "name_zh": "向量数据库"
+    },
+    {
+      "id": "video",
+      "name_zh": "视频内容"
+    },
+    {
+      "id": "vision",
+      "name_zh": "计算机视觉"
+    },
+    {
+      "id": "vla",
+      "name_zh": "视觉语言动作模型"
+    },
+    {
+      "id": "workflow",
+      "name_zh": "工作流"
+    },
+    {
+      "id": "writing",
+      "name_zh": "技术写作"
+    }
+  ],
+  "sources": [
+    {
+      "id": "A11",
+      "title": "Data Infrastructure Engineer, Pre-training",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4973067008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A12",
+      "title": "Data Operations Manager, Human Data",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5238460008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A20",
+      "title": "ML/Research Engineer, Safeguards",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4949336008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A22",
+      "title": "Performance Engineer, GPU",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4926227008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A23",
+      "title": "Performance Engineer, Inference Engine",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418323008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A27",
+      "title": "Research Engineer / Scientist, Alignment",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4631822008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A30",
+      "title": "Research Engineer, Computer Use",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5285246008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A34",
+      "title": "Research Engineer, Interpretability",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4980430008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A38",
+      "title": "Research Engineer, Machine Learning (Reinforcement Learning)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4613568008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A41",
+      "title": "Research Engineer, Model Evaluations",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198255008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A43",
+      "title": "Research Engineer, Pretraining",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A46",
+      "title": "Research Engineer, Production Model Post-Training",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4613592008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A58",
+      "title": "Software Engineer, ML Networking",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4926242008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A60",
+      "title": "Software Engineer, Research Infrastructure",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5283063008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A70",
+      "title": "TPU Kernel Engineer",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4720576008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A93",
+      "title": "Applied AI Engineer",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390799008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A99",
+      "title": "Applied AI Strategist, EMEA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390791008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A100",
+      "title": "Applied AI Technical Evangelist, Startup Ecosystem",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116927008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A115",
+      "title": "Technical Deployment Lead",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5017903008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A156",
+      "title": "Data Scientist, Product",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5182605008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A160",
+      "title": "Developer Relations",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383596008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A161",
+      "title": "DevOps / AgentOps Engineer, GTM Systems",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392856008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A169",
+      "title": "Product Designer, Evals & Prompts",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5411318008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A188",
+      "title": "Staff+ Software Engineer, Claude Managed Agents",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5395767008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A203",
+      "title": "User Experience Researcher, Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392007008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "A267",
+      "title": "Regulatory Counsel, AI Regulation, US",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409299008",
+      "organization": "Anthropic",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J01",
+      "title": "FDE 招聘实例",
+      "url": "https://openai.com/careers/forward-deployed-software-engineer-seattle-seattle/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/forward-deployed-software-engineer-seattle-seattle/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J02",
+      "title": "检索与搜索研究工程师",
+      "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J03",
+      "title": "AI 解决方案架构师",
+      "url": "https://jobs.nvidia.com/careers/job/893397440890",
+      "organization": "NVIDIA",
+      "evidence_type": "employer_job_page",
+      "verification_status": "search_result_confirmed",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://jobs.nvidia.com/careers/job/893397440890",
+      "verification_note": "官方搜索结果提供证据；直接打开仅导航、空壳或受限",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J04",
+      "title": "AI 岗位专区",
+      "url": "https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html",
+      "organization": "华为",
+      "evidence_type": "employer_role_directory",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J05",
+      "title": "多模态训练岗位实例",
+      "url": "https://career.huawei.com/reccampportal/portal5/social-recruitment-detail.html?dataSource=1&jobId=28191",
+      "organization": "华为",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://career.huawei.com/reccampportal/portal5/social-recruitment-detail.html?dataSource=1&jobId=28191",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J06",
+      "title": "Creative Technologist",
+      "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Creative-Technologist--Media---Entertainment_R169579",
+      "organization": "Adobe",
+      "evidence_type": "employer_job_page",
+      "verification_status": "search_result_confirmed",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Creative-Technologist--Media---Entertainment_R169579",
+      "verification_note": "官方搜索结果提供证据；直接打开仅导航、空壳或受限",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J07",
+      "title": "新工种：生成式 AI 测试与动画制作",
+      "url": "https://chrm.mohrss.gov.cn/职业上新！42个新工种亮相/",
+      "organization": "中国人力资源市场网",
+      "evidence_type": "government_classification",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://chrm.mohrss.gov.cn/职业上新！42个新工种亮相/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J08",
+      "title": "生成式人工智能系统应用员职业信息",
+      "url": "https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/rcrs_4225/jnrc/202407/W020240730573687122908.pdf",
+      "organization": "人力资源和社会保障部",
+      "evidence_type": "government_classification",
+      "verification_status": "search_result_confirmed",
+      "collected_at": "2026-09-15",
+      "verification_note": "仅通过官方搜索结果核实",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J09",
+      "title": "人工智能训练师课程介绍",
+      "url": "https://xzy.mohrss.gov.cn/lesson/167",
+      "organization": "新职业在线学习平台",
+      "evidence_type": "government_course_description",
+      "verification_status": "search_result_confirmed",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://xzy.mohrss.gov.cn/lesson/167",
+      "verification_note": "官方搜索结果提供证据；直接打开仅导航、空壳或受限",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J10",
+      "title": "数字职业分类与人工智能训练师",
+      "url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202210/t20221028_489104.html",
+      "organization": "人力资源和社会保障部",
+      "evidence_type": "government_classification",
+      "verification_status": "search_result_confirmed",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202210/t20221028_489104.html",
+      "verification_note": "官方搜索结果提供证据；直接打开仅导航、空壳或受限",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J11",
+      "title": "大模型产品岗位实例",
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/ff9ed74c-8ec5-41f6-8a4c-1950500bd9f2",
+      "organization": "百度",
+      "evidence_type": "employer_job_page",
+      "verification_status": "search_result_confirmed",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://talent.baidu.com/jobs/detail/SOCIAL/ff9ed74c-8ec5-41f6-8a4c-1950500bd9f2",
+      "verification_note": "官方搜索结果提供证据；直接打开仅导航、空壳或受限",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J12",
+      "title": "Product Manager, Core Models",
+      "url": "https://openai.com/careers/product-manager-core-models-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/product-manager-core-models-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J13",
+      "title": "Product Manager 招聘目录",
+      "url": "https://openai.com/careers/search/?q=product+manager",
+      "organization": "OpenAI",
+      "evidence_type": "employer_role_directory",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/search/?q=product+manager",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J14",
+      "title": "Prompt Engineer 实际应用案例",
+      "url": "https://www.anthropic.com/news/prompt-engineering-for-business-performance",
+      "organization": "Anthropic",
+      "evidence_type": "employer_practice_article",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.anthropic.com/news/prompt-engineering-for-business-performance",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J15",
+      "title": "AI 研究与应用岗位目录",
+      "url": "https://www.anthropic.com/careers/jobs",
+      "organization": "Anthropic",
+      "evidence_type": "employer_role_directory",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "verification_note": "已打开官方岗位页面；不声明当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J16",
+      "title": "字节跳动 AI 招聘方向",
+      "url": "https://jobs.bytedance.com/campus/page-6272Gc",
+      "organization": "字节跳动",
+      "evidence_type": "employer_role_directory",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://jobs.bytedance.com/campus/page-6272Gc",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J17",
+      "title": "Helix AI Engineer, Robot Learning",
+      "url": "https://job-boards.greenhouse.io/figureai/jobs/4649851006",
+      "organization": "Figure",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://job-boards.greenhouse.io/figureai/jobs/4649851006",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J18",
+      "title": "Helix AI Engineer, Reinforcement Learning",
+      "url": "https://job-boards.greenhouse.io/figureai/jobs/4671707006",
+      "organization": "Figure",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://job-boards.greenhouse.io/figureai/jobs/4671707006",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J19",
+      "title": "Robotics Engineer, Data Collection",
+      "url": "https://job-boards.greenhouse.io/gram/jobs/4377780009",
+      "organization": "GRAM",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://job-boards.greenhouse.io/gram/jobs/4377780009",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J20",
+      "title": "Machine Learning Engineer, Siri Speech",
+      "url": "https://jobs.apple.com/en-us/details/200631414-3337/machine-learning-engineer-siri-speech?team=SFTWR",
+      "organization": "Apple",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://jobs.apple.com/en-us/details/200631414-3337/machine-learning-engineer-siri-speech?team=SFTWR",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J21",
+      "title": "ML / NLP / Speech 岗位目录",
+      "url": "https://jobs.apple.com/en-us/search?team=traitement-du-langage-naturel-et-technologies-vocales-MLAI-NLP",
+      "organization": "Apple",
+      "evidence_type": "employer_role_directory",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://jobs.apple.com/en-us/search?team=traitement-du-langage-naturel-et-technologies-vocales-MLAI-NLP",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J22",
+      "title": "Researcher, Frontier Risk Mitigations",
+      "url": "https://openai.com/careers/researcher-frontier-risk-mitigations-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/researcher-frontier-risk-mitigations-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J23",
+      "title": "AI 用户安全与风险运营",
+      "url": "https://openai.com/careers/senior-operations-analyst-user-safety-and-risk-operations-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/senior-operations-analyst-user-safety-and-risk-operations-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J24",
+      "title": "Customer Success Manager",
+      "url": "https://openai.com/careers/customer-success-manager-singapore/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "historical_search_evidence",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/search/",
+      "verification_note": "原岗位链接已跳转招聘目录，仅保留历史检索证据，不声明仍在招聘",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J25",
+      "title": "Native Learning Experiences",
+      "url": "https://openai.com/careers/software-engineer-native-learning-experiences-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/software-engineer-native-learning-experiences-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J26",
+      "title": "Applied AI Architect - EDU",
+      "url": "https://openai.com/careers/applied-ai-architect-edu-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/applied-ai-architect-edu-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J27",
+      "title": "Product Manager, Learning",
+      "url": "https://openai.com/careers/product-manager-learning-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/product-manager-learning-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J28",
+      "title": "医疗 FDE",
+      "url": "https://openai.com/careers/forward-deployed-engineer-%28fde%29-healthcare-sf-san-francisco/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/forward-deployed-engineer-(fde)-healthcare-sf-san-francisco/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J29",
+      "title": "法律 FDE",
+      "url": "https://openai.com/careers/forward-deployed-engineer-%28fde%29-legal-sf-new-york-city/",
+      "organization": "OpenAI",
+      "evidence_type": "employer_job_page",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://openai.com/careers/forward-deployed-engineer-(fde)-legal-sf-new-york-city/",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    },
+    {
+      "id": "J30",
+      "title": "创意工作的 AI 能力变化研究",
+      "url": "https://www.adobe.com/ai/research/202606/ai-is-redistributing-creative-work.html",
+      "organization": "Adobe",
+      "evidence_type": "employer_research_article",
+      "verification_status": "page_opened",
+      "collected_at": "2026-09-15",
+      "resolved_url": "https://www.adobe.com/ai/research/202606/ai-is-redistributing-creative-work.html",
+      "verification_note": "已打开页面，支持标题或方向证据；不代表当前招聘仍有效",
+      "checked_at": "2026-09-15"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+name: Weekly learning resource link report
+on:
+  schedule:
+    - cron: '23 3 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check:links
+      - uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: |
+            link-report.json
+            link-report.md
+      - name: Update a single maintenance issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('node:fs');
+            const report = JSON.parse(fs.readFileSync('link-report.json', 'utf8'));
+            const body = fs.readFileSync('link-report.md', 'utf8');
+            const title = 'AI POSITION · 学习资料链接检查';
+            const issues = await github.paginate(github.rest.issues.listForRepo, { ...context.repo, state: 'open', creator: 'github-actions[bot]', per_page: 100 });
+            const existing = issues.find(i => !i.pull_request && i.title === title && i.body?.includes('<!-- ai-position-link-report -->'));
+            if (existing) await github.rest.issues.update({ ...context.repo, issue_number: existing.number, body });
+            else if (report.some(r => r.status !== 'reachable')) await github.rest.issues.create({ ...context.repo, title, body });

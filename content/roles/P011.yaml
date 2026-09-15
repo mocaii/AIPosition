@@ -1,0 +1,31 @@
+id: P011
+category: C01
+name_zh: AI 技术交付负责人
+name_en: Technical Deployment Lead
+aliases:
+  - AI 交付经理
+kind: role
+source_ids:
+  - A115
+skill_ids:
+  - product
+  - architecture
+  - eval
+  - integration
+summary: 组织需求、验收、技术协同与客户落地
+parent_id: null
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 官方岗位实例支持；中文名称经过归一化，不表示职责在各公司完全一致
+status: published
+slug: p011-technical-deployment-lead
+resources:
+  - id: R027
+    reason: ""
+  - id: R030
+    reason: ""
+  - id: R078
+    reason: ""
+  - id: R072
+    reason: ""

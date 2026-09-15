@@ -1,0 +1,29 @@
+name: 推荐新岗位或方向
+description: 补充一个 AI 相关岗位、细分方向或行业变体
+title: "[岗位推荐] "
+body:
+  - type: input
+    id: role_name
+    attributes:
+      label: 岗位名称与英文别名
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 这个岗位做什么
+      description: 请简述任务，以及它与现有岗位的区别或关系。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 来源与参考链接
+      description: 优先官方招聘、职业说明或原始实践文章。若为编辑归纳的技能方向，请明确说明。
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: 推荐学习资料
+      description: 可附链接和推荐理由，也可后续补充。

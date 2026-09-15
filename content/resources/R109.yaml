@@ -1,0 +1,24 @@
+id: R109
+title: 人工智能训练师课程
+url: https://xzy.mohrss.gov.cn/lesson/167
+publisher: 人社部新职业在线学习平台
+type: 课程介绍
+language: 中文
+level: 入门
+skill_ids:
+  - annotation
+  - data
+  - education
+description: 了解标注、数据处理与智能系统基础
+verification_status: search_result_confirmed
+collected_at: 2026-09-15
+resolved_url: https://xzy.mohrss.gov.cn/lesson/167
+verification_note: 官方课程搜索结果有课程简介；直接打开为空壳，登录与课程播放未核验
+access_note: 资料入口公开；完整课程、证书、API 与运行算力的费用未逐项核实
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 无需编程基础；领域岗位仍需本行业知识
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r109

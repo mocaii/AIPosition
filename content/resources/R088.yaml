@@ -1,0 +1,24 @@
+id: R088
+title: Adobe Firefly Learn & Support
+url: https://helpx.adobe.com/support/firefly.html
+publisher: Adobe
+type: 官方教程
+language: 英文/多语言
+level: 入门
+skill_ids:
+  - creative
+  - image
+  - video
+description: 学习生成式创意工具的使用
+verification_status: page_opened
+access_note: 资料入口公开；未核实全部章节、证书或服务价格，运行代码可能另需 API / 云算力
+collected_at: 2026-09-15
+resolved_url: https://helpx.adobe.com/firefly/web.html
+verification_note: 已打开资料入口；未逐课学习或运行代码
+recommendation_basis: 编辑按主题与技能归纳；难度为建议，非官方认证级别
+prerequisites: 无需编程基础；领域岗位仍需本行业知识
+edition_note: 以所链接页面版本为准；本次未运行代码兼容性检查
+publication_date: null
+checked_at: 2026-09-15
+status: published
+slug: r088

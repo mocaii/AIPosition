@@ -1,0 +1,32 @@
+id: P066
+category: C07
+name_zh: AI 视频创作方向
+name_en: AI Video Creator
+aliases:
+  - AI 视频制作师
+  - AI 导演
+kind: specialization
+source_ids:
+  - J06
+  - J30
+skill_ids:
+  - creative
+  - video
+  - workflow
+summary: 把分镜、生成素材和后期编辑组织为视频作品
+parent_id: P064
+summary_basis: 编辑归纳，非企业职责原文
+resource_mapping_basis: 按技能关联的编辑推荐，非雇主指定课程
+collected_at: 2026-09-15
+evidence_note: 从相关岗位职责或招聘方向归纳的细分方向；不保证该中文名称独立招聘
+status: published
+slug: p066-ai-video-creator
+resources:
+  - id: R089
+    reason: ""
+  - id: R087
+    reason: ""
+  - id: R088
+    reason: ""
+  - id: R085
+    reason: ""
