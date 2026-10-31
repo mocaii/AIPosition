@@ -33,3 +33,5 @@ resources:
     reason: ""
   - id: R028
     reason: ""
+  - id: R121
+    reason: 学习将 MCP 测试、运行证据和修复后复验接入应用开发流程。

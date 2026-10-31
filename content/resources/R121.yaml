@@ -1,0 +1,24 @@
+id: R121
+status: published
+slug: agent-qa-coding-agent-verification
+title: agent-qa 编码智能体测试工作流
+url: https://vostride.com/docs/agent-qa/guides/coding-agent-workflow
+publisher: vostride
+type: 官方文档
+language: 英文
+level: 进阶
+description: 通过 MCP 执行网页与移动端检查、读取证据、修复原因并复验；配合 memidex 持久记忆与经验证的自我改进复用有效经验。
+skill_ids:
+  - app
+  - eval
+  - mcp
+verification_status: page_opened
+verification_note: 已打开官方工作流、快速开始与接入文档，链接返回 HTTP 200；核验文档内容与配置前提，未在完整应用环境执行端到端测试。
+collected_at: '2026-10-31'
+checked_at: '2026-10-31'
+publication_date: null
+resolved_url: https://vostride.com/docs/agent-qa/guides/coding-agent-workflow
+recommendation_basis: 编辑按应用开发与验证技能关联；适用于应用行为验收，难度为整理建议。
+prerequisites: 基础应用开发与测试知识；具备可运行的网页或移动应用测试环境。
+edition_note: 核验时公开 npm 包为 agent-qa 0.2.4；客户端接入方式以当前官方文档为准。
+access_note: 文档公开可读；运行需要 Node.js 24 或更新版本、模型配置和测试环境，模型等服务费用随配置及用量变化。运行时许可证为 FSL-1.1-ALv2。
